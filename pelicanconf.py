@@ -4,13 +4,18 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Russell Ballestrini'
 SITENAME = u'Russell Ballestrini'
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
+#SITEURL = 'https://russell.ballestrini.net'
 
 THEME='pelican-themes/svbhack'
 #THEME='pelican-themes/svbtle'
 #THEME='pelican-themes/medius'
 #THEME='pelican-themes/mediumfox'
 #THEME='pelican-themes/pure'
+
+# Theme specific
+USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
+TAGLINE = 'Builds Products'
 
 PATH = 'content'
 
