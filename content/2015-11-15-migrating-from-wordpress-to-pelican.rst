@@ -1,5 +1,5 @@
 Migrating from WordPress to Pelican
-=========================================================
+##################################################
 
 :author: Russell Ballestrini
 :slug: migrating-from-wordpress-to-pelican
@@ -8,13 +8,16 @@ Migrating from WordPress to Pelican
 :status: published
 
 Its finally happening. I'm moving this blog from WordPress to Pelican.
-This task has lived on my TODO list for over two years.
+This task has persisted on my TODO list for over two years.
 
 During the process of the move, I'm going to use this post to dump hints:
 
 .. contents:: Hints:
 
 Good luck!
+
+Hints
+=====
 
 WordPress XML to JSON
 ------------------------
