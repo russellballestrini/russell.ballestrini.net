@@ -2,16 +2,23 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Russell Ballestrini'
-SITENAME = u'Russell Ballestrini'
-SITEURL = 'http://127.0.0.1:8000'
-#SITEURL = 'https://russell.ballestrini.net'
+from os import environ
 
-THEME='pelican-themes/svbhack'
-#THEME='pelican-themes/svbtle'
-#THEME='pelican-themes/medius'
-#THEME='pelican-themes/mediumfox'
-#THEME='pelican-themes/pure'
+DEFAULTS = {
+  'AUTHOR'   : u'Russell Ballestrini',
+  'SITENAME' : u'Russell Ballestrini',
+  'SITEURL'  : 'http://127.0.0.1:8000',
+  'THEME'    : 'pelican-themes/svbhack',
+}
+
+def get_environ_or_default(key):
+    return environ.get(key, DEFAULTS[key])
+
+AUTHOR   = get_environ_or_default('AUTHOR')
+SITENAME = get_environ_or_default('SITENAME')
+SITEURL  = get_environ_or_default('SITEURL')
+
+THEME    = get_environ_or_default('THEME')
 
 # Theme specific
 USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
