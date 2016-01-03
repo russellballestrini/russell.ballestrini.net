@@ -5,10 +5,12 @@ from __future__ import unicode_literals
 from os import environ
 
 DEFAULTS = {
-  'AUTHOR'   : u'Russell Ballestrini',
-  'SITENAME' : u'Russell Ballestrini',
-  'SITEURL'  : 'http://127.0.0.1:8000',
-  'THEME'    : 'pelican-themes/svbhack',
+  'AUTHOR'    : u'Russell Ballestrini',
+  'SITENAME'  : u'Russell Ballestrini',
+  'SITEURL'   : 'http://127.0.0.1:8000',
+  #'THEME'    : 'pelican-themes/svbhack',
+  'THEME'     : 'pelican-themes/pelican-svbhack',
+  'REMARKBOX' : False,
 }
 
 def get_environ_or_default(key):
@@ -19,6 +21,8 @@ SITENAME = get_environ_or_default('SITENAME')
 SITEURL  = get_environ_or_default('SITEURL')
 
 THEME    = get_environ_or_default('THEME')
+
+REMARKBOX = get_environ_or_default('REMARKBOX')
 
 # Theme specific
 USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
