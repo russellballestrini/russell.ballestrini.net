@@ -10,7 +10,7 @@ DEFAULTS = {
   'SITEURL'   : 'http://127.0.0.1:8000',
   #'THEME'    : 'pelican-themes/svbhack',
   'THEME'     : 'pelican-themes/pelican-svbhack',
-  'REMARKBOX' : False,
+  'REMARKBOX' : True,
 }
 
 def get_environ_or_default(key):
