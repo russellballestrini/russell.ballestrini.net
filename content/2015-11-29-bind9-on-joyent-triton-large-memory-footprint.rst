@@ -7,13 +7,13 @@ Bind9 on Joyent Triton
 :tags: Operations 
 :status: published
 
-I currently have a single DNS server running on a KVM at DigitalOcean for $5/mo.
-I might move to Joyent and use 2 x 128M Ubuntu containers for $2.23/mo each.
+I have a single DNS server running on a KVM at DigitalOcean for $5/mo. I might move to Joyent and use 2 x 128M Ubuntu containers for $2.23/mo each.
 
-My first test was on a 256M Ubuntu Triton. Bind9 ended up using 111M RAM?!
+In my first test Bind9 (named RNDC) ended up using 111M of memory on a 256M Ubuntu Triton container.
 
-It turns out that Bind9 (named, RNDC) uses the number of CPUs detected to determine the amount of workers threads to manage.
-Joyent's containers run a bare-metal which means Ubuntu detects 48 CPUs ...
+The large 111M memory footprint correlated with the amount of worker threads running. Bind9 determines the number of worker threads to manage by the number of CPUs detected by the OS.
+
+In my case, Ubuntu detected 48 CPUs because Joyent containers run on bare-metal.
 
 We can see this by running the following commands:
 
@@ -47,7 +47,7 @@ For Ubuntu, edit `/etc/default/bind9`:
 
  OPTIONS="-u bind -n 2"
 
-Then I restarted the `bind9` service and verified using `sudo rndc status` and `free -m`.
+Then restart the `bind9` service and verify using `sudo rndc status` and `free -m`.
 
 .. code-block:: bash
 
