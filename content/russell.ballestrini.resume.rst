@@ -80,6 +80,7 @@ Eventually joined the Unix team and built tools and worked with software develop
 Maintained redundant Exim mail-relay and Bind9 DNS servers. Worked closely with Hitachi Enterprise SAN and NAS solutions. Managed a large Tenable Nessus Security Center cluster.
 
 Hillyer Realty
+--------------
 
 **Remote, 04/2004 - 09/2007**
 
