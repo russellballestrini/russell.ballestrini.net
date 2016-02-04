@@ -1,11 +1,11 @@
 Russell Ballestrini
 ###################
 
-DevOps Engineer for FireEye's SaaS Cloud Offerings
+Builds Products.
 
-860-501-9450
+* http://russell.ballestrini.net
+* 860-501-9450
 
-http://russell.ballestrini.net
 
 
 Summary
@@ -18,24 +18,27 @@ Experience
 ==========
 
 
-FireEye, Remote, 07/2014 - Present
-----------------------------------
+FireEye
+-------
 
-DevOps Engineer 
-FireEye_'s SaaS Cloud Offerings
+**Remote, 07/2014 - Present**
+
+DevOps Engineer for FireEye_'s SaaS Cloud Offerings
 
 Took ownership in the development, operations, release automation, and launch of FireEye's cloud based software offerings running on AWS. (TAP, FIC, and CTI projects)
 
-Botoform:
+Botoform_:
   Manage infrastructure on AWS using YAML
 
-s3p:
+s3p_:
   Use AWS S3 as a release pipeline.
   Use code to enforce process and promote releases.
 
 
-LinkPeek, Remote, 01/2012 - Present
------------------------------------
+LinkPeek
+--------
+
+**Remote, 01/2012 - Present**
 
 Founded LinkPeek_, web page screenshot service, as a bootstrap startup.
 
@@ -49,20 +52,26 @@ miniuri_:
   A universal URI parser class written in 128 lines.
 
 
-Cars.com, Remote, 10/2012 - 06/2014
------------------------------------
+Cars.com
+--------
+
+**Remote, 10/2012 - 06/2014**
 
 Development, Operations, Release Automation with team in Santa Monica, CA.
 
 
-Loud3r, Remote, 12/2011 - 03/2012
-----------------------------------
+Loud3r
+------
+
+**Remote, 12/2011 - 03/2012**
 
 Development, Operations, Release Automation with team in San Francisco, CA.
 
 
-CSC, Groton CT, 03/2006 - 10/2012
----------------------------------
+CSC
+---
+
+**Groton CT, 03/2006 - 10/2012**
 
 Climbed the ranks from helpdesk call center to desktop release engineer pushing software to a fleet of 10,000+ computer assets.
 
@@ -70,13 +79,16 @@ Eventually joined the Unix team and built tools and worked with software develop
 
 Maintained redundant Exim mail-relay and Bind9 DNS servers. Worked closely with Hitachi Enterprise SAN and NAS solutions. Managed a large Tenable Nessus Security Center cluster.
 
-Hillyer Realty, Remote, 04/2004 - 09/2007
------------------------------------------
+Hillyer Realty
+
+**Remote, 04/2004 - 09/2007**
 
 Worked closely with the founder who contracted development of a real-estate search engine well before Zillow existed. Performed operations on the companies FreeBSD webserver.
 
-Pfizer, Groton CT, 02/2006 - 08/2006
-------------------------------------
+Pfizer
+------
+
+**Groton CT, 02/2006 - 08/2006**
 
 Desktop Support contractor at Pfizer
 
@@ -105,15 +117,16 @@ Programming
 Admires tidy readable code and beautiful design patterns.
 Thoroughly enjoys refactoring code.
 
-* Python, Bash, PHP, Perl, C++, and Java (would prefer Scala)
+Python, Bash, PHP, Perl, C++, and Java (would prefer Scala)
 
 Opinionated Ideal Architecture
 ------------------------------
 
-SmartOS, mixture of zones and KVM (likely Ubuntu guests), 
-Nginx, uWSGI, Pyramid, Python, PostgreSQL or MongoDB,
-HG (or Git), SaltStack (or Ansible), Jenkins, FPM,
-Bind9, Postfix,
+SmartOS with a mixture of zones and KVM (likely Ubuntu guests), 
+SaltStack (or Ansible), Jenkins, FPM,
+Nginx, uWSGI, Pyramid, Python, HG (or Git),
+PostgreSQL or MongoDB, Bind9, Postfix,
+Sphinx documentation.
 
 
 Interests
