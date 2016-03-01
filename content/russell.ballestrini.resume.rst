@@ -23,7 +23,7 @@ FireEye
 
  DevOps Engineer for FireEye_'s SaaS Cloud Offerings
  
- Took ownership in the development, operations, release automation, and launch of FireEye's cloud based software offerings running on AWS. (TAP, FIC, and CTI projects)
+ Took ownership and practiced DevOps (Development, Operations, Release Automation) to launch FireEye's cloud based software offerings running on AWS. (TAP, FIC, and CTI projects)
  
  Botoform_:
    Architect infrastructure on AWS using YAML.
@@ -39,7 +39,7 @@ Cars.com
 
 **Remote, 10/2012 - 06/2014**
 
- Development, Operations, Release Automation with team in Santa Monica, CA.
+ Practiced DevOps (Development, Operations, Release Automation) with team in Santa Monica, CA.
 
 |
 
@@ -66,7 +66,7 @@ Loud3r
 
 **Remote, 12/2011 - 03/2012**
 
- Development, Operations, Release Automation with team in San Francisco, CA.
+ Practiced DevOps (Development, Operations, Release Automation) with team in San Francisco, CA.
 
 
 
