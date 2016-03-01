@@ -9,7 +9,7 @@ Russell Ballestrini
 Summary
 =======
 
- Finds joy in turning ideas into products. Unites teams through communication and compromise while building tools to automate and accelerate product pipelines. Actively participates in writing and maintaining open source software.
+ Executes on ideas. Unites teams through communication and compromise.  Builds tools to automate and accelerate product pipelines. Engineers open source software and libraries. Bootstrapper.  Founder.
 
 |
 
@@ -26,7 +26,7 @@ FireEye
  Took ownership in the development, operations, release automation, and launch of FireEye's cloud based software offerings running on AWS. (TAP, FIC, and CTI projects)
  
  Botoform_:
-   Manage infrastructure on AWS using YAML
+   Architect infrastructure on AWS using YAML.
  
  s3p_:
    Use AWS S3 as a release pipeline.
@@ -75,12 +75,11 @@ CSC
 
 **Groton CT, 03/2006 - 10/2012**
 
- Climbed the ranks from helpdesk call center to desktop release engineer pushing software to a fleet of 10,000+ computer assets.
+ Climbed the ranks from call center to desktop release engineer pushing software to a fleet of 10,000+ computer assets.
 
- Eventually joined the Unix team and built tools to help the company move faster.
- Brought in the first Kernel Virtual Machine (KVM) hypervisors to lower operational costs.
+ Eventually joined the Unix team and built tools to help the company move faster. Brought in the first Kernel Virtual Machine (KVM) hypervisors to lower costs.
 
- Maintained redundant Exim mail-relay and Bind9 DNS servers. Worked closely with Hitachi Enterprise SAN and NAS solutions. Managed a large Tenable Nessus Security Center cluster.
+ Scaled Exim email relays and Bind9 DNS servers.
 
 |
 
@@ -89,7 +88,7 @@ Hillyer Realty
 
 **Remote, 04/2004 - 09/2007**
 
- Worked closely with the founder who contracted development of a real-estate search engine well before Zillow existed. Performed operations on the companies FreeBSD webserver.
+ Engineered and operated a real estate search engine well before Zillow existed.
 
 |
 
