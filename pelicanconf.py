@@ -37,7 +37,7 @@ TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
 
 # Atom all feed.
-FEED_ALL_ATOM = True
+FEED_ALL_ATOM = 'True'
 
 # Feed generation is usually not desired when developing
 CATEGORY_FEED_ATOM = None
