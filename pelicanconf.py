@@ -26,7 +26,7 @@ REMARKBOX = get_environ_or_default('REMARKBOX')
 
 # Theme specific
 USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
-TAGLINE = 'Builds Products'
+TAGLINE = '<a href="/about">Builds Products</a>'
 
 PATH = 'content'
 
@@ -60,6 +60,8 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DISPLAY_PAGES_ON_MENU = False
 
 # teach pelican to use directory/index.html files
 ARTICLE_URL = '{slug}/'
