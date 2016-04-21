@@ -5,6 +5,8 @@ Working with botocore's ~/.aws/config
 :tags: Code, DevOps
 :slug: working-with-botocores-awsconfig
 :status: published
+:summary:
+  Don't reinvent the wheel, use Botocores Config facilities for work with AWS.
 
 I ran into a `bug <https://github.com/boto/botocore/issues/435>`__ in
 botocore and this post will serve to document a work around as well as

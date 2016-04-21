@@ -5,6 +5,8 @@ Boto3 get main route table
 :tags: Code, DevOps
 :slug: boto3-get-main-route-table
 :status: published
+:summary:
+  Library work around.
 
 While developing Botoform I ran into an issue with Boto3 where I
 couldn't easily get the "main" route table of a VPC. I ended up adding a

@@ -6,6 +6,8 @@ Migrating from WordPress to Pelican
 :date: 2015-11-15 15:39
 :tags: Code, DevOps
 :status: published
+:summary:
+  Five hints to save time during your migration from WordPress.
 
 Its finally happening. I'm moving this blog from WordPress to Pelican.
 This task has persisted on my TODO list for over two years.

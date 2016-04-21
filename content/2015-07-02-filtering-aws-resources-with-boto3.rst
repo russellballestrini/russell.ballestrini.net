@@ -5,6 +5,8 @@ Filtering AWS resources with Boto3
 :tags: Code, DevOps
 :slug: filtering-aws-resources-with-boto3
 :status: published
+:summary:
+  References to take you from filtering novice to expert.
 
 This post will be updated frequently when as I learn more about how to
 filter AWS resources using Boto3 library.

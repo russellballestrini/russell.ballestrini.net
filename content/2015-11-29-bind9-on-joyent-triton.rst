@@ -2,10 +2,12 @@ Bind9 on Joyent Triton
 ======================
 
 :author: Russell Ballestrini
-:slug: bind9-on-joyent-triton-large-memory-footprint
+:slug: bind9-on-joyent-triton
 :date: 2015-11-29 18:47
-:tags: Operations 
+:tags: Operations
 :status: published
+:summary:
+ Tricks to reduce Bind9's large memory footprint on Joyent Triton.
 
 I have a single DNS server running on a KVM at DigitalOcean for $5/mo. I might move to Joyent and use 2 x 128M Ubuntu containers for $2.23/mo each.
 

@@ -4,8 +4,10 @@ Set DNS resolver options
 :author: Russell Ballestrini
 :slug: set-dns-resolver-options
 :date: 2015-12-16 10:17
-:tags: Operations
+:tags: Operations, Guide
 :status: published
+:summary:
+ The right way to persist resolver options across many Linux distributions.
 
 I desire the following options in `/etc/resolv.conf`:
 
