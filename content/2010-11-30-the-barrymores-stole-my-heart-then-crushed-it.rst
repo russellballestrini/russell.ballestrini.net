@@ -7,6 +7,7 @@ The Barrymores stole my heart then crushed it
 :tags: Barrymores, music
 :slug: the-barrymores-stole-my-heart-then-crushed-it
 :status: published
+:summary:
 
 .. image:: /uploads/2010/11/thebarrymores.png
    :alt: The Barrymores Ska Band

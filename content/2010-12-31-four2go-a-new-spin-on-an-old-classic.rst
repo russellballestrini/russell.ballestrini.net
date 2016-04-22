@@ -6,11 +6,12 @@ four2go!: A new spin on an old classic
 :tags: four2go!, gumyum, programming, python
 :slug: four2go-a-new-spin-on-an-old-classic
 :status: published
+:summary:
 
 |four2go! logo|
 
 **For the past two months** I have feverishly worked on my side project.
-Initially I set out to work on this application for submission to the
+Initially I set out to work on this application for submission to
 Hacker News, lets make November "Launch an App Month".
 
 The whole project took longer than expected but I was please with my

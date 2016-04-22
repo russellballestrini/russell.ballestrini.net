@@ -5,6 +5,7 @@ My Mentor
 :tags: Opinion
 :slug: my-mentor
 :status: published
+:summary:
 
 The original purpose of this post was to recognize the teachers and
 mentors which have helped shape me. I planned to write about how Mr.
