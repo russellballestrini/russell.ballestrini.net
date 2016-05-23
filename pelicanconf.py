@@ -11,6 +11,8 @@ DEFAULTS = {
   #'THEME'    : 'pelican-themes/svbhack',
   'THEME'     : 'pelican-themes/pelican-svbhack',
   'REMARKBOX' : True,
+  'LINKPEEK_API_KEY' : None,
+  'LINKPEEK_SECRET_KEY' : None,
 }
 
 def get_environ_or_default(key):
@@ -23,6 +25,9 @@ SITEURL  = get_environ_or_default('SITEURL')
 THEME    = get_environ_or_default('THEME')
 
 REMARKBOX = get_environ_or_default('REMARKBOX')
+
+LINKPEEK_API_KEY = get_environ_or_default('LINKPEEK_API_KEY')
+LINKPEEK_SECRET_KEY = get_environ_or_default('LINKPEEK_SECRET_KEY')
 
 # Theme specific
 USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
@@ -78,3 +83,12 @@ PAGE_SAVE_AS = '{slug}/index.html'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+
+# needed to add liblinkpeek filter
+import ago
+import sys
+sys.path.append('.')
+import liblinkpeek
+linkpeek = lambda uri, size : liblinkpeek.api_v1(uri, LINKPEEK_API_KEY, LINKPEEK_SECRET_KEY, size)
+JINJA_FILTERS = {'linkpeek':linkpeek, 'ago':ago.human}
+# done adding liblinkpeek filter
