@@ -51,7 +51,7 @@ class LinkPeek(Directive):
         """return an registry (dictionary) or action methods."""
         return {
             'image' : self.html_image,
-            'link_image' : self.html_link_image,
+            'link-image' : self.html_link_image,
         }
 
     def get_action(self, action_name):

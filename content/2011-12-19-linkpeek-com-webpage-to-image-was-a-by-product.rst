@@ -28,7 +28,7 @@ was a market for a fast and reliable web screen shot service.
 .. linkpeek:: 
    uri = https://linkpeek.com
    size = 500x240
-   action = link_image
+   action = link-image
    title = web page screen shot service
    style = float: left; border-radius: 15px; margin-right: 15px;
 
