@@ -91,7 +91,7 @@ AUTHOR_SAVE_AS = 'author/{slug}/index.html'
 
 # register linkpeek docutils directive.
 import sys
-sys.path.append('plugins')
+sys.path.append('lib')
 import rst_linkpeek
 linkpeek = rst_linkpeek.LinkPeek
 linkpeek.apikey = LINKPEEK_APIKEY
