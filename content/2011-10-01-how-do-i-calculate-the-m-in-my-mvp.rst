@@ -5,6 +5,7 @@ How do I calculate the M in my MVP?
 :tags: LinkPeek, Opinion
 :slug: how-do-i-calculate-the-m-in-my-mvp
 :status: published
+:summary: Is my idea too minimal?
 
 .. linkpeek::
    uri = http://russell.ballestrini.net
