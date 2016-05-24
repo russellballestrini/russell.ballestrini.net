@@ -42,11 +42,7 @@ generator application helped reinforce the simplicity of the underlying
 LinkPeek API. It didn't require any downloading, installation, or
 waiting.
 
-About a week later on a whim I posted the generator to hacker news.
-I gave an honest title: 
-
-[linkpeek-hover uri="http://linkpeek.com/website-thumbnail-generator" text="Convert Any Webpage to an Image"]
-and within about about 30 minutes LinkPeek.com was placed on the front page in the number 1 spot.
+About a week later on a whim I posted the generator to hacker news with an honest title (`Convert Any Webpage to an Image <http://linkpeek.com/website-thumbnail-generator>`__) and in about 30 minutes it reached the number 1 spot.
 
 **Remember, when faced with pivoting or killing a project, take a good
 look at all possible by-products. Don't miss the hidden gem in a
