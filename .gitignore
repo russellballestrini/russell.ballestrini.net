@@ -63,3 +63,4 @@ target/
 # Pelican
 output/
 pelican-themes/
+pelican-plugins/
