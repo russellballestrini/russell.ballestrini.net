@@ -10,7 +10,7 @@ How do I calculate the M in my MVP?
    uri = http://russell.ballestrini.net
    action = link-image
    size = 140x100
-   style = margin-right: 15px; float: left;
+   style = margin-right: 15px; float: left; border-radius: 8px;
 
 **Recently I have contemplated the idea of building a screen capture
 service for websites.** I anticipate the service would provide
@@ -26,7 +26,7 @@ on another project if I cannot earn users or customers.
    uri = http://four2go.gumyum.com
    action = link-image
    size = 140x100
-   style = margin-right: 15px; float: left;
+   style = margin-right: 15px; float: left; border-radius: 8px;
 
 I feel the market segment for this type of service would include website
 directories, live portfolio generation for website designers, and
@@ -44,7 +44,7 @@ basically provide a "Gravatar" for website addresses.
    uri = http://linkpeek.com
    action = link-image
    size = 140x100
-   style = margin-right: 15px; float: left;
+   style = margin-right: 15px; float: left; border-radius: 8px;
 
 LinkPeek provides an easy to use API which enables anyone to instantly
 create live web page thumbnails. We provide the API free of charge,
