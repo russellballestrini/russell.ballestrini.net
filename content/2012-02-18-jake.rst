@@ -1,0 +1,52 @@
+Jake, Finn, and Ice King
+########################
+:date: 2012-02-18 13:34
+:author: Russell Ballestrini
+:tags: Art
+:slug: jake
+:status: published
+:summary:
+  My Adventure Time art, painted with MyPaint and wacom tablet.
+
+**Jake from Adventure Time, painted with MyPaint and wacom tablet.**
+
+I did this because my 4 month old "cracks-up" laughing whenever this
+character is on screen. I think the combination of colors and Jake's
+voice, played by John William DiMaggio, get him going.
+
+|image0|
+
+**Finn from Adventure Time.**
+
+Took a shot at painting Finn.
+
+|image1|
+
+I'm on a roll! Here is Ice King.
+
+|image2|
+
+Jake standing up, painted this this morning
+
+|image3|
+
+Lumpy princess
+
+|image4|
+
+I'm getting faster, this was completed in 20 minutes
+
+|image5|
+
+.. |image0| image:: /uploads/2012/02/mypaint-jake-adventure-time.png
+   :alt: I drew Jake from Adventure Time
+.. |image1| image:: /uploads/2012/02/mypaint-finn-adventure-time.png
+   :alt: I drew Finn from Adventure Time
+.. |image2| image:: /uploads/2012/02/ice-king-adventure-time.png
+   :alt: I drew Ice King from Adventure Time
+.. |image3| image:: /uploads/2012/02/jake-standing.png
+   :alt: I drew Jake again from Adventure Time
+.. |image4| image:: /uploads/2012/02/lump-princess.png
+   :alt: I drew lumpy princess from Adventure Time
+.. |image5| image:: /uploads/2012/02/sad-jake.png
+   :alt: I drew sad Jake from Adventure Time

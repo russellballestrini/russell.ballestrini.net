@@ -1,0 +1,108 @@
+Heka, World2!
+#############
+:date: 2014-08-23 22:54
+:author: Russell Ballestrini
+:tags: DevOps, Guide
+:slug: heka-world2
+:status: published
+
+This article expands on my `“Hello World” for Heka </heka-world/>`_ blog post.
+Check that one out first if you are new to Heka.
+
+In this guide we introduce using Heka over the network by utilizing two
+Hekad processes on localhost. For discussion purposes we name one of the
+Hekad processes "sender" and the other "receiver".
+
+-  The "sender" will watch a log file and emit messages to localhost TCP
+   port 9612.
+-  The "receiver" will listen on localhost TCP port 9612 and emit
+   message payloads to file.
+
+**hello-heka-file-in-tcp-out.toml (sender):**
+
+::
+
+    # watch /tmp/input.log and output to TCP port 9612 on localhost
+    [hello_heka_input_log]
+    type = "LogstreamerInput"
+    log_directory = "/tmp"
+    file_match = 'input\.log'
+
+    [tcp_out:9612]
+    type = "TcpOutput"
+    message_matcher = "TRUE"
+    address = "127.0.0.1:9612"
+    #encoder = "hello_heka_output_encoder"
+    #
+    #[hello_heka_output_encoder]
+    #type = "PayloadEncoder"
+    #append_newlines = false
+
+**hello-heka-tcp-in-file-out.toml (receiver):**
+
+::
+
+    # listen to TCP port 9612 and emit to /tmp/output.log
+    [tcp_in:9612]
+    type = "TcpInput"
+    parser_type = "message.proto"
+    decoder = "ProtobufDecoder"
+    address = ":9612"
+
+    [hello_heka_output_log]
+    type = "FileOutput"
+    message_matcher = "TRUE"
+    path = "/tmp/output.log"
+    perm = "664"
+    encoder = "hello_heka_output_encoder"
+
+    [hello_heka_output_encoder]
+    type = "PayloadEncoder"
+    append_newlines = false
+
+Now that we have config files, let us start our hekad processes, Open
+three terminals.
+
+#. in terminal 1:
+
+   ::
+
+       sudo hekad -config=hello-heka-file-in-tcp-out.toml
+
+#. in terminal 2:
+
+   ::
+
+       sudo hekad -config=/tmp/hello-heka-tcp-in-file-out.toml
+
+#. in terminal 3:
+
+   ::
+
+       echo 'Heka, World2!' >> /tmp/input.log
+
+#. in terminal 3:
+
+   ::
+
+       cat /tmp/output.log
+
+Again, like magic, the data echoed into input.log shows up in
+output.log. This time the data traveled over TCP between to separate
+Hekad processes. I leave changing the configuration to support separate
+hosts to the reader.
+
+By default TCP sender encodes the message with Protobuf
+(ProtobufEncoder) and the TCP reciever decodes the message with Protobuf
+(ProtobufDecoder).
+
+In my testing I decided to make the TCP sender use the PayloadEncoder
+and then instead of using a second hekad process, I used ``nc -l 9612``
+to listen on the port. When data was added to ``/tmp/input.log`` it
+showed up in the netcat terminal because hekad was watching the file and
+emiting just payload portion of the message to TCP 9612 which netcat was
+listening on. I left this configuration in the examples above, simply
+uncomment to reproduce.
+
+Read this for `more fun with
+netcat <http://www.foxhop.net/linux-nc-and-python-sockets>`__.

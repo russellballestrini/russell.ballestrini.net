@@ -1,0 +1,122 @@
+tar-back
+########
+:date: 2014-02-07 16:49
+:author: Russell Ballestrini
+:tags: Code, DevOps
+:slug: tar-back
+:status: published
+
+| ``tar-back`` is a backup utility to tar and gzip target filesystems.
+|  It supports a custom retention, filter exclusions, and backup
+  directory.
+
+I use ``tar-back`` in combination with cron to perform regular backups
+of all localhost filesystems into ``/archive/fs``. I then have a central
+long term storage server that collects the ``/archive`` partition from
+every host.
+
+**tar-back:**
+
+::
+
+    #!/usr/bin/env python
+
+    DESCRIPTION = """A backup utility to tar and gzip
+    target filesystems. Custom retention, filter exclusions and
+    backup directory. 
+    """
+
+    from os import path
+    from sys import exit
+    from shutil import move
+    from optparse import OptionParser
+    import tarfile
+     
+    def filter_exclusions( tarinfo ):
+        """Accept tarinfo, return tarinfo or None"""
+        if o.filters:
+            for filtr in o.filters:
+                if filtr in tarinfo.name:
+                    return None
+        return tarinfo
+
+    def exclude_exclusions( filename ):
+        """Accept filename, return True or False"""
+        """support for python 2.6 or lower"""
+        if o.filters:
+            for filtr in o.filters:
+                if filtr in filename:
+                    return True
+        return False
+
+    def file_rotate( target, retention = 3 ):
+        """file rotation routine"""
+        for i in range( retention-2, 0, -1 ): # count backwards
+            old_name = "%s.%s" % ( target, i )
+            new_name = "%s.%s" % ( target, i + 1 )
+            try: move( old_name, new_name  )
+            except IOError: pass
+        move( target, target + '.1' )
+
+    if __name__ == '__main__':
+        
+        p = OptionParser()  # create an option parser object
+
+        p.set_description( DESCRIPTION )
+
+        p.add_option( '-t', '--targets',
+          help='list of target filesystems to backup (coma delimited)',
+          default=None, dest='targets', metavar='"/home"',
+        )
+
+        p.add_option( '-b', '--backup-dir',
+          help='path to backup directory',
+          dest='backdir', metavar='"PATH"', 
+        )
+
+        p.add_option( '-f', '--filters',
+          help='list of filter patterns to exclude (coma delimited)',
+          default=None, dest='filters', metavar='".mp3"',
+        )
+
+        p.add_option( '-r', '--retention', 
+          help='backups to retain [default: 3]',
+          default=3, type='int', dest='retention', metavar='amount',
+        )
+
+        o, args = p.parse_args()  # parse options and args
+
+        extension = '.tar.gz'
+      
+        if not o.targets: 
+            exit( "missing filesystem target, run --help" )
+        if not o.backdir: 
+            exit( "missing backup directory, run --help" )
+        if not path.isdir( o.backdir ):
+            exit( "backup-dir %s does not exist" % o.backdir )
+
+        if o.filters:
+            o.filters = o.filters.split(',')
+
+        o.targets = o.targets.split(',')
+
+        for target in o.targets:
+            slug = target.replace( '/', '-' ).lstrip( '-' ) # change / to - 
+            
+            if slug == '': slug = 'r' # / slug is empty (root)
+
+            tarpath = path.join( o.backdir, slug + extension )
+
+            if path.isfile( tarpath ):
+                file_rotate( tarpath, o.retention )
+
+            tar = tarfile.open( tarpath, 'w:gz' ) 
+            try:
+                tar.add( target, filter=filter_exclusions )
+            except TypeError:
+                tar.add( target, exclude=exclude_exclusions )
+            tar.close()
+
+.. raw:: html
+
+   </p>
