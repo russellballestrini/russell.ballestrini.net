@@ -10,6 +10,7 @@ DEFAULTS = {
   'SITEURL'   : 'http://127.0.0.1:8000',
   #'THEME'    : 'pelican-themes/svbhack',
   'THEME'     : 'pelican-themes/pelican-svbhack',
+  'GOOGLE_ANALYTICS' : '',
   'REMARKBOX' : True,
   'LINKPEEK_APIKEY' : None,
   'LINKPEEK_SECRET' : None,
@@ -23,6 +24,8 @@ SITENAME = get_environ_or_default('SITENAME')
 SITEURL  = get_environ_or_default('SITEURL')
 
 THEME    = get_environ_or_default('THEME')
+
+GOOGLE_ANALYTICS = get_environ_or_default('GOOGLE_ANALYTICS')
 
 REMARKBOX = get_environ_or_default('REMARKBOX')
 
