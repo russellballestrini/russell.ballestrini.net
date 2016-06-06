@@ -19,27 +19,10 @@ rendering markup.
 The following code block displays the minimal approach to setting the
 document type:
 
-.. raw:: html
+.. code-block:: html
 
-   <p>
+  <!DOCTYPE html>
 
-| 
-
-| 
-|  
-
-.. raw:: html
-
-   </p>
-   <p>
-
-After placing the doctype above the
-
-tag the pages render properly because we forced the browser into
-standards mode.
-
-.. raw:: html
-
-   </p>
+This doctype tag forces the broswer into standards mode which allows the pages to render properly.
 
 Thanks!
