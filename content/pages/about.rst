@@ -6,45 +6,134 @@ Russell Build Products
 Russell Ballestrini admires tidy readable code and beautiful design patterns.
 He enjoys finding simple solutions to difficult problems and reveres the python language.
 
-Russell currently holds a position at FireEye as an engineer running their cloud SaaS offerings hosted in AWS.
-Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called LinkPeek.
+Russell currently holds a position at `Mobiquity <https://www.mobiquityinc.com/>`_ as a senior system engineer where he manages infrastructure running in AWS.
 
-Russell Ballestrini’s Resume
-
-Russell’s projects, you should hover over each link for a preview:
-
-Russell.Ballestrini.net – The blog you are reading!
-
-LinkPeek.com – Website screenshot service.
-
-foxhop.net – A demo site for Pylowiki (loaded with some great articles).
-
-remarkbox.com – a comment service and fully functional question and answer forum.
-
-four2go! – Live, real time, four-in-a-row game developed with python and tornado.
-
-words.gumyum.com – Scrabble Solver, you give us letters and we return the best scoring words!
-
-school.yohdah.com – Public School directory written with Pyramid and mongodb.
-
-pad.yohdah.com – Public code pad and paste site written in Pyramid.
-
-LostQuery.com – Database Question & Answer site.
-
-ZealotRush.com – Starcraft Question & Answer site.
+Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called LinkPeek. He is actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
 
 
-Russell’s Public Code:
 
-bitbucket.org/russellballestrini – My public source code repositories.
+Russell’s projects
+==================
 
-github.com/russellballestrini – My public source code repositories.
+Please check out my work!
 
-Botoform – Manage infrastructure on AWS using YAML.
+LinkPeek
+--------
 
-virt-back – safely shutdown, gzip, and restart guests.
+Website screenshot service.
+
+.. linkpeek::
+   uri = https://linkpeek.com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+foxhop.net 
+----------
+
+A demo of the wiki software I wrote called Pylowiki, loaded with great articles.
+
+.. linkpeek::
+   uri = http://www.foxhop.net
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+Remarkbox
+---------
+
+An embedable comment service and fully functional question and answer forum.
+
+.. linkpeek::
+   uri = http://www.remarkbox.com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+four2go.gumyum.com
+------------------
+
+Live, real time, four-in-a-row game developed with python and tornado.
+
+.. linkpeek::
+   uri = http://four2go.gumyum.com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+words.gumyum.com
+----------------
+
+A Scrabble Solver, give us letters and we return the best scoring words!
+
+.. linkpeek::
+   uri = http://words.gumyum.com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+school.yohdah.com
+-----------------
+
+A public school directory I wrote using Pyramid and mongodb.
+
+.. linkpeek::
+   uri = http://school.yohdah.com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+pad.yohdah.com
+--------------
+
+A pastebin and code pad site I wrote using Pyramid.
+
+.. linkpeek::
+   uri = http://pad.yohdah.com/408/about-pad-yohdah-com
+   action = link-image
+   size = 600x400
+
+|
+|
+|
+|
+
+
+Russell’s Public Code
+=====================
+
+http://bitbucket.org/russellballestrini – My public source code repositories.
+
+http://github.com/russellballestrini – My public source code repositories.
+
+http://botoform.com – Manage infrastructure on AWS using YAML.
 
 Pylowiki – Open Source wiki application developed using Pylons.
 
-ago – Human readable timedelta library for Python.
+virt-back – safely shutdown, gzip, and restart guests.
 
+ago – Human readable timedelta library for Python.

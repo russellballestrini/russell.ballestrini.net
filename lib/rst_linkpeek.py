@@ -60,8 +60,8 @@ class LinkPeek(Directive):
 
     def html_image(self):
         """return html image markup."""
-        html = '<img src="{}" title="{}" style="{}" class="{}" />'
-        return html.format(self.api_call(), self.params['title'], self.params['style'], self.params['class'])
+        html = '<img src="{}" title="{}" align="{}" style="{}" class="{}" />'
+        return html.format(self.api_call(), self.params['title'], self.params['align'], self.params['style'], self.params['class'])
 
     def html_link_image(self):
         """return html link image markup."""
