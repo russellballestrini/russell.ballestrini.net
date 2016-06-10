@@ -8,9 +8,12 @@ He enjoys finding simple solutions to difficult problems and reveres the python 
 
 Russell currently holds a position at `Mobiquity <https://www.mobiquityinc.com/>`_ as a senior system engineer where he manages infrastructure running in AWS.
 
-Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called LinkPeek. He is actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
+Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called LinkPeek. He is also actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
 
+Russell’s resume
+==================
 
+* `Russell Ballestrini's Resume </uploads/russell.ballestrini.resume.pdf>`_
 
 Russell’s projects
 ==================
