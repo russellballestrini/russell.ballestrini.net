@@ -52,3 +52,12 @@ this example we want all 3 VPCs named 'webapp01', 'webapp02' and
     >>> filters = [{'Name':'tag:Name', 'Values':['webapp*']}]
     >>> list(ec2.vpcs.filter(Filters=filters))
     [ec2.Vpc(id='vpc-11111111'), ec2.Vpc(id='vpc-22222222'), ec2.Vpc(id='vpc-33333333')]
+
+Thats all for now!
+
+You should read my other Boto related posts for tricks to impress your friends.  : )
+
+* `Setting region programmatically in Boto3 </setting-region-programmatically-in-boto3/>`_
+* `Working with botocores AWS config </working-with-botocores-awsconfig/>`_
+
+

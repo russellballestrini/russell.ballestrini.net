@@ -15,7 +15,7 @@ LinkPeek.com web address thumbnail api alpha release
   size = 140x100
   style = margin-right: 25px; float: left;
 
-**`LinkPeek.com <http://linkpeek.com/>`__ API had an alpha release!**
+The `LinkPeek <http://linkpeek.com/>`__ API had an alpha release!
 
 | 
 

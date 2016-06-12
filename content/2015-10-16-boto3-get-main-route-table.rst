@@ -26,3 +26,10 @@ method to do the duty.
          raise Exception('cannot get main route table! {}'.format(main_route_table))
      return main_route_table[0]
 
+That all for now!
+
+You should read my other Boto related posts for tricks to impress your friends.  : )
+
+* `Setting region programmatically in Boto3 </setting-region-programmatically-in-boto3/>`_
+* `Filtering AWS resources with Boto3 </filtering-aws-resources-with-boto3/>`_
+

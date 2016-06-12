@@ -34,9 +34,6 @@ projects, like so:
     # Optional, to define default region for this profile.
     region=us-west-2
 
-.. raw:: html
-
-   </p>
 
 Now instead of using a single object, we create multiple objects, one
 for each profile we intend to use.
@@ -53,9 +50,6 @@ for each profile we intend to use.
     >>> session2.get_credentials().access_key
     'THISISNOTMYACCESSKEY2'
 
-.. raw:: html
-
-   </p>
 
 Also figured out how to get at the \`account\_id\` integer:
 
@@ -64,9 +58,6 @@ Also figured out how to get at the \`account\_id\` integer:
     >>> session1.get_scoped_config()['account_id']
     '111111111111'
 
-.. raw:: html
-
-   </p>
 
 Here is another algorithm that returns a list of sessions objects, one
 for each profile listed in the config.
@@ -81,6 +72,10 @@ for each profile listed in the config.
     ...     session.profile = profile_name
     ...     sessions.append(session)
 
-.. raw:: html
+Thats all for now!
 
-   </p>
+You should read my other Boto related posts for tricks to impress your friends.  : )
+
+* `Setting region programmatically in Boto3 </setting-region-programmatically-in-boto3/>`_
+* `Filtering AWS resources with Boto3 </filtering-aws-resources-with-boto3/>`_
+

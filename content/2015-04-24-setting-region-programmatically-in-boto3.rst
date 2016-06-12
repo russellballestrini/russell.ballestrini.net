@@ -76,4 +76,9 @@ pagination automatically!
     >>> for instance in ec2.instances.all():
     >>>     print instance, instance.tags
 
-That all for now, be sure to checkout my other boto related blog posts.
+That all for now! 
+
+You should read my other Boto related posts for tricks to impress your friends.  : )
+
+* `Filtering AWS resources with Boto3 </filtering-aws-resources-with-boto3/>`_
+* `Working with botocores AWS config </working-with-botocores-awsconfig/>`_
