@@ -34,7 +34,7 @@ LINKPEEK_SECRET = get_environ_or_default('LINKPEEK_SECRET')
 
 # Theme specific
 USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
-TAGLINE = '<a href="/about">Builds Products</a>'
+TAGLINE = '<a href="/about" class="tagline">Builds Products</a>'
 
 PATH = 'content'
 
