@@ -36,7 +36,7 @@ On the salt-master:
 
 Salt-cloud uses the following files YAML files for configuration:
 
-*/etc/salt/cloud.conf.d/main.conf*:
+/etc/salt/cloud.conf.d/main.conf:
  This is the main configuration file. I have the following statements:
 
 ::
@@ -45,7 +45,7 @@ Salt-cloud uses the following files YAML files for configuration:
         master: master.foxhop.net
         append_domain: foxhop.net
 
-*/etc/salt/cloud.providers/do.conf*:
+/etc/salt/cloud.providers/do.conf:
   This is a provider configuration file for Digital Ocean (do).
   Collect your client\_key and personal\_access\_token (api\_key) from the Digital Ocean user dashboard.
   Also create an SSH key and add the public key using the dashboard:
@@ -60,7 +60,7 @@ Salt-cloud uses the following files YAML files for configuration:
       ssh_key_file: /keys/digital-ocean-salt-cloud
       ssh_key_name: digital-ocean-salt-cloud.pub
 
-*/etc/salt/cloud.profiles/do.conf*:
+/etc/salt/cloud.profiles/do.conf:
   This is the Digital Ocean profiles configuration file.
   We will create just two profiles for now, but you can create unlimited named combinations.
 
@@ -78,19 +78,19 @@ Salt-cloud uses the following files YAML files for configuration:
       size: 512mb
       location: nyc1
 
-*ssh\_key\_file*:
+ssh\_key\_file:
  This is your private SSH key located on your salt-master
 
-*ssh\_key\_name*:
+ssh\_key\_name:
  This is the name of the public key you added in your Digital Ocean dashboard
 
-*size*:
+size:
  The size or plan you would like to provision, 512mb is the smallest plan
 
-*location*:
+location:
  The geographical region, location, and/or data center
 
-*image*:
+image:
  The operating system image
 
 After you configure the do provider in /etc/salt/cloud.providers you
