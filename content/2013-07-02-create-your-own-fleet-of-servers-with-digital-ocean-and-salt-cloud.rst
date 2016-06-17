@@ -46,10 +46,9 @@ Salt-cloud uses the following files YAML files for configuration:
         append_domain: foxhop.net
 
 */etc/salt/cloud.providers/do.conf*:
-     This is a provider configuration file for Digital Ocean (do).
-  Collect your client\_key and personal\_access\_token (api\_key) from
-  the Digital Ocean user dashboard. Also create an SSH key and add the
-  public key using the dashboard:
+  This is a provider configuration file for Digital Ocean (do).
+  Collect your client\_key and personal\_access\_token (api\_key) from the Digital Ocean user dashboard.
+  Also create an SSH key and add the public key using the dashboard:
 
 ::
 
@@ -62,9 +61,8 @@ Salt-cloud uses the following files YAML files for configuration:
       ssh_key_name: digital-ocean-salt-cloud.pub
 
 */etc/salt/cloud.profiles/do.conf*:
-     This is the Digital Ocean profiles configuration file. We will
-  create just two profiles for now, but you can create unlimited named
-  combinations.
+  This is the Digital Ocean profiles configuration file.
+  We will create just two profiles for now, but you can create unlimited named combinations.
 
 ::
 
@@ -81,19 +79,19 @@ Salt-cloud uses the following files YAML files for configuration:
       location: nyc1
 
 *ssh\_key\_file*:
-     This is your private SSH key located on your salt-master
+ This is your private SSH key located on your salt-master
 
 *ssh\_key\_name*:
-     This is the name of the public key you added in your Digital Ocean dashboard
+ This is the name of the public key you added in your Digital Ocean dashboard
 
 *size*:
-     The size or plan you would like to provision, 512mb is the smallest plan
+ The size or plan you would like to provision, 512mb is the smallest plan
 
 *location*:
-     The geographical region, location, and/or data center
+ The geographical region, location, and/or data center
 
 *image*:
-     The operating system image
+ The operating system image
 
 After you configure the do provider in /etc/salt/cloud.providers you
 gain access to the following commands::
@@ -110,6 +108,6 @@ gain access to the following commands::
 
     salt-cloud --profile ubuntu-14-04-do-512 deejay
 
-If all goes well you should have a newly provisioned server bootstrapped
-with salt-minion. The new minion's keys are already added to the
-salt-master. Now you just need to run highstate!
+If all goes well you should have a newly provisioned server bootstrapped with salt-minion.
+The new minion's keys are already added to the salt-master.
+Now you just need to run highstate!
