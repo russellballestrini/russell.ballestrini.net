@@ -31,9 +31,6 @@ Website screenshot service.
    size = 600x400
 
 |
-|
-|
-|
 
 foxhop.net 
 ----------
@@ -45,9 +42,6 @@ A demo of the wiki software I wrote called Pylowiki, loaded with great articles.
    action = link-image
    size = 600x400
 
-|
-|
-|
 |
 
 Remarkbox
@@ -61,9 +55,6 @@ An embedable comment service and fully functional question and answer forum.
    size = 600x400
 
 |
-|
-|
-|
 
 four2go.gumyum.com
 ------------------
@@ -75,9 +66,6 @@ Live, real time, four-in-a-row game developed with python and tornado.
    action = link-image
    size = 600x400
 
-|
-|
-|
 |
 
 words.gumyum.com
@@ -91,9 +79,6 @@ A Scrabble Solver, give us letters and we return the best scoring words!
    size = 600x400
 
 |
-|
-|
-|
 
 school.yohdah.com
 -----------------
@@ -106,9 +91,6 @@ A public school directory I wrote using Pyramid and mongodb.
    size = 600x400
 
 |
-|
-|
-|
 
 pad.yohdah.com
 --------------
@@ -120,9 +102,6 @@ A pastebin and code pad site I wrote using Pyramid.
    action = link-image
    size = 600x400
 
-|
-|
-|
 |
 
 
