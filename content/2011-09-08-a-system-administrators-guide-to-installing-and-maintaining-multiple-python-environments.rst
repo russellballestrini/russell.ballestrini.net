@@ -76,7 +76,7 @@ Install package from scl
 
     sudo yum install python27
 
-# enable python27 via scl::
+#. enable python27 via scl::
 
    scl enable python27 bash
 
