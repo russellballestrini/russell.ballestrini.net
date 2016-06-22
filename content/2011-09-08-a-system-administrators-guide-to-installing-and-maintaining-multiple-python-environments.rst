@@ -70,19 +70,19 @@ Install package from scl
 
 #. install centos-release-scl repolists::
 
- sudo yum install centos-release-scl
+    sudo yum install centos-release-scl
 
 #. install python27::
 
- sudo yum install python27
+    sudo yum install python27
 
 # enable python27 via scl::
 
- scl enable python27 bash
+   scl enable python27 bash
 
 #. Document path to new python2.7, you will need it if you plan to use a virtualenv::
 
- which python2.7
+    which python2.7
 
 
 virtualenv
