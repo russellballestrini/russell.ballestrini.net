@@ -78,7 +78,7 @@ Install package from scl
 
 #. enable python27 via scl::
 
-   scl enable python27 bash
+    scl enable python27 bash
 
 #. Document path to new python2.7, you will need it if you plan to use a virtualenv::
 
