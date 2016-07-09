@@ -8,17 +8,15 @@ He enjoys finding simple solutions to difficult problems and reveres the python 
 
 Russell currently holds a position at `Mobiquity <https://www.mobiquityinc.com/>`_ as a senior system engineer where he manages infrastructure running in AWS.
 
-Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called LinkPeek. He is also actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
+Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called `LinkPeek <https://linkpeek.com>`_. He is also actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
 
-Russell’s resume
-==================
+If you read all that, you should likely `contact </contact>`_ Russell, and fear not because he always responds in a timely manner.
 
-* `Russell Ballestrini's Resume </uploads/russell.ballestrini.resume.pdf>`_
 
 Russell’s projects
 ==================
 
-Please check out my work!
+.. contents::
 
 LinkPeek
 --------
@@ -102,20 +100,3 @@ A pastebin and code pad site I wrote using Pyramid.
    action = link-image
    size = 600x400
 
-|
-
-
-Russell’s Public Code
-=====================
-
-http://bitbucket.org/russellballestrini – My public source code repositories.
-
-http://github.com/russellballestrini – My public source code repositories.
-
-http://botoform.com – Manage infrastructure on AWS using YAML.
-
-Pylowiki – Open Source wiki application developed using Pylons.
-
-virt-back – safely shutdown, gzip, and restart guests.
-
-ago – Human readable timedelta library for Python.

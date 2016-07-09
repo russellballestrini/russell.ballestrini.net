@@ -16,20 +16,16 @@ During the process of the move, I'm going to use this post to dump hints:
 
 .. contents:: Hints:
 
-Good luck!
-
-Hints
-=====
 
 WordPress XML to JSON
-------------------------
+====================================
 
 I wrote `this tool to convert Wordpress XML dumps to JSON <https://github.com/russellballestrini/wordpress-xml-to-json>`_.
 The tool is opinionated and removes lots of data.
 
 
 Pelican-import
-------------------------
+====================================
 
 A tool to convert WordPress .xml into .rst or .md files (ReStructuredText or MarkDown) is
 `pelican-import <http://docs.getpelican.com/en/latest/importer.html>`_.
@@ -37,9 +33,9 @@ A tool to convert WordPress .xml into .rst or .md files (ReStructuredText or Mar
 I suggest checking it out, even if you do not plan to use Pelican as your static site generator.
 
 Add date to post filenames
----------------------------------
+====================================
 
-After using `pelican-import <http://docs.getpelican.com/en/latest/importer.html>`_ I had about 150 `.rst` files and I decided to put the date in the filename, so I wrote this short bash script tool to do the renames
+After using `pelican-import <http://docs.getpelican.com/en/latest/importer.html>`_ I had about 150 `.rst` files and I decided to put the date in the filename, so I wrote this short bash script tool to do the renames:
 
 .. code-block:: bash
 
@@ -52,7 +48,7 @@ After using `pelican-import <http://docs.getpelican.com/en/latest/importer.html>
     done
 
 Alter category to tags
--------------------------------
+====================================
 
 category and tags have different meanings and assumptions between wordpress and pelican.  As a result I decided to change all my categories to tags using this command:
 
@@ -61,7 +57,7 @@ category and tags have different meanings and assumptions between wordpress and 
   sed -i'' -e 's/:category:/:tags:/g' *.rst
   
 Alter attachment and image paths 
-----------------------------------
+====================================
 
 fix paths to images / uploads to remove wp-content:
 

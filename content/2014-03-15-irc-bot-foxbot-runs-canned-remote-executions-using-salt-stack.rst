@@ -17,13 +17,14 @@ The code lives here:
 
 Example usage:
 
-    ::
+.. code-block:: text
 
-        16:18:25            * | russell checks uptime minion2.foxhop.net
-        16:18:25       foxbot | minion2.foxhop.net:  16:18:25 up 496 days, 22:36, 17 users,  load average: 0.33, 0.70, 0.87
+ 16:18:25            * | russell checks uptime minion2.foxhop.net
+ 16:18:25       foxbot | minion2.foxhop.net:  16:18:25 up 496 days, 22:36, 17 users,  load average: 0.33, 0.70, 0.87
 
-    ::
+.. code-block:: text
 
-        16:29:10            * | russell checks procs *
-        16:29:17       foxbot | minion2.foxhop.net: PROCS WARNING: 165 processes
-        16:29:17       foxbot | minion5.foxhop.net: PROCS CRITICAL: 309 processes
+ 16:29:10            * | russell checks procs *
+ 16:29:17       foxbot | minion2.foxhop.net: PROCS WARNING: 165 processes
+ 16:29:17       foxbot | minion5.foxhop.net: PROCS CRITICAL: 309 processes
+

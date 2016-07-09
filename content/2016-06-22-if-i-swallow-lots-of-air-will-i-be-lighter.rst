@@ -7,7 +7,7 @@ If I swallow lots of air will I be lighter?
 :tags: Code, DevOps
 :status: published
 
-After dinner tonight, my four year old Carter asked me, "If I swallow lots of air will I be lighter?". I thought about the question for a moment and then told him it depends on what surrounds you.
+After dinner tonight, Carter, my four year old asked me, "If I swallow lots of air will I be lighter?". I thought about the question for a moment and then told him it depends on what surrounds you.
 
 If you are surrounded by: 
  * air and you swallow lots of air you will not be lighter.

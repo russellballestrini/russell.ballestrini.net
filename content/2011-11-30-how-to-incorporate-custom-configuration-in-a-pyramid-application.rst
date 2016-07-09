@@ -21,9 +21,7 @@ to our project.
 
 **Make a configuration key/value pair for Google Analytics**
 
-Inside production.ini place the following in the ``[app:main]`` section:
-
-::
+Inside production.ini place the following in the ``[app:main]`` section::
 
     #google_analytics_key = UA-55555555-1
     google_analytics_key =
@@ -33,15 +31,11 @@ Inside production.ini place the following in the ``[app:main]`` section:
 In this case I will show an example in mako. Other template solutions
 should look similar.
 
-.. raw:: html
+::
+ 
+  <%def name="google\_analytics()">
+  % if request.registry.settings['google_analytics_key']:
 
-   <p>
-
-| 
-|  <%def name="google\_analytics()">
-|  % if request.registry.settings['google\_analytics\_key']:
-
-.. raw:: html
 
    <script type="text/javascript"></p>
    <p>var _gaq = _gaq || [];<br />
@@ -54,18 +48,11 @@ should look similar.
              })();</p>
    <p></script>
 
-| 
-|  % endif
-|  
-|  
+  % endif
+  
+  
 
-.. raw:: html
-
-   </p>
-
-Then in the head section call the function:
-
-::
+Then in the head section call the function::
 
     ${ google_analytics() }
 
@@ -80,9 +67,7 @@ different way to configure Google Analytics:
 Define ``inject_renderer_globals(event)`` function in the project's
 ``__init__.py`` file.
 
-I normally place it at the bottom of the file and it looks like this:
-
-::
+I normally place it at the bottom of the file and it looks like this::
 
     def inject_renderer_globals(event):
         """Inject some renderer globals before passing to template"""
@@ -92,16 +77,12 @@ I normally place it at the bottom of the file and it looks like this:
         # Build ${google_analytics_key} from the configuration file  
         event['google_analytics_key'] = request.registry.settings[ 'google_analytics_key' ]
 
-Import BeforeRender at the top of the ``__init__.py``:
-
-::
+Import BeforeRender at the top of the ``__init__.py``::
 
     from pyramid.events import BeforeRender
 
 In the main function, add the ``inject_renderer_globals`` to the
-subscribers:
-
-::
+subscribers::
 
     config.add_subscriber(inject_renderer_globals, BeforeRender)
 
