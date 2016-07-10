@@ -1,9 +1,7 @@
-Contact Russell Ballestrini
-###########################
+Get in touch with Russell
+#########################
 
 :slug: contact
-
-Get in touch!
 
 Email:
  firstname@ lastname.net
@@ -25,3 +23,5 @@ Github:
 
 Bitbucket:
  https://bitbucket.org/russellballestrini/
+
+I'm excited to meet you!
