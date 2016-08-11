@@ -41,10 +41,8 @@ for each profile we intend to use.
 ::
 
     >>> import botocore.session
-    >>> session1 = botocore.session.get_session()
-    >>> session2 = botocore.session.get_session()
-    >>> session1.profile = 'project1'
-    >>> session2.profile = 'project2'
+    >>> session1 = botocore.session.Session(profile='project1')
+    >>> session2 = botocore.session.Session(profile='project2')
     >>> session1.get_credentials().access_key
     'THISISNOTMYACCESSKEY1'
     >>> session2.get_credentials().access_key
@@ -68,8 +66,7 @@ for each profile listed in the config.
     >>> sessions = []
     >>> aws_config = botocore.session.get_session().full_config
     >>> for profile_name in aws_config['profiles']:
-    ...     session = botocore.session.get_session()
-    ...     session.profile = profile_name
+    ...     session = botocore.session.Session(profile=profile_name)
     ...     sessions.append(session)
 
 Thats all for now!
