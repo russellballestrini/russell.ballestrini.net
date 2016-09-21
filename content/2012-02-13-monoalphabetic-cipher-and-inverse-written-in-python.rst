@@ -6,13 +6,18 @@ Monoalphabetic Cipher and Inverse Written in Python
 :slug: monoalphabetic-cipher-and-inverse-written-in-python
 :status: published
 
-| 
-|  **Here is my implementation of a Monoalphabetic Cipher written with a
-  python dictionary:**
+.. contents::
+
+introduction and background
+===============================
+
+A monoalphabetic cipher uses fixed substitution over the entire message.
+
+You can build a monoalphabetic cipher using a Python dictionary, like so:
 
 .. code-block:: python
 
-    monoalpha = {
+    monoalpha_cipher = {
         'a': 'm',
         'b': 'n',
         'c': 'b',
@@ -42,40 +47,47 @@ Monoalphabetic Cipher and Inverse Written in Python
         ' ': ' ',
     }
 
-    inverse_monoalpha = {}
-    for key, value in monoalpha.iteritems():
-        inverse_monoalpha[value] = key
+We can create an inverse of this cipher dictionary by switching the key and value places:
+
+.. code-block:: python
+
+    inverse_monoalpha_cipher = {}
+    for key, value in monoalpha_cipher.iteritems():
+        inverse_monoalpha_cipher[value] = key
+
+Now that we have both the cipher and the inverse_cipher, we can start encrypt a message.
+
+For example:
+
+.. code-block:: python
 
     message = "This is an easy problem"
     encrypted_message = []
     for letter in message:
-        encrypted_message.append( monoalpha[letter.lower()] )
-
-    print ''.join( encrypted_message )
+        encrypted_message.append(monoalpha_cipher.get(letter, letter))
+    print ''.join(encrypted_message)
 
 **The encrypted output:** ``uasi si mj cmiw lokngch``
 
-**Now we may use the inverse cipher to decrypt a message, "rmij'u uamu
-xyj"**
+We may also decrypt a message using the inverse_cipher, for example: "rmij'u uamu xyj"
 
 .. code-block:: python
 
     encrypted_message = "rmij'u uamu xyj"
     decrypted_message = []
     for letter in encrypted_message:
-        try:
-            decrypted_message.append( inverse_monoalpha[letter] )
-        except KeyError:
-            decrypted_message.append( letter )
-
+         decrypted_message.append( inverse_monoalpha_cipher.get(letter, letter))
     print ''.join( decrypted_message )
 
-**Decrypted message:** ``wasn't that fun``
+**The decrypted output:** ``wasn't that fun``
 
-Random Cipher
-===============
 
-This is a function to generate a random Monoalphabetic cipher:
+monoalphabetic_cipher.py
+=============================
+
+I ended up writing a toy library called monoalphabetic_cipher.py to make the whole process repeatable and reuseable. 
+
+``monoalphabetic_cipher.py``:
 
 .. code-block:: python
 
@@ -91,3 +103,47 @@ This is a function to generate a random Monoalphabetic cipher:
      shuffle(shuffled_pool)
      return dict(zip(original_pool, shuffled_pool))
 
+ def inverse_monoalpha_cipher(monoalpha_cipher):
+     """Given a Monoalphabetic Cipher (dictionary) return the inverse."""
+     inverse_monoalpha = {}
+     for key, value in monoalpha_cipher.iteritems():
+         inverse_monoalpha[value] = key
+     return inverse_monoalpha
+
+ def encrypt_with_monoalpha(message, monoalpha_cipher):
+     encrypted_message = []
+     for letter in message:
+         encrypted_message.append(monoalpha_cipher.get(letter, letter))
+     return ''.join(encrypted_message)
+
+ def decrypt_with_monoalpha(encrypted_message, monoalpha_cipher):
+     return encrypt_with_monoalpha(
+                encrypted_message,
+                inverse_monoalpha_cipher(monoalpha_cipher)
+            )
+
+     
+monoalphabetic_cipher.py example usage
+==========================================
+
+Here I show how to use the library:
+
+.. code-block:: python
+
+ >>> # load the module / library as 'mc'.
+ >>> import monoalphabetic_cipher as mc
+
+
+ >>> # generate a random cipher (only if needed).
+ >>> cipher = mc.random_monoalpha_cipher()
+
+ >>> # output the cipher (store if for safe keeping).
+ >>> print(cipher)
+
+ >>> # encrypt a message with the cipher.
+ >>> mc.encrypt_with_monoalpha('Hello all you hackers out there!', cipher)
+ 'sXGGt SGG Nt0 HSrLXFC t0U UHXFX!'
+
+ >>> # decrypt a message with the cipher. 
+ >>> mc.decrypt_with_monoalpha('sXGGt SGG Nt0 HSrLXFC t0U UHXFX!', cipher)
+ 'Hello all you hackers out there!'
