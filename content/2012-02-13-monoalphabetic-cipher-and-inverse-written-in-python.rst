@@ -57,7 +57,7 @@ We can create an inverse of this cipher dictionary by switching the key and valu
 
 Now that we have both the cipher and the inverse_cipher, we may encrypt a message.
 
-For example:
+**Encryption example:**
 
 .. code-block:: python
 
@@ -68,11 +68,12 @@ For example:
         
     print(''.join(encrypted_message))
 
-**The encrypted output:** ``Tasi si mj cmiw lokngch``
+Result:
+  ``Tasi si mj cmiw lokngch``
 
-We may also *decrypt* a message using the inverse_cipher.
+Using the inverse_cipher, We may *decrypt* a message.
 
-For example: "rmij'u uamu xyj"
+**Decryption example:**
 
 .. code-block:: python
 
@@ -83,13 +84,14 @@ For example: "rmij'u uamu xyj"
          
     print(''.join( decrypted_message ))
 
-**The decrypted output:** ``wasn't that fun?``
+Result:
+  ``wasn't that fun?``
 
 
 monoalphabetic_cipher.py
 =============================
 
-I ended up writing a toy library called monoalphabetic_cipher.py to make the whole process repeatable and reuseable. 
+Here is a toy library I wrote to make the process repeatable` -
 
 ``monoalphabetic_cipher.py``:
 
