@@ -10,7 +10,7 @@ Monoalphabetic Cipher and Inverse Written in Python
 |  **Here is my implementation of a Monoalphabetic Cipher written with a
   python dictionary:**
 
-::
+.. code-block:: python
 
     monoalpha = {
         'a': 'm',
@@ -58,7 +58,7 @@ Monoalphabetic Cipher and Inverse Written in Python
 **Now we may use the inverse cipher to decrypt a message, "rmij'u uamu
 xyj"**
 
-::
+.. code-block:: python
 
     encrypted_message = "rmij'u uamu xyj"
     decrypted_message = []
@@ -71,3 +71,23 @@ xyj"**
     print ''.join( decrypted_message )
 
 **Decrypted message:** ``wasn't that fun``
+
+Random Cipher
+===============
+
+This is a function to generate a random Monoalphabetic cipher:
+
+.. code-block:: python
+
+ from string import letters, digits
+ from random import shuffle
+
+ def random_monoalpha_cipher(pool=None):
+     """Generate a Monoalphabetic Cipher"""
+     if pool is None:
+         pool = letters + digits
+     original_pool = list(pool)
+     shuffled_pool = list(pool)
+     shuffle(shuffled_pool)
+     return dict(zip(original_pool, shuffled_pool))
+
