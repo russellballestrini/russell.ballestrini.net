@@ -91,7 +91,7 @@ Result:
 monoalphabetic_cipher.py
 =============================
 
-Here is a toy library I wrote to make the process repeatable` -
+Here is a toy library I wrote to make the process repeatable -
 
 ``monoalphabetic_cipher.py``:
 
