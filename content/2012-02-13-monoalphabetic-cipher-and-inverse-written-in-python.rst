@@ -55,7 +55,7 @@ We can create an inverse of this cipher dictionary by switching the key and valu
     for key, value in monoalpha_cipher.iteritems():
         inverse_monoalpha_cipher[value] = key
 
-Now that we have both the cipher and the inverse_cipher, we can start encrypt a message.
+Now that we have both the cipher and the inverse_cipher, we may encrypt a message.
 
 For example:
 
