@@ -70,7 +70,9 @@ For example:
 
 **The encrypted output:** ``Tasi si mj cmiw lokngch``
 
-We may also decrypt a message using the inverse_cipher, for example: "rmij'u uamu xyj"
+We may also *decrypt* a message using the inverse_cipher.
+
+For example: "rmij'u uamu xyj"
 
 .. code-block:: python
 
