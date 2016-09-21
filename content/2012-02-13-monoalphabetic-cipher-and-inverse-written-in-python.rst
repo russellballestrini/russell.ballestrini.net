@@ -68,20 +68,20 @@ For example:
         
     print(''.join(encrypted_message))
 
-**The encrypted output:** ``uasi si mj cmiw lokngch``
+**The encrypted output:** ``Tasi si mj cmiw lokngch``
 
 We may also decrypt a message using the inverse_cipher, for example: "rmij'u uamu xyj"
 
 .. code-block:: python
 
-    encrypted_message = "rmij'u uamu xyj"
+    encrypted_message = "rmij'u uamu xyj?"
     decrypted_message = []
     for letter in encrypted_message:
          decrypted_message.append( inverse_monoalpha_cipher.get(letter, letter))
          
     print(''.join( decrypted_message ))
 
-**The decrypted output:** ``wasn't that fun``
+**The decrypted output:** ``wasn't that fun?``
 
 
 monoalphabetic_cipher.py
