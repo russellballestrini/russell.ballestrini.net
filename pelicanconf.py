@@ -55,8 +55,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
+  ('Remarkbox', 'http://remarkbox.com/'),
   ('LinkPeek', 'https://linkpeek.com/'),
-  ('RemarkBox', 'http://remarkbox.com/'),
 )
 
 # Social widget
