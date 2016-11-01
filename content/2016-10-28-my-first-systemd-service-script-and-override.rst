@@ -17,45 +17,45 @@ We manage a static `.service` file using a package or config management.
 
 `/lib/systemd/system/taco-api.service`:
 
-  .. code-block:: ini
+.. code-block:: ini
 
-    [Unit]
-    Description=Node.js service for taco API
+ [Unit]
+ Description=Node.js service for taco API
 
-    [Service]
+ [Service]
 
-    Environment=NODE_ENV=development
+ Environment=NODE_ENV=development
 
-    ExecStart=/usr/bin/node /opt/taco-api/app.js
+ ExecStart=/usr/bin/node /opt/taco-api/app.js
 
-    # Restart service after all crashes but wait 10 seconds between restarts.
-    Restart=always
-    RestartSec=10
+ # Restart service after all crashes but wait 10 seconds between restarts.
+ Restart=always
+ RestartSec=10
 
-    # output stdout and stderr to syslog. (/var/log/messages) 
-    StandardOutput=syslog
-    StandardError=syslog
-    SyslogIdentifier=taco-api
+ # output stdout and stderr to syslog. (/var/log/messages) 
+ StandardOutput=syslog
+ StandardError=syslog
+ SyslogIdentifier=taco-api
 
-    # define the user and group to own the process.
-    #User=node
-    #Group=node
+ # define the user and group to own the process.
+ #User=node
+ #Group=node
 
-    # change directory before running ExecStart command.
-    WorkingDirectory=/opt/taco-api
+ # change directory before running ExecStart command.
+ WorkingDirectory=/opt/taco-api
 
-    [Install]
-    WantedBy=multi-user.target
+ [Install]
+ WantedBy=multi-user.target
 
 We also manage a static `override.conf` file using config management.
 In this file, we customize the environment variables present.
 
 `/etc/systemd/system/forcare-api.service.d/override.conf`:
 
-  .. code-block:: ini
+.. code-block:: ini
 
-    [Service]
-    Environment=NODE_ENV=production
+ [Service]
+ Environment=NODE_ENV=production
 
 This allows us to only override and keep track of the deltas.
 
@@ -82,6 +82,4 @@ You can test, like this:
  ps aux | grep node
 
 Thank you!
-
-
 
