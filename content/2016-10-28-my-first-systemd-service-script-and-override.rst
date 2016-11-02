@@ -8,7 +8,7 @@ My first Systemd Service Script and Override
 :status: published
 
 At work we mostly run Centos and I have some NodeJS services to deploy.
-I feel most familiar with Ubuntu / Upstart so this post serves as my notes.
+I feel most familiar with Ubuntu / Upstart so this post serves as my notes on systemd.
 
 In this contrived example, we define a service for our `taco-api` application.
 The `taco-api` source code lives in `/opt/taco-api`.
