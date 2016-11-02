@@ -50,7 +50,7 @@ We manage a static `.service` file using a package or config management.
 We also manage a static `override.conf` file using config management.
 In this file, we customize the environment variables present.
 
-`/etc/systemd/system/forcare-api.service.d/override.conf`:
+`/etc/systemd/system/taco-api.service.d/override.conf`:
 
 .. code-block:: ini
 
