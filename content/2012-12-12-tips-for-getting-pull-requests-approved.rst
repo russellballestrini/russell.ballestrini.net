@@ -6,7 +6,12 @@ Tips for getting pull requests approved
 :slug: tips-for-getting-pull-requests-approved
 :status: published
 
-**Pull rejection sucks!**
+.. contents::
+
+
+Pull rejection sucks!
+================================================
+
 
 You have just coded, implemented, and submitted a pull request. A short
 while later the request is declined by an upstream maintainer and you
@@ -14,7 +19,8 @@ feel crushed. We have all been there. Today I'm going to show you a
 better way. This article will teach you how to create pull requests that
 get approved.
 
-**Start small**
+Start small
+================================================
 
 You need to earn trust with the maintainers. Your first commit should be
 a small change which they *cannot* reject. Try to write a missing test
@@ -24,7 +30,8 @@ not alter how the program works.
 
 |start-small.xcf|
 
-**Don't add leading or trailing white space**
+Don't add leading or trailing white space
+================================================
 
 Additional whitespace will alter the diff output. This causes version
 control systems to flag lines as changed which is irritating and
@@ -32,7 +39,8 @@ sometimes misleading.
 
 |spot-the-diff.xcf|
 
-**Less is more**
+Less is more
+================================================
 
 Minimize the number of changes to accomplish your goal. People are busy
 and at times lazy. Reduce the work the maintainers must do to perform a
@@ -41,14 +49,16 @@ of approval.
 
 |less-is-more.xcf|
 
-**Only commit working code**
+Only commit working code
+================================================
 
 Do not break the program, only commit working code. If the project has
 tests make sure they work before you commit.
 
 |commit-working-code.xcf|
 
-**Follow the leader**
+Follow the leader
+================================================
 
 Try to mimic the maintainers. Follow the coding style and project layout
 even if it seems wrong. This is not your playground yet. Before you
@@ -59,7 +69,8 @@ project.
 
 |follow-the-leader.xcf|
 
-**Comments, docs, and tests oh my!**
+Comments, docs, and tests oh my!
+================================================
 
 Your first pull request should clarify or add to the existing
 documentation. Fix the README, adjust a comment, or write a test. These
@@ -72,14 +83,16 @@ most people do not enjoy working on documentation.
 
 |comments-docs-tests-oh-my.xcf|
 
-**Blog about the change**
+Blog about the change
+================================================
 
 Write about the change, give reasons and examples. Include a link to
 your blog post in the pull request.
 
 |ideas-blog-get-heard.xcf|
 
-**Pull requests are like paragraphs**
+Pull requests are like paragraphs
+================================================
 
 If you were writing an essay, you would split up your ideas into
 separate paragraphs. A pull request has many qualities similar to a
@@ -99,6 +112,8 @@ have the ability to pick-and-choose which requests to merge and
 everybody wins!
 
 |pull-request-stay-focused.xcf|
+
+
 
 .. |start-small.xcf| image:: /uploads/2012/12/start-small.xcf_.png
    :target: /uploads/2012/12/start-small.xcf_.png
