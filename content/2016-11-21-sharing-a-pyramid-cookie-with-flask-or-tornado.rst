@@ -155,3 +155,12 @@ The complete program follows:
  
 
 Again, we are hardcoding the same `secret`. If you set everything up properly, loading http://127.0.0.1:8888 in a web browser should print the cookie session_data in plain-text.
+
+In my testing, I saw my cookie and it looked like this:
+
+.. code-block:: python
+
+ (1479520270, 1479516714.062414, {'authenticated_user_id': 5, 'nodes_pending_verify': []})
+ Hello, world
+
+Thats all for now, let me know what you think in the comments!
