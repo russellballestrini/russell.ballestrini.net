@@ -110,10 +110,13 @@ Adjust the `get` method in the `MainHandler` to look like this:
 .. code-block:: python
 
     def get(self):
-        raw_cookie = self.get_cookie('session')
-        session_data = serializer.loads(bytes_(raw_cookie))
+        raw_cookie = self.get_cookie('session', None)
+        if raw_cookie is not None:
+            session_data = serializer.loads(bytes_(raw_cookie))
+            self.write(str(session_data))
+            self.write(str("<br/>"))
         self.write("Hello, world")
-        self.write(str(session_data))
+
 
 The complete program follows:
 
@@ -129,14 +132,16 @@ The complete program follows:
  
  # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
  serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
- 
+
  class MainHandler(tornado.web.RequestHandler):
      def get(self):
-         raw_cookie = self.get_cookie('session')
-         session_data = serializer.loads(bytes_(raw_cookie))
+         raw_cookie = self.get_cookie('session', None)
+         if raw_cookie is not None:
+             session_data = serializer.loads(bytes_(raw_cookie))
+             self.write(str(session_data))
+             self.write(str("<br/>"))
          self.write("Hello, world")
-         self.write(str(session_data))
- 
+
  
  def make_app():
      return tornado.web.Application([
