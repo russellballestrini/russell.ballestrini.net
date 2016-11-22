@@ -98,6 +98,13 @@ Add the following imports:
   from pyramid.session import PickleSerializer
   from pyramid.compat import bytes_
 
+For testing purposes, create a global `serializer` object:
+
+.. code-block:: python
+
+ # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
+ serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
+
 Adjust the `get` method in the `MainHandler` to look like this:
 
 .. code-block:: python
@@ -117,10 +124,11 @@ The complete program follows:
  
  # accessing Pyramid cookies.
  from webob.cookies import SignedSerializer
+ from pyramid.session import PickleSerializer
  from pyramid.compat import bytes_
  
  # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
- serializer = SignedSerializer(secret='test-secret')
+ serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
  
  class MainHandler(tornado.web.RequestHandler):
      def get(self):
@@ -128,6 +136,7 @@ The complete program follows:
          session_data = serializer.loads(bytes_(raw_cookie))
          self.write("Hello, world")
          self.write(str(session_data))
+ 
  
  def make_app():
      return tornado.web.Application([
@@ -138,5 +147,6 @@ The complete program follows:
      app = make_app()
      app.listen(8888)
      tornado.ioloop.IOLoop.current().start()
+ 
 
 Again, we are hardcoding the same `secret`. If you set everything up properly, loading http://127.0.0.1:8888 in a web browser should print the cookie session_data in plain-text.
