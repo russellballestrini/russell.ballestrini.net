@@ -40,7 +40,7 @@ main and above the routes:
 
 ::
 
-        config.add_subscriber( base_subscriber, NewRequest )
+        config.add_subscriber(bread_subscriber, NewRequest)
 
 4. You are done! Now you should have the ability to use the bread
 object from your template. Below I have provided a mako template
