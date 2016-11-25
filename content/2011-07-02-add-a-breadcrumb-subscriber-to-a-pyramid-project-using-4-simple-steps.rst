@@ -7,8 +7,11 @@ Add a Breadcrumb Subscriber to a Pyramid project using 4 simple steps
 :status: published
 :summary:
 
-**This article will explain how to add a breadcrumb subscriber to a
-Pyramid project using 4 simple steps.**
+**Note:** This post shows an old way to modify the request object.
+I discuss a new way in my `Pyramid add_request_method </register-super-powers-with-pyramid-add-request-method/>`_ post.
+
+This article will explain how to add a breadcrumb subscriber to a
+Pyramid project using 4 simple steps.
 
 While programming http://school.yohdah.com/ I needed the ability to easily create
 breadcrumb links from the current url. You may view the `bread.py source

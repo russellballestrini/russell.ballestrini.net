@@ -2,7 +2,7 @@ Register Super Powers with Pyramid add_request_method
 #####################################################
 
 :author: Russell Ballestrini
-:slug: register-super-powers-with-pyramid-app-request-method
+:slug: register-super-powers-with-pyramid-add-request-method
 :date: 2016-11-24 15:30
 :tags: Code, DevOps
 :status: published

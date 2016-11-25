@@ -6,6 +6,11 @@ How to Incorporate Custom Configuration in a Pyramid Application
 :slug: how-to-incorporate-custom-configuration-in-a-pyramid-application
 :status: published
 
+
+**Note:** This post shows an old way to modify the request object.
+I discuss a new way in my `Pyramid add_request_method </register-super-powers-with-pyramid-add-request-method/>`_ post.
+
+
 Imagine that you have just built a wiki, blog, or cms web application
 that will be deployed multiple times by different people. You would like
 to provide the ability to configure some aspects of the program without
