@@ -52,3 +52,4 @@ This strategy has a number of uses. For example, I use it to:
 
 What super powers do you register to your request? You should let the world know in the comments.
 
+Another Pyramid related post: `Sharing a Pyramid cookie with Flask or Tornado </sharing-a-pyramid-cookie-with-flask-or-tornado/>`_
