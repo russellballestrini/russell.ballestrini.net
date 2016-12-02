@@ -39,6 +39,7 @@ I add *jenkins-build.sh* in the root of the Node.js code repo:
      --vendor "Example, Inc" \
      --rpm-user="node"  --deb-user="node" \
      --rpm-group="node" --deb-group="node" \
+     --directories "/opt/$JOB_NAME" \
      "$JOB_NAME/$JOB_NAME.service=/lib/systemd/system/" \
      "$JOB_NAME=/opt/"
 
