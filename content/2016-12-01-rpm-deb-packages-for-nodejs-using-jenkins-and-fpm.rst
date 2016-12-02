@@ -3,7 +3,7 @@ Build RPM or DEB packages for Node.js using Jenkins and FPM
 
 :author: Russell Ballestrini
 :slug: rpm-deb-packages-for-nodejs-using-jenkins-and-fpm
-:date: 2016-12-02 15:30
+:date: 2016-12-01 15:30
 :tags: Code, DevOps
 :status: published
 
