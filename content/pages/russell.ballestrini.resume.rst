@@ -1,8 +1,6 @@
 Russell Ballestrini
 ###################
 
-:status: hidden
-
 .. class:: center
 
  **Builds Products - 860-501-9450**
@@ -13,104 +11,66 @@ Summary
 
  Executes on ideas. Unites teams through communication and compromise.  Builds tools to automate and accelerate product pipelines. Engineers open source software and libraries. Bootstrapper.  Founder.
 
-|
 
 Experience
 ==========
 
-FireEye
--------
+|
 
-**Remote, 07/2014 - Present**
+**Mobiquity** - *Remote, 06/2016 - Present*
 
- DevOps Engineer for FireEye_'s SaaS Cloud Offerings
- 
- Took ownership and practiced DevOps (Development, Operations, Release Automation) to launch FireEye's cloud based software offerings running on AWS. (TAP, FIC, and CTI projects)
- 
- Botoform_:
-   Architect infrastructure on AWS using YAML.
- 
- s3p_:
-   Use AWS S3 as a release pipeline.
-   Use code to enforce process and promote releases.
+ Builds products, scales AWS infrastructure, practices DevOps. 
 
 |
 
-Cars.com
---------
+**FireEye** - *Remote, 07/2014 - 05/2016*
 
-**Remote, 10/2012 - 06/2014**
+ DevOps Engineer for FireEye_'s SaaS Cloud Offerings
+
+ Launched FireEye's cloud offerings running on AWS. (TAP, FIC, and CTI projects)
+ 
+* Botoform_: Architect infrastructure on AWS using YAML.
+* s3p_: Use AWS S3 as a release pipeline.
+
+**Cars.com** - *Remote, 10/2012 - 06/2014*
 
  Practiced DevOps (Development, Operations, Release Automation) with team in Santa Monica, CA.
 
 |
 
-LinkPeek
---------
-
-**Remote, 01/2012 - Present**
+**LinkPeek** - *Remote, 01/2012 - Present*
 
  Founded LinkPeek_, web page screenshot service, as a bootstrap startup.
  
- ago_:
-   human readable timedeltas.
- 
- filevault_:
-   A class for managing a hash directory tree of files on a filesystem.
- 
- miniuri_:
-   A universal URI parser class written in 128 lines.
+* ago_: human readable timedeltas.
+* filevault_: A class for managing a hash directory tree of files on a filesystem.
+* miniuri_: A universal URI parser class written in 128 lines.
+
+**CSC** - *Groton CT, 03/2006 - 10/2012*
+
+* pushed software updates to a fleet of 10,000+ computer assets
+* built tools to help the company move faster and automate reporting
+* championed Kernel Virtual Machine (KVM) hypervisors to lower costs
+* scaled Exim email relays and Bind9 DNS servers.
 
 |
 
-Loud3r
-------
-
-**Remote, 12/2011 - 03/2012**
-
- Practiced DevOps (Development, Operations, Release Automation) with team in San Francisco, CA.
-
-
-
-CSC
----
-
-**Groton CT, 03/2006 - 10/2012**
-
- Climbed the ranks from call center to desktop release engineer pushing software to a fleet of 10,000+ computer assets.
-
- Eventually joined the Unix team and built tools to help the company move faster. Brought in the first Kernel Virtual Machine (KVM) hypervisors to lower costs.
-
- Scaled Exim email relays and Bind9 DNS servers.
-
-|
-
-Hillyer Realty
---------------
-
-**Remote, 04/2004 - 09/2007**
+**Hillyer Realty** - *Remote, 04/2004 - 09/2007*
 
  Engineered and operated a real estate search engine well before Zillow existed.
 
 |
 
-Pfizer
-------
-
-**Groton CT, 02/2006 - 08/2006**
+**Pfizer** - *Groton CT, 02/2006 - 08/2006*
 
  Desktop Support contractor at Pfizer. Exceeded Customer SLA expectations.
-
-|
 
 Education
 =========
 
- *Eastern Connecticut State University*, Computer Science Major, 2009 - 2012
+* *Eastern Connecticut State University*, Computer Science Major, 2009 - 2012
+* *Three Rivers Community College*, AS, Computer Science, 2003 - 2006
 
- *Three Rivers Community College*, AS, Computer Science, 2003 - 2006
-
-|
 
 Skills
 ======
@@ -118,10 +78,9 @@ Skills
 Programming
 ------------
 
- Admires tidy readable code and beautiful design patterns.
- Thoroughly enjoys refactoring code.
-
- Python, Bash, PHP, Perl, C++, and Java (would prefer Scala)
+* Admires readable and testable code.
+* Thoroughly enjoys the process of refactoring.
+* Python, Bash, PHP, Perl, C++, and Java (would prefer Scala)
 
 Opinionated Ideal Architecture
 ------------------------------
@@ -136,9 +95,11 @@ Opinionated Ideal Architecture
 Interests
 =========
 
- Building products.  Looking forward to launching http://remarkbox.com
+* Building products.  Looking forward to launching http://remarkbox.com
+* Technical Blog: http://russell.ballestrini.net/about
+* Gardening: http://unturf2.tumblr.com/
 
- Technical Blog: http://russell.ballestrini.net/about
+
 
 .. _FireEye: https://www.fireeye.com
 .. _LinkPeek: https://linkpeek.com
