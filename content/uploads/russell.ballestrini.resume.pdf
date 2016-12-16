@@ -1,1 +1,887 @@
-../pages/russell.ballestrini.resume.pdf
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (https://github.com/russellballestrini/botoform) >> /Border [ 0 0 0 ] /Rect [ 85.69291 454.6236 126.2629 466.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /A << /S /URI /Type /Action /URI (https://github.com/russellballestrini/s3p) >> /Border [ 0 0 0 ] /Rect [ 85.69291 436.6236 101.8129 448.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+7 0 obj
+<< /A << /S /URI /Type /Action /URI (https://linkpeek.com) >> /Border [ 0 0 0 ] /Rect [ 124.9429 331.6236 166.0729 343.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+8 0 obj
+<< /A << /S /URI /Type /Action /URI (https://bitbucket.org/russellballestrini/ago) >> /Border [ 0 0 0 ] /Rect [ 85.69291 310.6236 102.3729 322.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+9 0 obj
+<< /A << /S /URI /Type /Action /URI (https://bitbucket.org/russellballestrini/filevault) >> /Border [ 0 0 0 ] /Rect [ 85.69291 292.6236 119.5929 304.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+10 0 obj
+<< /A << /S /URI /Type /Action /URI (https://bitbucket.org/russellballestrini/miniuri) >> /Border [ 0 0 0 ] /Rect [ 85.69291 274.6236 115.1329 286.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+11 0 obj
+<< /Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R ] /Contents 27 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+12 0 obj
+<< /A << /S /URI /Type /Action /URI (http://remarkbox.com) >> /Border [ 0 0 0 ] /Rect [ 298.5729 370.0236 392.4929 382.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+13 0 obj
+<< /A << /S /URI /Type /Action /URI (http://russell.ballestrini.net/about) >> /Border [ 0 0 0 ] /Rect [ 156.8329 352.0236 300.2329 364.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+14 0 obj
+<< /A << /S /URI /Type /Action /URI (http://unturf2.tumblr.com/) >> /Border [ 0 0 0 ] /Rect [ 137.9429 334.0236 249.1029 346.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+15 0 obj
+<< /Annots [ 12 0 R 13 0 R 14 0 R ] /Contents 28 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+16 0 obj
+<< /Outlines 18 0 R /PageLabels 29 0 R /PageMode /UseNone /Pages 26 0 R /Type /Catalog >>
+endobj
+17 0 obj
+<< /Author () /CreationDate (D:20161215223751+05'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Russell Ballestrini) >>
+endobj
+18 0 obj
+<< /Count 8 /First 19 0 R /Last 25 0 R /Type /Outlines >>
+endobj
+19 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 684.0236 0 ] /Next 20 0 R /Parent 18 0 R /Title (Summary) >>
+endobj
+20 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 608.8236 0 ] /Next 21 0 R /Parent 18 0 R /Prev 19 0 R /Title (Experience) >>
+endobj
+21 0 obj
+<< /Dest [ 15 0 R /XYZ 62.69291 765.0236 0 ] /Next 22 0 R /Parent 18 0 R /Prev 20 0 R /Title (Education) >>
+endobj
+22 0 obj
+<< /Count 2 /Dest [ 15 0 R /XYZ 62.69291 665.8236 0 ] /First 23 0 R /Last 24 0 R /Next 25 0 R /Parent 18 0 R 
+  /Prev 21 0 R /Title (Skills) >>
+endobj
+23 0 obj
+<< /Dest [ 15 0 R /XYZ 62.69291 628.6236 0 ] /Next 24 0 R /Parent 22 0 R /Title (Programming) >>
+endobj
+24 0 obj
+<< /Dest [ 15 0 R /XYZ 62.69291 517.4236 0 ] /Parent 22 0 R /Prev 23 0 R /Title (Opinionated Ideal Architecture) >>
+endobj
+25 0 obj
+<< /Dest [ 15 0 R /XYZ 62.69291 416.2236 0 ] /Parent 18 0 R /Prev 22 0 R /Title (Interests) >>
+endobj
+26 0 obj
+<< /Count 2 /Kids [ 11 0 R 15 0 R ] /Type /Pages >>
+endobj
+27 0 obj
+<< /Length 8397 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 4 Tm 148.2449 0 Td 24 TL /F2 20 Tf 0 0 0 rg (Russell Ballestrini) Tj T* -148.2449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 704.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 161.0299 0 Td 12 TL /F2 10 Tf 0 0 0 rg (Builds Products - 860-501-9450) Tj T* -161.0299 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 664.8236 cm
+q
+BT 1 0 0 1 0 3.2 Tm 19.2 TL /F2 16 Tf 0 0 0 rg (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 652.8236 cm
+Q
+q
+1 0 0 1 62.69291 628.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .715814 Tw (Executes on ideas. Unites teams through communication and compromise. Builds tools to automate) Tj T* 0 Tw (and accelerate product pipelines. Engineers open source software. Bootstrapper. Founder.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 628.8236 cm
+Q
+q
+1 0 0 1 62.69291 589.6236 cm
+q
+BT 1 0 0 1 0 3.2 Tm 19.2 TL /F2 16 Tf 0 0 0 rg (Experience) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 577.6236 cm
+Q
+q
+1 0 0 1 62.69291 565.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 565.6236 cm
+Q
+q
+1 0 0 1 62.69291 547.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Mobiquity ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Remote, 06/2016 - Present ) Tj /F1 10 Tf (- Senior System Engineer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 541.6236 cm
+Q
+q
+1 0 0 1 62.69291 529.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Builds products, scales AWS infrastructure, practices DevOps.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 529.6236 cm
+Q
+q
+1 0 0 1 62.69291 523.6236 cm
+Q
+q
+1 0 0 1 62.69291 511.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 511.6236 cm
+Q
+q
+1 0 0 1 62.69291 493.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (FireEye ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Remote, 07/2014 - 05/2016 ) Tj /F1 10 Tf (- DevOps Engineer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 487.6236 cm
+Q
+q
+1 0 0 1 62.69291 475.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Launched FireEye's SaaS offerings running on AWS. \(TAP, FIC, and CTI projects\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 475.6236 cm
+Q
+q
+1 0 0 1 62.69291 469.6236 cm
+Q
+q
+1 0 0 1 62.69291 469.6236 cm
+Q
+q
+1 0 0 1 62.69291 457.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Botoform) Tj 0 0 0 rg (: Architect infrastructure on AWS using YAML.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 451.6236 cm
+Q
+q
+1 0 0 1 62.69291 439.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (s3p) Tj 0 0 0 rg (: Use AWS S3 as a release pipeline.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 421.6236 cm
+Q
+q
+1 0 0 1 62.69291 403.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Cars.com ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Remote, 10/2012 - 06/2014 ) Tj /F1 10 Tf (- System Engineer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 397.6236 cm
+Q
+q
+1 0 0 1 62.69291 385.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Practiced DevOps \(Development and Release Automation\) with team in Santa Monica, CA.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 385.6236 cm
+Q
+q
+1 0 0 1 62.69291 379.6236 cm
+Q
+q
+1 0 0 1 62.69291 367.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 367.6236 cm
+Q
+q
+1 0 0 1 62.69291 349.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (LinkPeek ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Remote, 01/2012 - Present ) Tj /F1 10 Tf (- Founder) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 343.6236 cm
+Q
+q
+1 0 0 1 62.69291 331.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Founded ) Tj 0 0 .501961 rg (LinkPeek) Tj 0 0 0 rg (, web page screenshot service, as a bootstrap startup.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 331.6236 cm
+Q
+q
+1 0 0 1 62.69291 325.6236 cm
+Q
+q
+1 0 0 1 62.69291 325.6236 cm
+Q
+q
+1 0 0 1 62.69291 313.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (ago) Tj 0 0 0 rg (: human readable timedeltas.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 307.6236 cm
+Q
+q
+1 0 0 1 62.69291 295.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (filevault) Tj 0 0 0 rg (: A class for managing a hash directory tree of files on a filesystem.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 289.6236 cm
+Q
+q
+1 0 0 1 62.69291 277.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (miniuri) Tj 0 0 0 rg (: A universal URI parser class written in 128 lines.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 259.6236 cm
+Q
+q
+1 0 0 1 62.69291 241.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (CSC ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Groton CT, 03/2006 - 10/2012 ) Tj /F1 10 Tf (- Unix System Administrator) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 235.6236 cm
+Q
+q
+1 0 0 1 62.69291 235.6236 cm
+Q
+q
+1 0 0 1 62.69291 223.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (pushed software updates to a fleet of 10,000+ computer assets) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 217.6236 cm
+Q
+q
+1 0 0 1 62.69291 205.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (built tools to help the company move faster and automate reporting) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 199.6236 cm
+Q
+q
+1 0 0 1 62.69291 187.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (championed Kernel Virtual Machine \(KVM\) hypervisors to lower costs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 169.6236 cm
+Q
+q
+1 0 0 1 62.69291 151.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Hillyer Realty ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Remote, 04/2004 - 09/2007 ) Tj /F1 10 Tf (- Technology Consultant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 145.6236 cm
+Q
+q
+1 0 0 1 62.69291 133.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Engineered and operated a real estate search engine well before Zillow existed.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 133.6236 cm
+Q
+q
+1 0 0 1 62.69291 127.6236 cm
+Q
+q
+1 0 0 1 62.69291 115.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 115.6236 cm
+Q
+q
+1 0 0 1 62.69291 97.62362 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Pfizer ) Tj /F1 10 Tf (- ) Tj /F3 10 Tf (Groton CT, 02/2006 - 08/2006 ) Tj /F1 10 Tf (- Desktop Support Contractor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 91.62362 cm
+Q
+q
+1 0 0 1 62.69291 79.62362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Exceeded Customer SLA expectations.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 79.62362 cm
+Q
+ 
+endstream
+endobj
+28 0 obj
+<< /Length 4518 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 745.8236 cm
+q
+BT 1 0 0 1 0 3.2 Tm 19.2 TL /F2 16 Tf 0 0 0 rg (Education) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 733.8236 cm
+Q
+q
+1 0 0 1 62.69291 733.8236 cm
+Q
+q
+1 0 0 1 62.69291 721.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (Eastern Connecticut State University) Tj /F1 10 Tf (, Computer Science Major, 2009 - 2012) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 715.8236 cm
+Q
+q
+1 0 0 1 62.69291 703.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (Three Rivers Community College) Tj /F1 10 Tf (, AS, Computer Science, 2003 - 2006) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 685.8236 cm
+Q
+q
+1 0 0 1 62.69291 646.6236 cm
+q
+BT 1 0 0 1 0 3.2 Tm 19.2 TL /F2 16 Tf 0 0 0 rg (Skills) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.4236 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL /F2 11 Tf 0 0 0 rg (Programming) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 601.4236 cm
+Q
+q
+1 0 0 1 62.69291 601.4236 cm
+Q
+q
+1 0 0 1 62.69291 589.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Admires readable and testable code.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 583.4236 cm
+Q
+q
+1 0 0 1 62.69291 571.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Thoroughly enjoys the process of refactoring.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 565.4236 cm
+Q
+q
+1 0 0 1 62.69291 553.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Python, Bash, PHP, Perl, C++, and Java \(would prefer Scala\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 535.4236 cm
+Q
+q
+1 0 0 1 62.69291 504.2236 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL /F2 11 Tf 0 0 0 rg (Opinionated Ideal Architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 490.2236 cm
+Q
+q
+1 0 0 1 62.69291 454.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.211412 Tw (SmartOS with a mixture of zones and KVM \(likely Ubuntu guests\), SaltStack \(or Ansible\), Jenkins,) Tj T* 0 Tw 1.176905 Tw (FPM, Vim, Nginx, uWSGI, Pyramid, Python, HG \(or Git\), PostgreSQL or MongoDB, Bind9, Postfix,) Tj T* 0 Tw (Sphinx.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 454.2236 cm
+Q
+q
+1 0 0 1 62.69291 448.2236 cm
+Q
+q
+1 0 0 1 62.69291 436.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 436.2236 cm
+Q
+q
+1 0 0 1 62.69291 397.0236 cm
+q
+BT 1 0 0 1 0 3.2 Tm 19.2 TL /F2 16 Tf 0 0 0 rg (Interests) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 385.0236 cm
+Q
+q
+1 0 0 1 62.69291 385.0236 cm
+Q
+q
+1 0 0 1 62.69291 373.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Building products. Looking forward to launching ) Tj 0 0 .501961 rg (http://remarkbox.com) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 367.0236 cm
+Q
+q
+1 0 0 1 62.69291 355.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Technical Blog: ) Tj 0 0 .501961 rg (http://russell.ballestrini.net/about) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 349.0236 cm
+Q
+q
+1 0 0 1 62.69291 337.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Gardening: ) Tj 0 0 .501961 rg (http://unturf2.tumblr.com/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 319.0236 cm
+Q
+ 
+endstream
+endobj
+29 0 obj
+<< /Nums [ 0 30 0 R 1 31 0 R ] >>
+endobj
+30 0 obj
+<< /S /D /St 1 >>
+endobj
+31 0 obj
+<< /S /D /St 2 >>
+endobj
+xref
+0 32
+0000000000 65535 f
+0000000075 00000 n
+0000000129 00000 n
+0000000239 00000 n
+0000000354 00000 n
+0000000472 00000 n
+0000000673 00000 n
+0000000869 00000 n
+0000001044 00000 n
+0000001243 00000 n
+0000001448 00000 n
+0000001652 00000 n
+0000001911 00000 n
+0000002087 00000 n
+0000002279 00000 n
+0000002461 00000 n
+0000002704 00000 n
+0000002813 00000 n
+0000003043 00000 n
+0000003120 00000 n
+0000003232 00000 n
+0000003360 00000 n
+0000003487 00000 n
+0000003651 00000 n
+0000003767 00000 n
+0000003902 00000 n
+0000004016 00000 n
+0000004087 00000 n
+0000012541 00000 n
+0000017116 00000 n
+0000017169 00000 n
+0000017206 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\356N\310:,\251\234\311j\327*\327\306m\255\004) (\356N\310:,\251\234\311j\327*\327\306m\255\004)]
+ /Info 17 0 R /Root 16 0 R /Size 32 >>
+startxref
+17243
+%%EOF

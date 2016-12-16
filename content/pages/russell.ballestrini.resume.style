@@ -1,21 +1,13 @@
-fontsAlias:
-    stdFont: DroidSans
-    stdBold: DroidSans-Bold
-    stdSans: DroidSans
-    stdSansBold: DroidSans-Bold
-
 styles:
     title:
         spaceBefore: 0
         spaceAfter: 25
     heading1:
         parent: heading
-        fontName: stdBold
         fontSize: 160%
         spaceBefore: 20
     heading2:
         parent: heading
-        fontName: stdBold
         fontSize: 110%
         spaceBefore: 18
         spaceAfter: 8

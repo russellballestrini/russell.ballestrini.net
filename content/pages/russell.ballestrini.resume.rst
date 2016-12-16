@@ -9,7 +9,7 @@ Russell Ballestrini
 Summary
 =======
 
- Executes on ideas. Unites teams through communication and compromise.  Builds tools to automate and accelerate product pipelines. Engineers open source software and libraries. Bootstrapper.  Founder.
+ Executes on ideas. Unites teams through communication and compromise. Builds tools to automate and accelerate product pipelines. Engineers open source software. Bootstrapper.  Founder.
 
 
 Experience
@@ -17,28 +17,26 @@ Experience
 
 |
 
-**Mobiquity** - *Remote, 06/2016 - Present*
+**Mobiquity** - *Remote, 06/2016 - Present* - Senior System Engineer
 
  Builds products, scales AWS infrastructure, practices DevOps. 
 
 |
 
-**FireEye** - *Remote, 07/2014 - 05/2016*
+**FireEye** - *Remote, 07/2014 - 05/2016* - DevOps Engineer
 
- DevOps Engineer for FireEye_'s SaaS Cloud Offerings
-
- Launched FireEye's cloud offerings running on AWS. (TAP, FIC, and CTI projects)
+ Launched FireEye's SaaS offerings running on AWS. (TAP, FIC, and CTI projects)
  
 * Botoform_: Architect infrastructure on AWS using YAML.
 * s3p_: Use AWS S3 as a release pipeline.
 
-**Cars.com** - *Remote, 10/2012 - 06/2014*
+**Cars.com** - *Remote, 10/2012 - 06/2014* - System Engineer
 
- Practiced DevOps (Development, Operations, Release Automation) with team in Santa Monica, CA.
+ Practiced DevOps (Development and Release Automation) with team in Santa Monica, CA.
 
 |
 
-**LinkPeek** - *Remote, 01/2012 - Present*
+**LinkPeek** - *Remote, 01/2012 - Present* - Founder
 
  Founded LinkPeek_, web page screenshot service, as a bootstrap startup.
  
@@ -46,24 +44,21 @@ Experience
 * filevault_: A class for managing a hash directory tree of files on a filesystem.
 * miniuri_: A universal URI parser class written in 128 lines.
 
-**CSC** - *Groton CT, 03/2006 - 10/2012*
+**CSC** - *Groton CT, 03/2006 - 10/2012* - Unix System Administrator
 
 * pushed software updates to a fleet of 10,000+ computer assets
 * built tools to help the company move faster and automate reporting
 * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
-* scaled Exim email relays and Bind9 DNS servers.
 
-|
-
-**Hillyer Realty** - *Remote, 04/2004 - 09/2007*
+**Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
 
  Engineered and operated a real estate search engine well before Zillow existed.
 
 |
 
-**Pfizer** - *Groton CT, 02/2006 - 08/2006*
+**Pfizer** - *Groton CT, 02/2006 - 08/2006* - Desktop Support Contractor
 
- Desktop Support contractor at Pfizer. Exceeded Customer SLA expectations.
+ Exceeded Customer SLA expectations.
 
 Education
 =========
