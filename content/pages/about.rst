@@ -3,7 +3,7 @@ Russell Builds Products
 
 :slug: about
 
-Russell Ballestrini dmires readable and testable code and thoroughly enjoys the process of refactoring.
+Russell Ballestrini admires readable and testable code and thoroughly enjoys the process of refactoring.
 He enjoys finding simple solutions to difficult problems and reveres the python language.
 
 Russell currently holds a position at `Mobiquity <https://www.mobiquityinc.com/>`_ as a senior system engineer where he manages infrastructure running in AWS.
