@@ -34,9 +34,13 @@ Techniques
 The js-only class
 ------------------------
 
-#. This technique uses a ``<noscript>`` tag to nest a class named ``js-only``.
-#. The ``js-only`` class sets ``display: none`` to hide a targeted element.
-#. The ``js-only`` class is applied to any element which should be removed when Javascript does not work.
+Purpose: hide HTML elements when Javascript does not work.
+
+In this technique we:
+
+#. use a ``<noscript>`` tag to nest a class named ``js-only``
+#. declare ``display: none`` in the ``js-only`` class to hide elements
+#. apply the ``js-only`` class to any element which should hidden without js
 
    Note: The ``js-only`` class will only exists when Javascript does not work.
 
@@ -48,10 +52,11 @@ The js-only class
    </style>
  </noscript> 
 
-Now, suppose you have a notification message which normally clears when the user clicks 'x'.
-To clear the notification, you must use a Javascript ``onclick`` event handler.
-If a user does not have the Javascript capability the notification cannot clear.
-We should remove the 'x' from the presentation so we do not confuse the user.
+Now, suppose we have a notification message which clears when a user clicks 'x'.
+To clear the notification, we must use a Javascript ``onclick`` event handler.
+
+Without the Javascript capability the notification cannot clear.
+Therefore, to prevent confusion we should remove the 'x' from the presentation.
 
 For example, with Javascript the notification will look like this:
 
@@ -81,4 +86,5 @@ To do this we assign the ``js-only`` class to our label holding 'x':
 
 The content is the same, but we hide the interface based on the user's capibility!
 This small change has a huge impact on the overall user experience.
+
 We no longer present a broken button to the user.
