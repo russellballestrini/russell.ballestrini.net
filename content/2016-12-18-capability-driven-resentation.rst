@@ -40,7 +40,7 @@ In this technique we:
 
 #. use a ``<noscript>`` tag to nest a class named ``js-only``
 #. declare ``display: none`` in the ``js-only`` class to hide elements
-#. apply the ``js-only`` class to any element which should hidden without js
+#. apply the ``js-only`` class to any element which should hide without js
 
    Note: The ``js-only`` class will only exists when Javascript does not work.
 
