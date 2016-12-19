@@ -2,7 +2,7 @@ Capability driven Presentation
 ################################################################
 
 :author: Russell Ballestrini
-:slug: resilient-web-design
+:slug: capability-driven-presentation
 :date: 2016-12-18 18:21
 :tags: Code
 :status: published
