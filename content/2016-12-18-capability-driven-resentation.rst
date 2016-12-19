@@ -36,7 +36,7 @@ The js-only class
 
 #. This technique uses a ``<noscript>`` tag to nest a class named ``js-only``.
 #. The ``js-only`` class sets ``display: none`` to hide a targeted element.
-#. The ``js-only`` class is applied to any element which should be removed when Jvascript does not work.
+#. The ``js-only`` class is applied to any element which should be removed when Javascript does not work.
 
    Note: The ``js-only`` class will only exists when Javascript does not work.
 
