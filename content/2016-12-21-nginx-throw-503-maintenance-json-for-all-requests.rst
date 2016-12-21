@@ -53,7 +53,7 @@ All API calls will miss ``try_files`` on purpose and return our custom 503 ``mai
 
 Proof that this method rocks, it supports ``GET``, ``POST``, ``PUT``, ``UPDATE``, and ``DELETE``.
 
-It also serve proper headers like ``Content-Type: application/json`` -
+It also automatically serves the proper ``Content-Type`` header, in this case ``application/json`` -
 
 .. code-block:: curl
 
@@ -78,7 +78,7 @@ It also serve proper headers like ``Content-Type: application/json`` -
  <
  {
    "errorCode": "maintenance",
-   "errorDesc": "The server is undergoing scheduled maintenance and will be back up shortly. Please try again later"
+   "errorDesc": "We are currently performing scheduled maintenance. Please try again later."
  }
 
 Need to make sure you always set a custom header? Don't forget the ``always`` directive::
