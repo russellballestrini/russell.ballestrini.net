@@ -15,7 +15,7 @@ The `taco-api` source code lives in `/opt/taco-api`.
 
 We manage a static `.service` file using a package or config management.
 
-`/usr/lib/systemd/system/taco-api.service`:
+`[/usr]/lib/systemd/system/taco-api.service`:
 
 .. code-block:: ini
 
