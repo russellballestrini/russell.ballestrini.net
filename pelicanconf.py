@@ -57,7 +57,6 @@ AUTHOR_FEED_RSS = None
 LINKS = (
   ('Remarkbox', 'http://remarkbox.com/'),
   ('LinkPeek', 'https://linkpeek.com/'),
-  ('unturf', 'https://unturf.com/'),
 )
 
 # Social widget
