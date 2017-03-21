@@ -68,6 +68,67 @@ Also try running:
 * `kubectl get services`
 
 
+demo
+==========
+
+create a deployment
+----------------------
+
+boot an http echo server, call the deployment hello-minikube:
+
+.. code-block:: bash
+
+  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080 --replicas 3
+
+this command will create -
+
+1 `deployment`:
+
+.. code-block:: bash
+
+ kubectl get deployments
+
+1 `replicaset`:
+
+.. code-block:: bash
+
+ kubectl get replicasets
+
+3 `pods`:
+
+.. code-block:: bash
+
+ kubectl get pods
+ 
+scale a deployment
+-----------------------
+
+scale down pods to 1:
+
+.. code-block:: bash
+
+ kubectl scale deployment hello-minikube --replicas=1
+
+verify:
+
+.. code-block:: bash
+
+ kubectl get deployments
+ kubectl get pods
+ 
+delete a deployment
+-----------------------
+ 
+trash this demo (delete the deployment, replicaset, and pods):
+ 
+.. code-block:: bash
+
+ kubectl delete deployment hello-minikube
+ 
+ 
+ 
+
+
 
 
 
