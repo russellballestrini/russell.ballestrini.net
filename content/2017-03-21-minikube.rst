@@ -15,9 +15,7 @@ Reference: https://kubernetes.io/docs/getting-started-guides/minikube/
 install
 ==========
 
-Requirements:
-
-* Virtualbox
+Requirements: Virtualbox
 
 install kubectl
 -----------------
