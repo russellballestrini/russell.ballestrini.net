@@ -16,7 +16,8 @@ Requirements:
 
 * Virtualbox
 
-Install kubectl:
+install kubectl
+-----------------
 
 Reference: https://kubernetes.io/docs/tasks/kubectl/install/
 
@@ -25,7 +26,8 @@ Reference: https://kubernetes.io/docs/tasks/kubectl/install/
  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin
  
 
-Install minikube:
+install minikube
+----------------------
 
 Reference: https://github.com/kubernetes/minikube/releases
 
