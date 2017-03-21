@@ -48,7 +48,7 @@ Supported hypervisors: virtualbox, vmwarefusion, kvm, xhyve
 
 If this is your first time starting minikube, it will:
 
-.. code-block::
+.. code-block:: bash
 
  Starting local Kubernetes cluster...
  Starting VM...
@@ -124,17 +124,3 @@ trash this demo (delete the deployment, replicaset, and pods):
 .. code-block:: bash
 
  kubectl delete deployment hello-minikube
- 
- 
- 
-
-
-
-
-
-
-
-
-  
-
-  
