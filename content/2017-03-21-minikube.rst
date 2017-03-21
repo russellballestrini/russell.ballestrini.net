@@ -44,6 +44,27 @@ Supported hypervisors: virtualbox, vmwarefusion, kvm, xhyve
  
   minikube start --vm-driver=virtualbox
 
+If this is your first time starting minikube, it will:
+
+.. code-block::
+
+ Starting local Kubernetes cluster...
+ Starting VM...
+ Downloading Minikube ISO 89.24 MB / 89.24 MB [==============================================] 100.00% 0s
+ SSH-ing files into VM...
+ Setting up certs...
+ Starting cluster components...
+ Connecting to cluster...
+ Setting up kubeconfig... 
+ Kubectl is now configured to use the cluster
+
+To prove that `kubectl` is configured to use the cluster we can look at its config file (`~/.kube/config`) and/or run `kubectl get nodes`.
+
+To prove that we have Kubernetes running in the Virtual Machine we can run `kubectl get services`
+
+
+
+
 
 
 
