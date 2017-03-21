@@ -3,7 +3,35 @@ Minikube
 
 :date: 2017-03-21 12:38
 :author: Russell Ballestrini
-:tags: Project
+:tags: Guide
 :slug: minikube
 :status: draft
 
+Requirements:
+
+* Virtualbox
+
+Install kubectl:
+
+Reference: https://kubernetes.io/docs/tasks/kubectl/install/
+
+.. code-block:: bash
+
+ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin
+ 
+
+* `kubectl` (https://kubernetes.io/docs/tasks/kubectl/install/)
+
+Install minikube:
+
+Reference: https://github.com/kubernetes/minikube/releases
+
+.. code-block:: bash
+
+ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.17.1/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+
+
+
+  
+
+  
