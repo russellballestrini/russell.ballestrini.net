@@ -7,6 +7,8 @@ Minikube
 :slug: minikube
 :status: draft
 
+Reference: https://kubernetes.io/docs/getting-started-guides/minikube/
+
 install
 ==========
 
@@ -58,7 +60,7 @@ If this is your first time starting minikube, it will:
  Setting up kubeconfig... 
  Kubectl is now configured to use the cluster
 
-To verify that `kubectl` is configured to use minikube look at the config file (`~/.kube/config`)
+To verify that `kubectl` is configured to use minikube look at the config file (`~/.kube/config`).
 
 Also try running:
 
