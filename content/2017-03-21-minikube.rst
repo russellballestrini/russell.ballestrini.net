@@ -5,7 +5,7 @@ Minikube
 :author: Russell Ballestrini
 :tags: Guide
 :slug: minikube
-:status: draft
+:status: published
 
 Reference: https://kubernetes.io/docs/getting-started-guides/minikube/
 
