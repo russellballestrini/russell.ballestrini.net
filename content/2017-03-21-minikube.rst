@@ -40,16 +40,12 @@ start
 ==========
 
 Supported hypervisors: virtualbox, vmwarefusion, kvm, xhyve
-
-.. code-block:: bash
-
-  minikube start --vm-driver=[hypervisor]
  
- .. code-block:: bash
+.. code-block:: bash
  
   minikube start --vm-driver=virtualbox
 
-If this is your first time starting minikube, it will:
+If this is your first time starting minikube, it will perform the following:
 
 .. code-block:: bash
 
