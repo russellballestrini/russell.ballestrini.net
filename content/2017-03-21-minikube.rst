@@ -3,7 +3,7 @@ Minikube
 
 :date: 2017-03-21 12:38
 :author: Russell Ballestrini
-:tags: Guide
+:tags: Guide, Kubernetes
 :slug: minikube
 :status: published
 
@@ -59,6 +59,10 @@ If this is your first time starting minikube, it will perform the following:
  Setting up kubeconfig... 
  Kubectl is now configured to use the cluster
 
+Also, you should see a new VM running in VirtualBox, like this:
+
+.. image:: /uploads/2017/virtualbox-running-minikube.png
+
 To verify that `kubectl` is configured to use minikube look at the config file (`~/.kube/config`).
 
 Also try running:
@@ -66,6 +70,23 @@ Also try running:
 * `kubectl get nodes`
 * `kubectl get services`
 
+You can also shell SSH the VirtualBox guest to have a look around.
+In my case the Minikube VM was assigned `192.168.99.100`.
+
+.. code-block:: bash
+
+ ssh -i ~/.minikube/machines/minikube/id_rsa docker@192.168.99.10
+
+You can see all the containers running with:
+
+.. code-block:: bash
+
+ ps aux
+ docker ps
+
+Exit out, you really don't need to interact at this level
+
+Instead we will treat Minikube as a Kubernetes cluster and only use the `kubectl` tool.
 
 demo
 ==========
@@ -98,7 +119,38 @@ this command will create -
 .. code-block:: bash
 
  kubectl get pods
- 
+
+To make the echoserver accessible externally, you need to `expose` the `deployment`, like this:
+
+.. code-block:: bash
+
+ kubectl expose deployment hello-minikube --type=NodePort
+
+The expose command creates -
+
+1 `service`:
+
+.. code-block:: bash
+
+ kubectl get services
+ NAME            CLUSTER-IP   EXTERNAL-IP   PORT(S)          AGE
+ kubernetes      10.0.0.1     <none>        443/TCP          2d
+ hello-minikube  10.0.0.225   <nodes>       4444:31136/TCP   58m
+
+To access the service, you connect to the Minikube's IP address on the exposed port.
+
+In my case the Minikube VirtualBox IP is `192.168.99.100` and the exposed port is `31136` as listed above.
+
+The minikube tool has a shortcut for this info, try:
+
+.. code-block:: bash
+
+ minikube service hello-minikube --url
+ http://192.168.99.100:31136
+
+Toss this into a web browser on your local machine and it should echo back!
+
+
 scale a deployment
 -----------------------
 
