@@ -95,7 +95,7 @@ demo
 create a deployment
 ----------------------
 
-boot an http echo server, call the deployment hello-minikube:
+In this example we create an echoserver cluster. 
 
 .. code-block:: bash
 
@@ -171,7 +171,7 @@ verify:
 delete a deployment
 -----------------------
  
-trash this demo (delete the deployment, replicaset, and pods):
+trash this demo (delete the deployment, replicaset, pods, and service):
  
 .. code-block:: bash
 
