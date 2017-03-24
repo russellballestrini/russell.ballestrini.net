@@ -71,7 +71,7 @@ Also try running:
 * `kubectl get nodes`
 * `kubectl get services`
 
-You can also shell SSH the VirtualBox guest to have a look around.
+You can also connect to the VirtualBox guest using SSH to have a look around.
 In my case the Minikube VM was assigned `192.168.99.100`.
 
 .. code-block:: bash
@@ -82,12 +82,12 @@ You can see all the containers running with:
 
 .. code-block:: bash
 
- ps aux
  docker ps
+ ps aux
 
 Exit out, you really don't need to interact at this level
 
-Instead we will treat Minikube as a Kubernetes cluster and only use the `kubectl` tool.
+Instead we will treat Minikube as a "real" Kubernetes cluster and only use the `kubectl` tool.
 
 demo
 ==========
