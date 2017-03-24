@@ -10,6 +10,8 @@ Minikube
 Minikube allows you to run a self contained, single node, Kubernetes cluster on your workstation.
 Once installed and configured, you may use `kubectl` to interact with it, just like a production Kubernetes cluster.
 
+.. content:: 
+
 Reference: https://kubernetes.io/docs/getting-started-guides/minikube/
 
 install
