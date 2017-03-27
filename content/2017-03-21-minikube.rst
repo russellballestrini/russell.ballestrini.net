@@ -10,6 +10,8 @@ Minikube
 Minikube allows you to run a self contained, single node, Kubernetes cluster on your workstation.
 Once installed and configured, you may use `kubectl` to interact with it, just like a production Kubernetes cluster.
 
+.. contents:: 
+
 Reference: https://kubernetes.io/docs/getting-started-guides/minikube/
 
 install
@@ -62,6 +64,7 @@ If this is your first time starting minikube, it will perform the following:
 Also, you should see a new VM running in VirtualBox, like this:
 
 .. image:: /uploads/2017/virtualbox-running-minikube.png
+   :width: 350
 
 To verify that `kubectl` is configured to use minikube look at the config file (`~/.kube/config`).
 
@@ -70,7 +73,7 @@ Also try running:
 * `kubectl get nodes`
 * `kubectl get services`
 
-You can also shell SSH the VirtualBox guest to have a look around.
+You can also connect to the VirtualBox guest using SSH to have a look around.
 In my case the Minikube VM was assigned `192.168.99.100`.
 
 .. code-block:: bash
@@ -81,12 +84,12 @@ You can see all the containers running with:
 
 .. code-block:: bash
 
- ps aux
  docker ps
+ ps aux
 
 Exit out, you really don't need to interact at this level
 
-Instead we will treat Minikube as a Kubernetes cluster and only use the `kubectl` tool.
+Instead we will treat Minikube as a "real" Kubernetes cluster and only use the `kubectl` tool.
 
 demo
 ==========
@@ -94,7 +97,7 @@ demo
 create a deployment
 ----------------------
 
-boot an http echo server, call the deployment hello-minikube:
+In this example we create an echoserver cluster. 
 
 .. code-block:: bash
 
@@ -170,7 +173,7 @@ verify:
 delete a deployment
 -----------------------
  
-trash this demo (delete the deployment, replicaset, and pods):
+trash this demo (delete the deployment, replicaset, pods, and service):
  
 .. code-block:: bash
 
