@@ -154,8 +154,8 @@ If you refresh the hub browser window, you should see a connected Chrome Node, l
    :width: 500
 
 
-Scaling Selenium 
-================
+Selenium Scale
+==============
 
 Now we can scale up and down the Selenium Grid cluster.
 
