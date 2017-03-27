@@ -12,7 +12,7 @@ This post continues from where we left off on
 If you do not already have a Kubernetes cluster, you should read that first.
 
 Selenium Grid allows you to build a cluster of Selenium nodes.
-Today we will create a Selenium cluster with 1 hub and 3 nodes on Kubernetes.
+Today we will create a Selenium cluster with 1 hub and 4 nodes on Kubernetes.
 
 Selenium Hub
 ===============
