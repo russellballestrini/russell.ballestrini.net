@@ -14,6 +14,8 @@ If you do not already have a Kubernetes cluster, you should read that first.
 Selenium Grid allows you to build a cluster of Selenium nodes.
 Today we will create a Selenium cluster with 1 hub and 4 nodes on Kubernetes.
 
+.. contents::
+
 Selenium Hub
 ===============
 
@@ -151,7 +153,13 @@ If you refresh the hub browser window, you should see a connected Chrome Node, l
 .. image:: /uploads/2017/selenium-grid-on-kubernetes.png
    :width: 500
 
-Now we can scale up and down the cluster using this command:
+
+Scaling Selenium 
+================
+
+Now we can scale up and down the Selenium Grid cluster.
+
+First, lets look at the pods:
 
 .. code-block:: bash
 
@@ -160,10 +168,14 @@ Now we can scale up and down the cluster using this command:
  selenium-grid-3216163580-7pqtx          1/1       Running   1          4d
  selenium-node-chrome-3809274356-tjj18   1/1       Running   0          49m
  
+Next, lets tell the deployment to scale up to 4 nodes:
+
 .. code-block:: bash
 
  kubectl scale deployment selenium-node-chrome --replicas=4
  deployment "selenium-node-chrome" scaled
+
+Look at the pods, one more time:
  
 .. code-block:: bash
 
@@ -175,7 +187,10 @@ Now we can scale up and down the cluster using this command:
  selenium-node-chrome-3809274356-m0b1t   1/1       Running             0          2s
  selenium-node-chrome-3809274356-tjj18   1/1       Running             0          1h
 
-If you referesh the hub browser window, you should see 4 connected Chrome nodes!
+Finally, if you referesh the hub browser window, you should see 4 connected Chrome nodes!
 
 .. image:: /uploads/2017/selenium-grid-on-kubernetes-scaled.png
    :width: 500
+
+If you liked this post, leave me a message in the comments!
+
