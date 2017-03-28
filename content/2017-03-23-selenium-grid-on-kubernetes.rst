@@ -187,7 +187,7 @@ Look at the pods, one more time:
  selenium-node-chrome-3809274356-m0b1t   1/1       Running             0          2s
  selenium-node-chrome-3809274356-tjj18   1/1       Running             0          1h
 
-Finally, if you referesh the hub browser window, you should see 4 connected Chrome nodes!
+Finally, if you refresh the hub browser window, you should see 4 connected Chrome nodes!
 
 .. image:: /uploads/2017/selenium-grid-on-kubernetes-scaled.png
    :width: 500
