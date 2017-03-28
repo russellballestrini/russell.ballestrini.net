@@ -78,7 +78,7 @@ In my case the Minikube VM was assigned `192.168.99.100`.
 
 .. code-block:: bash
 
- ssh -i ~/.minikube/machines/minikube/id_rsa docker@192.168.99.10
+ ssh -i ~/.minikube/machines/minikube/id_rsa docker@192.168.99.100
 
 You can see all the containers running with:
 
@@ -101,7 +101,7 @@ In this example we create an echoserver cluster.
 
 .. code-block:: bash
 
-  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080 --replicas 3
+  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
 
 this command will create -
 
@@ -117,7 +117,7 @@ this command will create -
 
  kubectl get replicasets
 
-3 `pods`:
+1 `pods`:
 
 .. code-block:: bash
 
@@ -157,11 +157,11 @@ Toss this into a web browser on your local machine and it should echo back!
 scale a deployment
 -----------------------
 
-scale down pods to 1:
+scale up the `hello-minikube` pod to 3:
 
 .. code-block:: bash
 
- kubectl scale deployment hello-minikube --replicas=1
+ kubectl scale deployment hello-minikube --replicas=3
 
 verify:
 
