@@ -54,6 +54,12 @@ We may also look at the config file and test the service internally:
 
  # see if selenium is really listening on port 4444.
  kubectl exec selenium-grid-3216163580-7pqtx -- wget 127.0.0.1:4444 -O -
+ 
+You can even shell into the container:
+
+.. code-block:: bash
+
+ kubectl exec -it elenium-grid-3216163580-7pqtx -- /bin/bash
 
 To access the `deployment` externally, we need to expose it:
 
