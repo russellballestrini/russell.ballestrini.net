@@ -49,7 +49,7 @@ To find out where your ``deployment`` was exposed:
 
 You may open this URI in a web browser
 
-Selenium Hub Overlearn
+Selenium Hub Overlearning
 --------------------------------
 
 You can skip this section or try it for extra credit.
