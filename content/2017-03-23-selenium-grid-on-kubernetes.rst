@@ -35,7 +35,7 @@ To access the ``deployment`` externally, we need to expose it:
  kubectl expose deployment selenium-grid --type=NodePort
  kubectl get services
 
-My deployment was exposed here:
+My ``deployment`` was exposed here:
 
 .. code-block:: bash
 
@@ -47,7 +47,7 @@ To find out where your ``deployment`` was exposed:
 
  minikube service selenium-grid --url
 
-You may open this URI in a web browser
+You may open this URI in a web browser.
 
 Selenium Hub Overlearning
 --------------------------------
@@ -137,15 +137,15 @@ To troubleshoot, I used the following commands:
 
  kubectl describe pod selenium-node-chrome
 
-This command lets us review the Kubernetes level logs.
-Everything looked correct so lets look at the Docker level logs:
+This command allowed me to review the Kubernetes level logs.
+Everything seemed healthy so next I looked at the Docker level logs:
 
 .. code-block:: bash
  
  kubectl logs selenium-node-chrome-4019562870-mcpfg
  Not linked with a running Hub container
 
-Ok, the error ``Not linked with a running Hub container`` looks like a Selenium Node error message.
+Ok, the error ``Not linked with a running Hub container`` appears when Selenium node cannot find the hub.
 
 Docker has a ``--link`` flag to link containers together, Kubernetes doesn't have this.
 After some research, it seems ``--link`` manages ENV vars.
@@ -158,7 +158,7 @@ You can see the environment vars of a ``pod`` using this command:
 
 I learned that the ``selinum-node-chrome`` docker image expects some ENV vars and if it doesn't get them, it goes into a crash loop.
 
-I reached out over IRC in the ``#Kubernetes`` and ``#Selenium`` channels to ask about the ENV vars needed.
+I reached out over IRC in the ``#kubernetes`` and ``#selenium`` channels to ask about the ENV vars needed.
 A really helpful user named `smccarthy` linked me to this:
 
  https://github.com/kubernetes/kubernetes/tree/master/examples/selenium
