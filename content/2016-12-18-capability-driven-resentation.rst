@@ -88,3 +88,4 @@ The content is the same, but we hide the interface based on the user's capibilit
 This small change has a huge impact on the overall user experience.
 
 We no longer present a broken button to the user.
+

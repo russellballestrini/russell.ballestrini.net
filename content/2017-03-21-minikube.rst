@@ -65,6 +65,7 @@ Also, you should see a new VM running in VirtualBox, like this:
 
 .. image:: /uploads/2017/virtualbox-running-minikube.png
    :width: 350
+   :alt: virtualbox running minikube.
 
 To verify that `kubectl` is configured to use minikube look at the config file (`~/.kube/config`).
 

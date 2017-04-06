@@ -107,6 +107,7 @@ If you refresh the hub browser window, you should see a connected Chrome Node, l
 
 .. image:: /uploads/2017/selenium-grid-on-kubernetes.png
    :width: 500
+   :alt: Selenium Hub with one connected Chrome Node.
    
 Selenium Node Overlearning
 ----------------------------------
@@ -192,6 +193,7 @@ Finally, if you refresh the hub browser window, you should see 4 connected Chrom
 
 .. image:: /uploads/2017/selenium-grid-on-kubernetes-scaled.png
    :width: 500
+   :alt: Selenium Hub with four connected Chrome Nodes.
 
 If you liked this post, leave me a message in the comments!
 
