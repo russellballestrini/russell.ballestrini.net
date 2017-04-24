@@ -139,7 +139,7 @@ The expose command creates -
  kubectl get services
  NAME            CLUSTER-IP   EXTERNAL-IP   PORT(S)          AGE
  kubernetes      10.0.0.1     <none>        443/TCP          2d
- hello-minikube  10.0.0.225   <nodes>       4444:31136/TCP   58m
+ hello-minikube  10.0.0.225   <nodes>       8080:31136/TCP   58m
 
 To access the service, you connect to the Minikube's IP address on the exposed port.
 
