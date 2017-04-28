@@ -24,7 +24,7 @@ Let's launch the hub:
 .. code-block:: bash
 
  kubectl get pods
- kubectl run selenium-grid --image selenium/hub:2.53.1 --port 4444
+ kubectl run selenium-hub --image selenium/hub:2.53.1 --port 4444
  kubectl get pods
 
 To access the ``deployment`` externally, we need to expose it:
@@ -32,7 +32,7 @@ To access the ``deployment`` externally, we need to expose it:
 .. code-block:: bash
 
  kubectl get services
- kubectl expose deployment selenium-grid --type=NodePort
+ kubectl expose deployment selenium-hub --type=NodePort
  kubectl get services
 
 My ``deployment`` was exposed here:
@@ -45,7 +45,7 @@ To find out where your ``deployment`` was exposed:
 
 .. code-block:: bash
 
- minikube service selenium-grid --url
+ minikube service selenium-hub --url
 
 You may open this URI in a web browser.
 
@@ -58,13 +58,13 @@ We may use ``kubectl`` exec for container introspection:
 
 .. code-block:: bash
 
- kubectl exec selenium-grid-3216163580-7pqtx -- ps aux
+ kubectl exec selenium-hub-3216163580-7pqtx -- ps aux
 
 As you can see we have a ``java`` process running
 
 .. code-block:: bash
 
- kubectl exec selenium-grid-3216163580-7pqtx -- ps aux
+ kubectl exec selenium-hub-3216163580-7pqtx -- ps aux
  USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
  seluser      1  0.0  0.1  18044  2688 ?        Ss   17:20   0:00 /bin/bash /opt/bin/entry_point.sh
  seluser      7  0.1  3.1 2928868 64864 ?       Sl   17:20   0:13 java -jar /opt/selenium/selenium-server-standalone.jar -role hub -hubConfig /opt/selenium/config.json
@@ -75,10 +75,10 @@ We may also look at the config file and test the service internally:
 .. code-block:: bash
 
  # inspect the selenium config file.
- kubectl exec selenium-grid-3216163580-7pqtx -- cat /opt/selenium/config.json
+ kubectl exec selenium-hub-3216163580-7pqtx -- cat /opt/selenium/config.json
 
  # see if selenium is really listening on port 4444.
- kubectl exec selenium-grid-3216163580-7pqtx -- wget 127.0.0.1:4444 -O -
+ kubectl exec selenium-hub-3216163580-7pqtx -- wget 127.0.0.1:4444 -O -
  
 You can even shell into the container:
 
@@ -98,10 +98,10 @@ Lets spin up a Selenium Chrome node:
 .. code-block:: bash
 
  kubectl get pods
- kubectl run selenium-node-chrome --image selenium/node-chrome:2.53.1 --env="HUB_PORT_4444_TCP_ADDR=selenium-grid" --env="HUB_PORT_4444_TCP_PORT=4444"
+ kubectl run selenium-node-chrome --image selenium/node-chrome:2.53.1 --env="HUB_PORT_4444_TCP_ADDR=selenium-hub" --env="HUB_PORT_4444_TCP_PORT=4444"
  kubectl get pods
 
-Kubernetes will use service discovery to resolve ``selenium-grid`` to the service (pods) running the hub!
+Kubernetes will use service discovery to resolve ``selenium-hub`` to the service (pods) running the hub!
 
 If you refresh the hub browser window, you should see a connected Chrome Node, like this:
 
@@ -155,7 +155,7 @@ You can see the environment vars of a ``pod`` using this command:
 
 .. code-block:: bash
 
- kubectl exec selenium-grid-3216163580-7pqtx -- printenv
+ kubectl exec selenium-hub-3216163580-7pqtx -- printenv
 
 I learned that the ``selinum-node-chrome`` docker image expects some ENV vars and if it doesn't get them, it goes into a crash loop.
 
@@ -174,7 +174,7 @@ Anyways, we pass these key/values when creating the container like this:
 
 .. code-block:: bash
 
- kubectl run selenium-node-chrome --image selenium/node-chrome:2.53.1 --env="HUB_PORT_4444_TCP_ADDR=selenium-grid" --env="HUB_PORT_4444_TCP_PORT=4444"
+ kubectl run selenium-node-chrome --image selenium/node-chrome:2.53.1 --env="HUB_PORT_4444_TCP_ADDR=selenium-hub" --env="HUB_PORT_4444_TCP_PORT=4444"
 
 
 
