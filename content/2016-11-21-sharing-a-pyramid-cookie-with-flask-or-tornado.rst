@@ -15,14 +15,14 @@ First we will review a bit of Pyramid code which describes the cookie session.
 Setup Pyramid Signed Cookie Session
 ====================================
 
-At the top of your `__init__.py` you will have the following import:
+At the top of your ``__init__.py`` you will have the following import:
 
 .. code-block:: python
 
  # cookie only session, not encrypted but signed to prevent tampering!
  from pyramid.session import SignedCookieSessionFactory
 
-In the `main()` function of `__init__.py` you will create a `Configurator`:
+In the ``main()`` function of ``__init__.py`` you will create a ``Configurator``:
 
 .. code-block:: python
 
@@ -40,9 +40,9 @@ In the `main()` function of `__init__.py` you will create a `Configurator`:
          session_factory = session_factory,
      )
 
-As you can see for this test example the `secret` is hardcoded. A real application would define the secret in the .ini and access it using the `settings` object.
+As you can see for this test example the ``secret`` is hardcoded. A real application would define the secret in the .ini and access it using the ``settings`` object.
 
-Now all new requests will have a `request.session` attribute.
+Now all new requests will have a ``request.session`` attribute.
 
 You use it like a dictionary, for example:
 
@@ -66,7 +66,7 @@ Teach Tornado how to read Pyramid cookies
 
 In this section I'll show you how to access and deserialize the Pyramid cookie from a Tornado application.
 
-To do this, I'm going to extend the Tornado `Hello, world` application:
+To do this, I'm going to extend the Tornado ``Hello, world`` application:
 
 .. code-block:: python
 
@@ -87,7 +87,7 @@ To do this, I'm going to extend the Tornado `Hello, world` application:
      app.listen(8888)
      tornado.ioloop.IOLoop.current().start()
 
-This is a simple application which listens to port 8888 and serves the text `Hello, world` when `/` is requested.
+This is a simple application which listens to port 8888 and serves the text ``Hello, world`` when ``/`` is requested.
 
 Add the following imports:
 
@@ -98,14 +98,14 @@ Add the following imports:
   from pyramid.session import PickleSerializer
   from pyramid.compat import bytes_
 
-For testing purposes, create a global `serializer` object:
+For testing purposes, create a global ``serializer`` object:
 
 .. code-block:: python
 
  # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
  serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
 
-Adjust the `get` method in the `MainHandler` to look like this:
+Adjust the ``get`` method in the ``MainHandler`` to look like this:
 
 .. code-block:: python
 
@@ -154,7 +154,7 @@ The complete program follows:
      tornado.ioloop.IOLoop.current().start()
  
 
-Again, we are hardcoding the same `secret`. If you set everything up properly, loading http://127.0.0.1:8888 in a web browser should print the cookie session_data in plain-text.
+Again, we are hardcoding the same ``secret``. If you set everything up properly, loading ``http://127.0.0.1:8888`` in a web browser should print the cookie session_data in plain-text.
 
 In my testing, I saw my cookie and it looked like this:
 
