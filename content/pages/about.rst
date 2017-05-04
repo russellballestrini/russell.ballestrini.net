@@ -54,19 +54,6 @@ An embedable comment service and fully functional question and answer forum.
 
 |
 
-unturf
-------------------
-
-Read and write notes with people nearby. Secure, anonymous, and fun.
-
-.. linkpeek::
-   uri = https://unturf.com
-   action = link-image
-   size = 600x400
-
-|
-
-
 four2go.gumyum.com
 ------------------
 
