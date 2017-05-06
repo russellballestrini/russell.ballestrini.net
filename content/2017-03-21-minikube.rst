@@ -8,7 +8,7 @@ Minikube
 :status: published
 
 Minikube allows you to run a self contained, single node, Kubernetes cluster on your workstation.
-Once installed and configured, you may use `kubectl` to interact with it, just like a production Kubernetes cluster.
+Once installed and configured, you may use ``kubectl`` to interact with it, just like a production Kubernetes cluster.
 
 .. contents:: 
 
@@ -75,7 +75,7 @@ Also try running:
 * `kubectl get services`
 
 You can also connect to the VirtualBox guest using SSH to have a look around.
-In my case the Minikube VM was assigned `192.168.99.100`.
+In my case the Minikube VM was assigned ``192.168.99.100``.
 
 .. code-block:: bash
 
@@ -90,7 +90,7 @@ You can see all the containers running with:
 
 Exit out, you really don't need to interact at this level
 
-Instead we will treat Minikube as a "real" Kubernetes cluster and only use the `kubectl` tool.
+Instead we will treat Minikube as a "real" Kubernetes cluster and only use the ``kubectl`` tool.
 
 demo
 ==========
@@ -106,25 +106,25 @@ In this example we create an echoserver cluster.
 
 this command will create -
 
-1 `deployment`:
+1 ``deployment``:
 
 .. code-block:: bash
 
  kubectl get deployments
 
-1 `replicaset`:
+1 ``replicaset``:
 
 .. code-block:: bash
 
  kubectl get replicasets
 
-1 `pods`:
+1 ``pod``:
 
 .. code-block:: bash
 
  kubectl get pods
 
-To make the echoserver accessible externally, you need to `expose` the `deployment`, like this:
+To make the echoserver accessible externally, you need to ``expose`` the ``deployment``, like this:
 
 .. code-block:: bash
 
@@ -132,7 +132,7 @@ To make the echoserver accessible externally, you need to `expose` the `deployme
 
 The expose command creates -
 
-1 `service`:
+1 ``service``:
 
 .. code-block:: bash
 
@@ -143,7 +143,7 @@ The expose command creates -
 
 To access the service, you connect to the Minikube's IP address on the exposed port.
 
-In my case the Minikube VirtualBox IP is `192.168.99.100` and the exposed port is `31136` as listed above.
+In my case the Minikube VirtualBox IP is ``192.168.99.100`` and the exposed port is ``31136`` as listed above.
 
 The minikube tool has a shortcut for this info, try:
 
@@ -158,7 +158,7 @@ Toss this into a web browser on your local machine and it should echo back!
 scale a deployment
 -----------------------
 
-scale up the `hello-minikube` pod to 3:
+Scale up the ``deployment`` named ``hello-minikube`` by setting the number of ``replicas`` to ``3``:
 
 .. code-block:: bash
 
@@ -174,7 +174,7 @@ verify:
 delete a deployment
 -----------------------
  
-trash this demo (delete the deployment, replicaset, pods, and service):
+trash this demo (delete the ``deployment``, ``replicaset``, ``pods``, and ``service``):
  
 .. code-block:: bash
 
