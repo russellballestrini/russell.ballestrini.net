@@ -143,7 +143,7 @@ Here I show how to use the library:
  >>> # generate a random cipher (only if needed).
  >>> cipher = mc.random_monoalpha_cipher()
 
- >>> # output the cipher (store if for safe keeping).
+ >>> # output the cipher (store for safe keeping).
  >>> print(cipher)
 
  >>> # encrypt a message with the cipher.
