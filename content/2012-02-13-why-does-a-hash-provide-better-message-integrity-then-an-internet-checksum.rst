@@ -136,5 +136,4 @@ The above code would have produced the following invalid hash:
 
    </p>
 
-**You should follow me on twitter
-`here <https://twitter.com/#!/RussellBal>`__.**
+**You should follow me on twitter:** `@russellbal <https://twitter.com/russellbal>`__
