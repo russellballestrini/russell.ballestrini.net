@@ -6,7 +6,7 @@ Russell Builds Products
 Russell Ballestrini admires readable and testable code and thoroughly enjoys the process of refactoring.
 He enjoys finding simple solutions to difficult problems and reveres the python language.
 
-Russell currently holds a position at `Mobiquity <https://www.mobiquityinc.com/>`_ as a senior system engineer where he manages infrastructure running in AWS.
+Russell works for `Remind <https://www.remind.com/>`_ as a software engineer where he writes software to manage infrastructure running in AWS.
 
 Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called `LinkPeek <https://linkpeek.com>`_. He is also actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
 
