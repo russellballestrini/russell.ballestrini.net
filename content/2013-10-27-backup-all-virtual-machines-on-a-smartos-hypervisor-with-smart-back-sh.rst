@@ -42,14 +42,13 @@ virtual machine on a SmartOS hypervisor.
         # echo "Starting $VM"
         vmadm start $uuid
 
-        gzip $tmpdir/$alias
-        mv $tmpdir/$alias.gz $backupdir/$alias.gz
+        pbzip2 $tmpdir/$alias
 
       done 
+      
+    mv $tmpdir/*.bz2 $backupdir
 
-.. raw:: html
-
-   </p>
+|
 
 **Create** a cronjob entry to schedule the backups:
 
@@ -59,18 +58,16 @@ virtual machine on a SmartOS hypervisor.
 
 ::
 
-    2 15 * * * /usr/bin/bash /opt/smart-back.sh
+    2 6 * * 0 /usr/bin/bash /opt/smart-back.sh
 
-.. raw:: html
-
-   </p>
+|
 
 If I expand on this script much more, I plan to stick it into revision
 control.
 
-If you look closely, I have also added a hack to enable autofs (svcadm
-enable autofs) which lets me automount an NFS share on my remote FreeNAS
-by setting
+If you look closely, I have also added a hack to enable autofs 
+(``svcadm enable autofs``) which allows me to automount an NFS
+share on my remote FreeNAS by setting
 ``backupdir=/net/[ip-or-fqdn-of-freenas]/mnt/zfs-mirror/backup/vms``.
 
 We have scheduled a backup of each virtual machine on your SmartOS
@@ -80,7 +77,10 @@ If or when the time comes to restore a VM from a backup, use the
 following:
 
 ::
-
+    # decompress the backup file.
+    pbzip2 -d backup-file.bz2
+    
+    # ingest the backup file into the hypervisor.
     vmadm receive -f /path/to/backup-file
 
 Just make sure the VM doesn't currently exist on the hypervisor.
