@@ -77,6 +77,7 @@ If or when the time comes to restore a VM from a backup, use the
 following:
 
 ::
+
     # decompress the backup file.
     pbzip2 -d backup-file.bz2
     
