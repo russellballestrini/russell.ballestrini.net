@@ -15,7 +15,10 @@ Summary
 Experience
 ==========
 
-**Remind** - *Remote, 07/2017 - Present* -  Senior System Engineer
+**Remind** - *Remote, 07/2017 - Present* - System Engineer
+
+Writing code to wrangle AWS Infrastructure.
+Solving problems that teachers have communicating with parents and students.
 
 |
 
