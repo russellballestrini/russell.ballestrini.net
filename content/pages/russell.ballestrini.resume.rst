@@ -15,9 +15,11 @@ Summary
 Experience
 ==========
 
+**Remind** - *Remote, 07/2017 - Present* -  Senior System Engineer
+
 |
 
-**Mobiquity** - *Remote, 06/2016 - Present* - Senior System Engineer
+**Mobiquity** - *Remote, 06/2016 - 07/2017* - Senior System Engineer
 
  Builds products, scales AWS infrastructure, practices DevOps. 
 
@@ -44,11 +46,15 @@ Experience
 * filevault_: A class for managing a hash directory tree of files on a filesystem.
 * miniuri_: A universal URI parser class written in 128 lines.
 
-**CSC** - *Groton CT, 03/2006 - 10/2012* - Unix System Administrator
+|
+
+**CSC** - *Groton CT, 08/2006 - 10/2012* - Unix System Administrator
 
 * pushed software updates to a fleet of 10,000+ computer assets
 * built tools to help the company move faster and automate reporting
 * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
+
+|
 
 **Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
 
