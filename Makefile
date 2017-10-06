@@ -41,6 +41,7 @@ help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
+	@echo '   make resume                         (re)generate the resume            '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
@@ -60,6 +61,9 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
+
+resume:
+	rst2pdf $(INPUTDIR)/pages/russell.ballestrini.resume.rst --stylesheets $(INPUTDIR)/pages/russell.ballestrini.resume.style -o $(OUTPUTDIR)/uploads/russell.ballestrini.resume.pdf
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
