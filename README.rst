@@ -13,6 +13,9 @@ In development I use a ``make`` file to hold common build and test commands::
 
   make clean && make html && make serve
 
+I also manage my resume using ``.rst`` and I use the ``rst2pdf`` tool to turn it into a ``.pdf``::
+
+  make clean && make html && make resume
 
 production release process
 ===============================
