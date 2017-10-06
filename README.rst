@@ -22,5 +22,5 @@ production release process
 
 I use `Jenkins to build this site and Salt Stack to release it <http://russell.ballestrini.net/securely-publish-jenkins-build-artifacts-on-salt-master/>`_
 
-Any web server may be used to an HTML site.  I choose nginx in production because it is known to be very fast at serving static files.
+Any web server may be used to host an HTML site.  I choose nginx in production because it is known to be very fast at serving static files.
 
