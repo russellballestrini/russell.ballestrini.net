@@ -15,14 +15,14 @@ Summary
 Experience
 ==========
 
-**Remind** - *Remote, 07/2017 - Present* - System Engineer
+**Remind** - *Remote, 06/2017 - Present* - System Engineer
 
 Writing code to wrangle AWS Infrastructure.
 Solving problems that teachers have communicating with parents and students.
 
 |
 
-**Mobiquity** - *Remote, 06/2016 - 07/2017* - Senior System Engineer
+**Mobiquity** - *Remote, 06/2016 - 06/2017* - Senior System Engineer
 
  Builds products, scales AWS infrastructure, practices DevOps. 
 
