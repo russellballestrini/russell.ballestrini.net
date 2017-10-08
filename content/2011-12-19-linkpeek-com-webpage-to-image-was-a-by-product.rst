@@ -13,7 +13,7 @@ project's slag!
 Last year I built yoursitemakesmebarf.com, a novelty web application
 which allowed anonymous link submission. The software would
 automatically take
-`screenshots <http://russell.ballestrini.net/linkpeek-com-web-address-thumbnail-api-alpha-release/>`__
+`screenshots <http://russell.ballestrini.net/linkpeek-com-web-address-thumbnail-api-alpha-release/>`_
 of submitted links and curate a blog. I enjoyed building the site and
 the project served as my first Pyramid application.
 
