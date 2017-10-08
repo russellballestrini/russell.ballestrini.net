@@ -24,5 +24,6 @@ My research found solutions which would slow down my site, or worse, serve ads! 
 .. image:: https://www.remarkbox.com/remarkbox-minified.png
   :align: center
   :width: 260px
+  :alt: Remarkbox Logo
 
 |
