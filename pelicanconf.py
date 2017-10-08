@@ -11,7 +11,7 @@ DEFAULTS = {
   #'THEME'    : 'pelican-themes/svbhack',
   'THEME'     : 'pelican-themes/pelican-svbhack',
   'GOOGLE_ANALYTICS' : '',
-  'REMARKBOX' : True,
+  'REMARKBOX' : None,
   'LINKPEEK_APIKEY' : None,
   'LINKPEEK_SECRET' : None,
 }
