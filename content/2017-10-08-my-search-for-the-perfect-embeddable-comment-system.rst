@@ -27,6 +27,8 @@ Remarkbox **increases user engagement** because it:
 
 I'm in the process of hand selecting group of users to help me test. Would you be interested in joining a list to hear more about it?
 
+|
+
 `Yes! I would like to follow the Remarkbox journey. <https://www.remarkbox.com#beta>`_
 
 |
