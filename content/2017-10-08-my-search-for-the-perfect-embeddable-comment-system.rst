@@ -19,3 +19,10 @@ My research found solutions which would slow down my site, or worse, serve ads! 
 
 `Yes! I would like to follow the Remarkbox journey. <https://www.remarkbox.com#beta>`_
 
+|
+
+.. image:: https://www.remarkbox.com/remarkbox-minified.png
+  :align: center
+  :width: 260px
+
+|
