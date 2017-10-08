@@ -17,7 +17,7 @@ My research found solutions which would slow down my site, or worse, serve ads! 
 
 3 years later, I'm finally ready to share Remarkbox: a hosted comment service that embeds in your pages to keep the conversation in the same place as your content.
 
-Remarkbox increases engagement because it:
+Remarkbox increases user engagement because it:
 
 * enables a visitor to discuss your content right away without needing an account
 * supports Markdown and a realtime *as-the-user-types* preview of the comment
