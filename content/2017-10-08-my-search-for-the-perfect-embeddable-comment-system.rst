@@ -15,16 +15,15 @@ My research found solutions which would slow down my site, or worse, serve ads! 
 
     "How long could it take to build a comment system?"  ... 
 
-3 years later, I'm finally ready to share Remarkbox: a hosted comment service that embeds in your pages to keep the conversation in the same place as your content.
+3 years later, I'm finally ready to share Remarkbox: a hosted comment service that **embeds in your pages** to keep the conversation in the same place as your content.
 
-Remarkbox increases user engagement because it:
+Remarkbox **increases user engagement** because it:
 
 * enables a visitor to discuss your content right away without needing an account
-* supports Markdown and a realtime *as-the-user-types* preview of the comment
+* supports **Markdown** and a realtime *as-the-user-types* preview of the comment
 * supports deeply nested replies and has a really clean user interface
-* has blazing fast page load speeds
 
-... and the best part, absolutely **NO ADS!**
+... and the best part - fast page load speeds and absolutely **NO ADS!**
 
 I'm in the process of hand selecting group of users to help me test. Would you be interested in joining a list to hear more about it?
 
