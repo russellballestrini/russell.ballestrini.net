@@ -4,7 +4,7 @@ My Search for the Perfect Embedded Comment System
 :author: Russell Ballestrini
 :slug: my-search-for-the-perfect-embedded-comment-system
 :date: 2017-10-08 10:47
-:tags: Code, DevOps
+:tags: Remarkbox
 :status: published
 
 Nearly 6 years ago I launched the beta for `LinkPeek, a web page screenshot service <https://linkpeek.com>`_. After all this time, I'm writing to share something new I've been passionately working on called Remarkbox.
