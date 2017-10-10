@@ -19,9 +19,9 @@ My research found solutions which would slow down my site, or worse, serve ads! 
 
 Remarkbox **increases user engagement** because it:
 
-* enables a visitor to discuss your content right away without needing an account
-* supports **Markdown** and a realtime *as-the-user-types* preview of the comment
-* supports deeply nested replies and has a really clean user interface
+* allows a visitor to discuss your content right away without an account
+* supports **Markdown** with real-time comment previews
+* supports deeply nested replies and has an orderly user interface
 
 ... and the best part - fast page load speeds and absolutely **NO ADS!**
 
