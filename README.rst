@@ -24,3 +24,4 @@ I use `Jenkins to build this site and Salt Stack to release it <http://russell.b
 
 Any web server may be used to host an HTML site.  I choose nginx in production because it is known to be very fast at serving static files.
 
+I use environment variables in my ``pelicanconf.py`` to store secrets for `LinkPeek <https://linkpeek.com> (web page screenshots as a service)`_ and `Remarkbox <https://www.remarkbox.com> comments as a service`.
