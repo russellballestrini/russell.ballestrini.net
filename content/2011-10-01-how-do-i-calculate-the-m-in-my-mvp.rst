@@ -7,14 +7,18 @@ How do I calculate the M in my MVP?
 :status: published
 :summary: Is my idea too minimal?
 
-.. linkpeek::
-   uri = http://russell.ballestrini.net
-   action = link-image
-   size = 140x100
-   style = margin-right: 15px; float: left; border-radius: 8px;
+MVP (Minimal Viable Product):
+ The smallest version of your idea that produces value for customers.
 
-**Recently I have contemplated the idea of building a screen capture
-service for websites.** I anticipate the service would provide
+
+.. linkpeek::
+   uri = https://www.remarkbox.com
+   action = link-image
+   size = 280x220
+   style = margin-left: 25px; float: right; border-radius: 8px;
+
+Recently I have contemplated the idea of building a screen capture
+service for websites. I anticipate the service would provide
 functionality similar to Google's "Instant Preview". I also pondered the
 idea of archiving the screen captures and providing a history similar to
 the internet Wayback Machine.
@@ -26,8 +30,8 @@ on another project if I cannot earn users or customers.
 .. linkpeek::
    uri = http://four2go.gumyum.com
    action = link-image
-   size = 140x100
-   style = margin-right: 15px; float: left; border-radius: 8px;
+   size = 280x220
+   style = margin-right: 25px; float: left; border-radius: 8px;
 
 I feel the market segment for this type of service would include website
 directories, live portfolio generation for website designers, and
@@ -37,16 +41,16 @@ look of their site over time.
 As an MVP I plan to build a free live web capture application to
 basically provide a "Gravatar" for website addresses.
 
-**Do you think anyone would use my MVP or service?**
-
-**Have I missed any other market segments?**
-
 .. linkpeek::
    uri = http://linkpeek.com
    action = link-image
-   size = 140x100
-   style = margin-right: 15px; float: left; border-radius: 8px;
+   size = 280x220
+   style = margin-left: 25px; float: right; border-radius: 8px;
+
+**Do you think anyone would use my MVP or service?**
 
 LinkPeek provides an easy to use API which enables anyone to instantly
 create live web page thumbnails. We provide the API free of charge,
 think of LinkPeek as Gravatar for web addresses.
+
+Have I missed any other market segments?
