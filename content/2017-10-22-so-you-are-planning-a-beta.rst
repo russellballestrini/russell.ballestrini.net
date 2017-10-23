@@ -9,8 +9,8 @@ So You're Planning a Beta Test
 
 I'm running a beta for `Remarkbox <https://www.remarkbox.com>`_ and my biggest take away:
 
-    Collect information from a potential customer as soon as possible — 
-    Catch them in active pursuit of a solution to their problem.
+    Always collect information from potential customers as soon as possible.
+    Catch customers while they pursue a solution to their problems.
 
 Don't just ask for an email address, have them fill out a short survey right away.
 If you only ask for an email, your out of luck if you need more information; people will not answer a question after the fact.
