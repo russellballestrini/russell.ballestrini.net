@@ -17,6 +17,6 @@ If you only ask for an email, your out of luck if you need more information; peo
 
 I know, I know ... nobody likes to fill out surveys, so increase their motivation with an incentive or discount. Use this survey to earn qualifed leads, remember quality over quantity.
 
-Come up with a few questions. Keep most of the questions open ended; let the survey start the dialog. Use the responses to break the ice later when you email one-on-one. Take advantage of the unique situation each lead presents and keep your on boarding emails personal!
+Come up with a few questions. Keep most of the questions open ended; let the survey start the dialog. Later, use the responses to break the ice when you email one-on-one. Take advantage of the unique situation each lead presents and keep your on boarding emails personal!
 
 **tl;dr** gather interest ASAP and ask questions up front as part of the sign up.
