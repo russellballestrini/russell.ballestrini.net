@@ -12,11 +12,11 @@ I'm running a beta for `Remarkbox <https://www.remarkbox.com>`_ and my biggest t
     Always collect information from potential customers as soon as possible.
     Catch customers while they pursue a solution to their problems.
 
-Don't just ask for an email address, have them fill out a short survey right away.
-If you only ask for an email, your out of luck if you need more information; people will not answer a question after the fact.
+What do I mean? Well for startes, don't just ask for an email address, have them fill out a short survey right away.
+If you only ask for an email, your out of luck if you need more information; people do not often respond later.
 
-I know, I know ... nobody likes to fill out surveys, so increase their motivation with an incentive or discount. Use this survey to earn qualifed leads, remember quality over quantity.
+I know, I know ... nobody likes to fill out surveys, so power-up their motivation with an incentive or discount. Use this survey to earn qualifed leads, remember quality over quantity.
 
-Come up with a few questions. Keep most of the questions open ended; let the survey start the dialog. Later, use the responses to break the ice when you email one-on-one. Take advantage of the unique situation each lead presents and keep your on boarding emails personal!
+Come up with a few questions. Keep most of the questions open ended to allow them guide the dialog. Later, use the responses to break the ice when you send one-on-one emails. Each lead will present a unique situation, so take advantage of this and keep your on boarding emails personal!
 
-**tl;dr** gather interest ASAP and ask questions up front as part of the sign up.
+**tl;dr** - Gather interest for the as soon as possible and ask questions up front as part of the Beta sign up.
