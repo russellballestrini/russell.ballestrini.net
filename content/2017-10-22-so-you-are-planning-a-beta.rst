@@ -7,12 +7,14 @@ So You're Planning a Beta Test
 :tags: Remarkbox
 :status: published
 
-I'm running a beta for `Remarkbox <https://www.remarkbox.com>`_ and my biggest take away:
+I'm running a beta for `Remarkbox <https://www.remarkbox.com>`_ and here is my biggest take away:
 
     Always collect information from potential customers as soon as possible.
     Catch customers while they pursue a solution to their problems.
 
-What do I mean? Well for startes, don't just ask for an email address, have them fill out a short survey right away.
+What do I mean?
+
+Well for starters, don't just ask for an email address, have them fill out a short survey right away.
 If you only ask for an email, your out of luck if you need more information; people do not often respond later.
 
 I know, I know ... nobody likes to fill out surveys, so power-up their motivation with an incentive or discount. Use this survey to earn qualifed leads, remember quality over quantity.
