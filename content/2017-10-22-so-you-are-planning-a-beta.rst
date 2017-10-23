@@ -19,4 +19,4 @@ I know, I know ... nobody likes to fill out surveys, so power-up their motivatio
 
 Come up with a few questions. Keep most of the questions open ended to allow them guide the dialog. Later, use the responses to break the ice when you send one-on-one emails. Each lead will present a unique situation, so take advantage of this and keep your on boarding emails personal!
 
-**tl;dr** - Gather interest for the as soon as possible and ask questions up front as part of the Beta sign up.
+**tl;dr** - Gather interest for the Beta as soon as possible and ask questions up front as part of the sign up.
