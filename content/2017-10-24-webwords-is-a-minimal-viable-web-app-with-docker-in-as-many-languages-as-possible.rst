@@ -53,13 +53,13 @@ why is webwords
 
 Webwords started as a programming Kata to practice building docker images for different programming languages. Each port of webwords should behave the same to make comparing and functional testing simple.
 
-Why did you choose this programming problem?
+**why did you choose this programming problem?**
 
 I think the spec of webwords small enough to for people new to the language to digest but complete in that it does something useful and demonstrates two common tasks: running an HTTP server and using an HTTP client.
 
 Also, I needed a way to verify if a user had posession of a domain name for the `comment service <https://www.remarkbox.com>`_ I'm building called Remarkbox. I decided to make this verification program a micro service, first with Python and later with Go. The result was webwords. Shortly after during a hackathon I used webwords to learn how to build Docker images for various languages and formalize the idea into a single project. 
 
-What's next?
+**What's next?**
 
 Webwords is for tinkering. If you want to add a version or touch up an existing version, send a PR.
 Maybe in the future there will be a fork that adds a cache layer or teaches how to add logging or metrics gathering.
