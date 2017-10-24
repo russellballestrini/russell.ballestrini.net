@@ -9,6 +9,20 @@ Pelican is written in Python and uses Jinja2 template engine by default.
 development
 ===============================
 
+Clone this repo, then in the ``pelican-themes`` directory clone this repo:
+
+.. code-block:: bash
+
+ cd pelican-themes
+ git clone git@github.com:russellballestrini/pelican-svbhack.git
+ cd ..
+
+Next clone the `pelican-plugins` repo (I use ``random_article``)
+
+.. code-block:: bash
+
+ git clone git@github.com:getpelican/pelican-plugins.git
+
 In development I use a ``make`` file to hold common build and test commands::
 
   make clean && make html && make serve
