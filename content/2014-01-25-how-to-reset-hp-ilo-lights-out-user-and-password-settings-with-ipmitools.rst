@@ -59,14 +59,15 @@ using this command:
 
 Serial-over-LAN completely resolves the need for a complicated JAVA/KVM
 (keyboard video mouse) setup, I was able to reboot the server and watch
-the machine POST over the serial connection! I uploaded a video showing
-`Serial-Over-LAN with IPMItools to an HP Proliant DL160 G6 running
-SmartOS <http://www.youtube.com/watch?v=xAFjbKAzB4s>`__. Now you don't
-need to shell out $229+ on an Advanced 1 yr single server Licence for HP
-Lights-Out 100i (LO100i)!
+the machine POST over the serial connection! Now you don't need to shell
+out $229+ on an Advanced 1 yr single server Licence for HP Lights-Out 100i (LO100i)!
 
-**Update:** just documenting a few other useful commands for myself
-here.
+I uploaded a video showing
+`Serial-Over-LAN with IPMItools to an HP Proliant DL160 G6 running
+SmartOS <http://www.youtube.com/watch?v=xAFjbKAzB4s>`__.
+
+
+**Update:** just documenting a few other useful commands for myself here.
 
 Power on and off the server chassis:
 
@@ -79,8 +80,8 @@ Power on and off the server chassis:
   sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power cycle
 
 
-**Update:** apparently after you know the ILO username and password you
-may also use SSH to connect and manage the server:
+**Update:** apparently after you know the ILO username and password you may
+also use SSH to connect and manage the server:
 
 ::
 
