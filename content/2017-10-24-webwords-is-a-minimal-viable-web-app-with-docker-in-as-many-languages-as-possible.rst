@@ -10,7 +10,7 @@ webwords: a minimal viable web app with docker in as many languages as possible
 **The companion** `webwords git repo <https://github.com/russellballestrini/webwords>`_ **lives here.**
 
 This project shows how to code the same minimal web app called ``webwords`` in as many different programming languages as possible.
-It also provides guides for building and running ``webwords`` as a docker images.
+It also provides guides for building and running ``webwords`` as a docker image.
 
 .. contents::
 
@@ -25,24 +25,16 @@ keyword:
 target:
  The URI ``target`` that you want to search.
 
-The application always returns an ``HTTP 200`` response and the string ``true`` or ``false`` depending on if the keyword is found in the ``target`` web page body.
+The application always returns an ``HTTP 200`` response with the string ``true`` or ``false`` depending on if the keyword is found in the ``target`` web page body.
 
-Once you have the application running inside docker, run this command to get the exposed port:
-
-.. code-block:: bash
-
- docker ps
-
-To see if a ``keyword`` exists on a ``target`` web page, put the follwing in a browser:
+For example, to see if the word ``potato`` exists on `Remarkbox <https://www.remarkbox.com>`_, put the follwing in a browser:
 
 .. code-block:: txt
 
  http://127.0.0.1:32779/?keyword=potato&target=https://www.remarkbox.com
 
-In this example we check if the keyword ``potato`` is on the web page https://www.remarkbox.com 
-
 Spoiler:
- it is
+ potato does exist on Remarkbox, : )
 
 Note:
  You will need to replace the port of ``32779`` with the port from the ``docker ps`` output.
@@ -58,9 +50,9 @@ Webwords started as a programming Kata to practice writing code in different pro
 
 I think the spec of webwords is small enough for people new to any language to digest but complete in that it does something useful and demonstrates two common tasks: running an HTTP server and using an HTTP client.
 
-Also, I needed a way to verify if a user had possession of a domain name for the `comment service <https://www.remarkbox.com>`_ I'm building called Remarkbox. I decided to make this verification program a micro service, first with Python and later with Go. The result was webwords. 
+Also, I needed a way to verify if a user had possession of a domain name for the `comment service <https://www.remarkbox.com>`_ I'm building and chose to code this verification program as a micro service, first with Python and later with Go. The tiny end result was webwords. 
 
-Shortly after during a hackathon I used webwords to learn how to build Docker images for various languages and formalize the idea into a single project. 
+Shortly after, during a hackathon I used webwords to learn how to build Docker images for various languages and formalized the idea into a single project. 
 
 
 **What's next?**
@@ -160,3 +152,4 @@ You can delete old attempts by running:
 .. code-block:: bash
 
  docker rm <container-id>
+
