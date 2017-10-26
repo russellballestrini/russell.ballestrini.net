@@ -7,7 +7,7 @@ webwords: a minimal viable web app with docker in as many languages as possible
 :tags: Code, DevOps
 :status: published
 
-**The companion `webwords git repo <https://github.com/russellballestrini/webwords>`_ lives here.**
+**The companion** `webwords git repo <https://github.com/russellballestrini/webwords>`_ **lives here.**
 
 This project shows how to code the same minimal web app called ``webwords`` in as many different programming languages as possible.
 It also provides a guides for building and running ``webwords`` as a docker image.
