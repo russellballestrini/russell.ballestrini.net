@@ -6,8 +6,8 @@ How to reset HP iLO Lights-Out User and Password Settings with IPMItool
 :slug: how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools
 :status: published
 
-Do NOT follow guides that suggest to make a DOS boot disk, this is over
-complicated.
+Warning:
+ Do NOT follow guides that suggest to make a DOS boot disk, this is over complicated.
 
 Use the ``ipmitool`` which ships with most Unix based operating systems.
 I tested on SmartOS and Ubuntu Linux. Use a live boot disk if you must.
@@ -35,10 +35,6 @@ I tested on SmartOS and Ubuntu Linux. Use a live boot disk if you must.
 
     [root@1c-c1-de-f0-ad-36 /opt]# ipmitool user enable 6
 
-.. raw:: html
-
-   </p>
-
 Next I logged into the web GUI and cleaned up this crazy list of users.
 You may also need to change the privileges on a user ID to grant admin
 level access. Run ``ipmitool user`` for a list of possible sub-commands.
@@ -53,9 +49,6 @@ command:
 
     sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin sensor
 
-.. raw:: html
-
-   </p>
 
 I was even able to log into the server OS via Serial-over-LAN (SOL)
 using this command:
@@ -63,10 +56,6 @@ using this command:
 ::
 
     sudo ipmitool -I lanplus -H guy-ilo.foxhop.net -U admin sol activate
-
-.. raw:: html
-
-   </p>
 
 Serial-over-LAN completely resolves the need for a complicated JAVA/KVM
 (keyboard video mouse) setup, I was able to reboot the server and watch
@@ -81,43 +70,19 @@ here.
 
 Power on and off the server chassis:
 
-    ::
+::
 
-        sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power status
-        sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power on
-        sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power soft
-        sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power off
-        sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power cycle
+  sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power status
+  sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power on 
+  sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power soft
+  sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power off
+  sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power cycle
 
-| 
-|  Also check this out for firmware upgrades: (SPP 2014.09.0)
-  SPP2014090.2014\_0827.10.iso
-
-| 
-| 
-  ftp://ftp.hp.com/pub/softlib2/software1/cd-generic/p1513074441/v101117/SPP2014090.2014\_0827.10.iso
-
-| 
-
-**Update:**
-
-I ended up flashing the my P410 smart array raid card with
-CP019316.scexe [6.00] (SPP 2013.02.0) because the newer patches wouldn't
-run properly. This was enough however to get my 3TB disks to show up in
-the raid configuration!
-
-CP023869.scexe [6.60] (SPP 2014.09.0) is the next version of the
-firmware. I restarted the machine which I believe is important between
-firmware flashing. I was able to use the scexe to flash from 6.00 to
-6.60!
-
-I used CP021014.scexe [4.26] to upgrade my DL180 G6 ILO from 4.22 to
-4.26. Cool but I don't notice any changes besides the version number...
 
 **Update:** apparently after you know the ILO username and password you
 may also use SSH to connect and manage the server:
 
-    ::
+::
 
         ssh admin@guy-ilo.foxhop.net
         admin@guile-ilo.foxhop.net's password: 
@@ -170,7 +135,15 @@ may also use SSH to connect and manage the server:
 You can even trigger the server OS to stop change run levels or mess
 with chassis power for more extreme measures.
 
-    ::
+::
 
         /./system1/-> stop
         System1 stopped.
+
+
+
+**Update:**
+
+I run FreeNAS on an HP DL180 G6 and just replaced my p410 controller with an LSI SAS9220-8i (IBM M1015) flashed to IT mode. The stock cables are long enough. I did not have issues with fans running at high RPM.
+
+(I did the same replacement on an [HP DL160 G6 running SmartOS](/how-i-added-two-seagate-240g-ssds-as-smartos-l2arc/) and it didn't have a high fan RPM issues either) 
