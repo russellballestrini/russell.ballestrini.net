@@ -67,7 +67,9 @@ I uploaded a video showing
 SmartOS <http://www.youtube.com/watch?v=xAFjbKAzB4s>`__.
 
 
-**Update:** just documenting a few other useful commands for myself here.
+**Update:** 
+
+Documenting a few other useful commands for myself here.
 
 Power on and off the server chassis:
 
@@ -80,7 +82,9 @@ Power on and off the server chassis:
   sudo ipmitool -I lan -H guy-ilo.foxhop.net -U admin chassis power cycle
 
 
-**Update:** apparently after you know the ILO username and password you may
+**Update:** 
+
+Apparently after you know the ILO username and password you may
 also use SSH to connect and manage the server:
 
 ::
