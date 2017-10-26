@@ -7,7 +7,7 @@ webwords: a minimal viable web app with docker in as many languages as possible
 :tags: Code, DevOps
 :status: published
 
-The companion `webwords git repo <https://github.com/russellballestrini/webwords>`_ lives here.
+**The companion `webwords git repo <https://github.com/russellballestrini/webwords>`_ lives here.**
 
 This project shows how to code the same minimal web app called ``webwords`` in as many different programming languages as possible.
 It also provides a guides for building and running ``webwords`` as a docker image.
@@ -58,7 +58,7 @@ Webwords started as a programming Kata to practice writing code in different pro
 
 I think the spec of webwords is small enough for people new to any language to digest but complete in that it does something useful and demonstrates two common tasks: running an HTTP server and using an HTTP client.
 
-Also, I needed a way to verify if a user had posession of a domain name for the `comment service <https://www.remarkbox.com>`_ I'm building called Remarkbox. I decided to make this verification program a micro service, first with Python and later with Go. The result was webwords. 
+Also, I needed a way to verify if a user had possession of a domain name for the `comment service <https://www.remarkbox.com>`_ I'm building called Remarkbox. I decided to make this verification program a micro service, first with Python and later with Go. The result was webwords. 
 
 Shortly after during a hackathon I used webwords to learn how to build Docker images for various languages and formalize the idea into a single project. 
 
