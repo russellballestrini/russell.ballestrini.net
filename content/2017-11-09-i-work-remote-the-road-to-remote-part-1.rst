@@ -1,13 +1,14 @@
-I Work From Home: The Road to Remote (Chapter 1)
+I Work From Home: The Road to Remote (part 1)
 ################################################
 
 :author: Russell Ballestrini
-:slug: i-work-from-home-the-road-to-remote-chapter-1
+:slug: i-work-from-home-the-road-to-remote-part-1
 :date: 2017-11-09 09:51
 :tags: guide
 :status: published
 
 **NOTE**: This is a work in progress but I wanted to ship it in this state to force me to continue working on it.
+
 
 So you have made up your mind, you want to work from home. The first step to attaining this goal is to make it a priority.
 
