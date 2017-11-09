@@ -2,10 +2,12 @@ How-to Work From Home
 ################################################
 
 :author: Russell Ballestrini
-:slug: i-work-from-home-the-road-to-remote-chapter-1
+:slug: how-to-work-from-home-the-road-to-remote-chapter-1
 :date: 2017-11-09 09:51
 :tags: guide
 :status: published
+
+"I work from home" — a phrase I have uttered hundreds of times and is often met with instant amazement, jealousy, or jokes about pants. My goal for this book is to teach you hacks that I have learned in my career to help you land your dream job. If you feel stuck in the job market and you don't want to relocate, this is the book for you.
 
 Chapter 1: The Road to Remote
 =================================================
