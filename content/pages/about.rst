@@ -3,14 +3,23 @@ Russell Builds Products
 
 :slug: about
 
-Russell Ballestrini admires readable and testable code and thoroughly enjoys the process of refactoring.
-He enjoys finding simple solutions to difficult problems and reveres the python language.
+Hey there, welcome to my little slice of the Internet!
 
-Russell works for `Remind <https://www.remind.com/>`_ as a software engineer where he writes software to manage infrastructure running in AWS.
+*You may view a list of my active projects below the text.*
 
-Russell keeps busy by turning ideas into products, spends his spare time writing open source software, and running the company that he founded called `LinkPeek <https://linkpeek.com>`_. He is also actively bootstrapping a comments-as-a-service offering called `Remarkbox <http://www.remarkbox.com>`_.
+I get a rush out of **finding simple solutions** to difficult problems. 
 
-If you read all that, you should likely `contact </contact>`_ Russell, and fear not because he always responds in a timely manner.
+I keep busy by turning ideas into products.
+Most often I prototype and code using Python but I'm flexible and often explore other languages.
+I admire readable, testable code and I thoroughly enjoy the process of refactoring.
+
+I'm a strong opensource advocate and so when I can, I donate my code and time to that cause.
+
+My first successful product launch was `LinkPeek <https://linkpeek.com>`_ which I still operate today. I'm actively bootstrapping `Remarkbox, a hosted comment service <http://www.remarkbox.com>`_.
+
+I currently work for `Remind <https://www.remind.com/>`_ as a software engineer where I write software to manage infrastructure running in AWS.
+
+If you read all that, you should likely `contact me </contact>`_. I love conversation and always responds in a timely manner!
 
 
 Russell’s projects
@@ -30,18 +39,6 @@ Website screenshot service.
 
 |
 
-foxhop.net 
-----------
-
-A demo of the wiki software I wrote called Pylowiki, loaded with great articles.
-
-.. linkpeek::
-   uri = http://www.foxhop.net
-   action = link-image
-   size = 600x400
-
-|
-
 Remarkbox
 ---------
 
@@ -49,6 +46,18 @@ An embedable comment service and fully functional question and answer forum.
 
 .. linkpeek::
    uri = http://www.remarkbox.com
+   action = link-image
+   size = 600x400
+
+|
+
+foxhop.net 
+----------
+
+A demo of the wiki software I wrote called Pylowiki, loaded with great articles.
+
+.. linkpeek::
+   uri = http://www.foxhop.net
    action = link-image
    size = 600x400
 
