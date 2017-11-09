@@ -31,11 +31,11 @@ While working in the retail store, I met George, an IT guy working for my region
 
 From there I moved to a technical call center helpdesk, also as a contractor, of a contractor, of a contractor of the DoD. If you follow the money, I was making $17/hr but at the top of the pyramid they were billing me out at $55/hr.
 
-After from time I managed to move onsite successfully cut out one of the contractor layers. I still lacked negotiation skills and confidence so only made $18/hr as a desktop support tech. I fixed computer problems whether it was software or hardware, I was fast and could basically solve anything handed to me. I quickly transitoned to a desktop support engineer role where I learned how to package and push software to small fleets of computers. A couple years later I transitioned to Unix server team.
+After srom time I managed to move onsite and successfully cut out one of the contractor layers. I still lacked negotiation skills and confidence so my increase was only a dollar, bringing me to $18/hr as a desktop support tech. I fixed computer problems whether it was hardware or software and I was fast and could basically solve anything handed to me. I quickly transitoned to a desktop support engineer role where I learned how to package and push software to small fleets of computers. A couple years later I transitioned to the Unix server team.
 
-Each step was a very big promotions as far as responsibility (I was one of two employees who designed and operated a multimillion dollar Hitachi SAN) but my pay didn't budge. People were coming off the street for the same or worse position and making more then double. At the time I was making $32k a year and people were joining at $65k a year ... After being shit on for so long, this was the tipping point, this is where I started to shift my thinking.
+Each step was a very big promotion as far as responsibility (I was one of two employees who designed and operated a multi million dollar Hitachi SAN) but my salary didn't increase proportionally. People were coming "off the street" for the same or lower position and making more then double I was. At the time I was working my ass off for $32k a year and hardly had enough for what my family needed. I was watching people get hired for the same job for $65k a year ... After being shit on for so long, this was the tipping point, this is where I started to shift my thinking.
 
-I felt stuck. I worked for both the big industries for my region and they both failed me. I knew I did not want to relocate but I didn't want to work for companies with obsene priorities and shitty culture.
+I felt stuck. I worked for both the big industries for my region and they both failed me. I knew I did not want to relocate but I also didn't want to work for companies with obsene priorities and shitty culture.
 
     The only way to move up is to move out.
 
