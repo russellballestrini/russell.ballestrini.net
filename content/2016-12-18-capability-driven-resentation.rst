@@ -84,8 +84,8 @@ To do this we assign the ``js-only`` class to our label holding 'x':
  {%- endfor %}
  </div>
 
-The content is the same, but we hide the interface based on the user's capibility!
+The content is the same, but we hide the interface based on the user's capability!
 This small change has a huge impact on the overall user experience.
 
-We no longer present a broken button to the user.
+We no longer present a broken button to the user, and I think that is worth the effort.
 
