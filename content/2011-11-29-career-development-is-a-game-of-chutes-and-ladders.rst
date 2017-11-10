@@ -39,7 +39,7 @@ Can we assume that the manager has already promoted somebody internally for the 
 Depending on the industry, they might be looking for bottom feeder (with a resume) to fill the newly vacant position.
 Keep this in mind the next time a head hunter sends you a proposition.
 
-Normally taking shortcuts goes against conventional wisdom for success.
+Taking shortcuts normally goes against the conventional wisdom for success.
 
 Job networking however, allows candidates to skip ahead and arrive at their dream occupation more directly.
 Meeting new people seems like the single best way to land a job doing what you love.
@@ -47,5 +47,4 @@ Get out there and meet people with similar interests!
 
 **Did you like this post?**
 
-You should checkout the first chapter of my e-book, *How-to Work From Home* titled `The Road to Remote </how-to-work-from-home-the-road-to-remote-chapter-1/>`_. It's free.
-
+You should checkout the first chapter of my e-book, *How-to Work From Home* titled `The Road to Remote </how-to-work-from-home-the-road-to-remote-chapter-1/>`_
