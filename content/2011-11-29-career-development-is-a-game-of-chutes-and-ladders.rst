@@ -16,31 +16,36 @@ to win your dream job.
   :alt: chutes and ladders
 
 At work today, a colleague was reviewing resumes for an open requisition
-within the unix group. I decided later that night to clean up `my
-resume <http://russell.ballestrini.net/uploads/2011/10/Russell-Ballestrini-Resume.pdf>`__
-to make it more relevant. I felt like I did something positive for my
-career. After coming down from the high of resume writing I began to
-question rational. I then came to the contradictory conclusion that a
-great resume holds less importance than a mediocre recommendation.
+within the Unix group. Later that night I decided to clean up `my
+resume </uploads/russell.ballestrini.resume.pdf>`__
+to make it more relevant.
 
-It is better for an employer to learn about you from a recommendation
-then your resume. Why? Hiring new people holds risk. A hiring manager
-will reduce risk by promoting from within or using personal
-recommendations. In both cases the resume becomes a document of
-formality instead of a document of credentials. 
+I felt like I did something positive for my career.
+After coming down from the high of resume writing I began to question my rational and came to the contradictory conclusion that a great resume holds less importance than a mediocre recommendation.
+
+It is better for an employer to learn about you from a recommendation then your resume.
+
+Why?
+
+Hiring new people holds risk.
+A hiring manager will reduce risk by promoting from within or using recommendations.
+In both cases the resume becomes a document of formality instead of a document of credentials. 
 
     "Its not what you know, its who you know."
 
 What can we assume about the position they are extending to the public?
-We can safely assume that the manager has already hired somebody for the
-high risk, enjoyable position and is now looking for a bottom feeder
-with a resume to fill the newly vacant position. Keep this in mind the
-next time a head hunter sends you a job proposition email.
+
+Can we assume that the manager has already promoted somebody internally for the high risk, enjoyable position?
+Depending on the industry, they might be looking for bottom feeder (with a resume) to fill the newly vacant position.
+Keep this in mind the next time a head hunter sends you a proposition.
 
 Normally taking shortcuts goes against conventional wisdom for success.
-Job networking however, allows candidates to skip ahead and arrive at
-their dream occupation more directly. Meeting new people seems like the
-single best way to land a job doing what you love.
 
-**Get out there and meet people with similar interests!**
+Job networking however, allows candidates to skip ahead and arrive at their dream occupation more directly.
+Meeting new people seems like the single best way to land a job doing what you love.
+Get out there and meet people with similar interests!
+
+**Did you like this post?**
+
+You should checkout the first chapter of my e-book, *How-to Work From Home* titled `The Road to Remote </how-to-work-from-home-the-road-to-remote-chapter-1/>`_. It's free.
 
