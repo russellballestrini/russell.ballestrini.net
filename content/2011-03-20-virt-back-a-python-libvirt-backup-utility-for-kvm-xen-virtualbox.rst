@@ -10,6 +10,8 @@ virt-back: a python libvirt backup utility for kvm xen virtualbox
 
 |image0|
 
+.. contents::
+
 **Over the weekend I wrote virt-back, a backup utility for QEMU, KVM,
 XEN, or Virtualbox guests.**
 
@@ -25,8 +27,8 @@ may be downloaded here:
 
 * `https://bitbucket.org/russellballestrini/virt-back <https://bitbucket.org/russellballestrini/virt-back>`_
 
-Installation:
-=============
+Installation
+============
 
 The fastest way to install virt-back is to use pip or setuptools.
 
@@ -43,22 +45,22 @@ Otherwise you may manually install virt-back
 
     sudo chmod 755 /usr/local/bin/virt-back
 
-Test installation:
-==================
+Test installation
+=================
 
 ::
 
     virt-back --help
 
-Example cronjob:
-================
+Example cronjob
+===============
 ::
 
     15  2  *  *  1  /usr/local/bin/virt-back --quiet --backup sagat
     15  23 *  *  5  /usr/local/bin/virt-back --quiet --backup mbison
 
-Manual:
-=======
+Manual
+======
 
 ::
 
@@ -98,4 +100,12 @@ Manual:
         --shutdown-all      attempt to shutdown ALL guests
         --create-all        attempt to start ALL guests
 
+Restoring
+=========
+
+`virt-back: restoring from backups </virt-back-restoring-from-backups/>`_
+
+
 .. |image0| image:: /uploads/2011/03/virt-back.png
+
+
