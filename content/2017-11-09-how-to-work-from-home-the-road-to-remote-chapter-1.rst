@@ -18,7 +18,7 @@ So you have made up your mind, you want to work from home.
 
 The suggestions and advice in this book come from my life experiences. Not all of my experiences will apply to you but I hope that we might find, together, at least a single thread of universal truth. In order to know, I think it makes sense to briefly review the anatomy of my life from childhood until now.
 
-I'm currently 32 years old, but I started working with computers at a very young age. As an elementary schooler, I had a very bright childhood friend named `Brian Brennan <https://www.youtube.com/watch?v=LlO2_GecWo8>`_ who although younger than I, was my first mentor regarding computers. At age 9 we played lots of video games, original playstation and Nintendo 64, as well as countless hours of computer games on his Gateway computer.
+I'm currently 32 years old, but I started working with computers at a young age. As an elementary schooler, I had a bright childhood friend named `Brian Brennan <https://www.youtube.com/watch?v=LlO2_GecWo8>`_ who although younger than I, was my first mentor regarding computers. At age 9 we played lots of video games, original playstation and Nintendo 64, as well as countless hours of computer games on his Gateway computer.
 
 At one point Brian learned how to make the computer work for him instead of other the other way around. Together we started learning HTML and Javascript. I didn't have the Internet on my family computer at the time, but my parents did have a WebTV so I started building HTML web pages for things I enjoyed and used the WebTV to upload my pages Geocities.
 
