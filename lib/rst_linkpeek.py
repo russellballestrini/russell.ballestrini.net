@@ -2,7 +2,30 @@
 """
 Use LinkPeek via reStructuredText
 =================================
-This plugin allows you to use LinkPeek images from within reST documents. 
+This plugin allows you to use LinkPeek images from within reST documents.
+
+For example:
+
+.. code-block:: restructuredtext
+
+ .. linkpeek::
+    uri = http://www.remarkbox.com
+    action = link-image
+    size = 600x400
+
+In Pelican static site generator, you can register this Docutils plugin in your ``pelicanconf.py``
+
+.. code-block:: python
+
+ # register linkpeek docutils directive.
+ import sys
+ sys.path.append('lib')
+ import rst_linkpeek
+ linkpeek = rst_linkpeek.LinkPeek
+ linkpeek.apikey = LINKPEEK_APIKEY
+ linkpeek.secret = LINKPEEK_SECRET
+ linkpeek.register()
+
 """
 
 from __future__ import unicode_literals
@@ -14,7 +37,6 @@ from docutils.parsers.rst import (
 
 from collections import defaultdict
 
-#from .liblinkpeek import api_v1
 from liblinkpeek import api_v1
 
 class LinkPeek(Directive):
@@ -29,7 +51,30 @@ class LinkPeek(Directive):
     params = defaultdict(str)
 
     def api_call(self):
-        return api_v1(self.params['uri'], self.apikey, self.secret, self.params['size'])
+        return api_v1(
+            self.params['uri'],
+            self.apikey,
+            self.secret,
+            self.params['size'],
+            self.params['viewport'],
+        )
+
+    def html_image(self):
+        """return html image markup."""
+        html = '<img src="{}" title="{}" align="{}" style="{}" class="{}" alt="{}" />'
+        return html.format(
+            self.api_call(),
+            self.params['title'],
+            self.params['align'],
+            self.params['style'],
+            self.params['class'],
+            self.params['alt'],
+        )
+
+    def html_link_image(self):
+        """return html link image markup."""
+        html = '<a href="{}" target="_blank">{}</a>'
+        return html.format(self.params['uri'], self.html_image())
 
     def _get_params(self):
         """
@@ -48,31 +93,17 @@ class LinkPeek(Directive):
 
     @property
     def action_registry(self):
-        """return an registry (dictionary) or action methods."""
         return {
             'image' : self.html_image,
             'link-image' : self.html_link_image,
+            '' : self.api_call,
         }
-
-    def get_action(self, action_name):
-        """get action method from action registry or use default."""
-        return self.action_registry.get(action_name, self.api_call)
-
-    def html_image(self):
-        """return html image markup."""
-        html = '<img src="{}" title="{}" align="{}" style="{}" class="{}" />'
-        return html.format(self.api_call(), self.params['title'], self.params['align'], self.params['style'], self.params['class'])
-
-    def html_link_image(self):
-        """return html link image markup."""
-        html = '<a href="{}" target="_blank">{}</a>'
-        return html.format(self.params['uri'], self.html_image())
 
     def run(self):
         """this method is fired when rendering."""
         self._get_params()
 
-        action =  self.get_action(self.params['action'])
+        action = self.action_registry.get(self.params['action'])
 
         output = action()
 
