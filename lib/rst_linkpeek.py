@@ -2,7 +2,30 @@
 """
 Use LinkPeek via reStructuredText
 =================================
-This plugin allows you to use LinkPeek images from within reST documents. 
+This plugin allows you to use LinkPeek images from within reST documents.
+
+For example:
+
+.. code-block:: restructuredtext
+
+ .. linkpeek::
+    uri = http://www.remarkbox.com
+    action = link-image
+    size = 600x400
+
+In Pelican static site generator, you can register this Docutils plugin in your ``pelicanconf.py``
+
+.. code-block:: python
+
+ # register linkpeek docutils directive.
+ import sys
+ sys.path.append('lib')
+ import rst_linkpeek
+ linkpeek = rst_linkpeek.LinkPeek
+ linkpeek.apikey = LINKPEEK_APIKEY
+ linkpeek.secret = LINKPEEK_SECRET
+ linkpeek.register()
+
 """
 
 from __future__ import unicode_literals
