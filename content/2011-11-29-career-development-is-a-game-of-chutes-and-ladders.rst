@@ -8,8 +8,8 @@ Career development is a game of chutes and ladders
 :summary: find out what is the ladder.
 
 If career development was a game of chutes and ladders, job networking
-would be the ladder. They provide a shortcut to the top, a direct route
-to win your dream job.
+would be the ladder. Ladders provide a shortcut to the top, a direct route
+to win, in this case you win your dream job.
 
 .. image:: /uploads/2011/11/job-networking-chutes-and-ladders.gif
   :align: right
