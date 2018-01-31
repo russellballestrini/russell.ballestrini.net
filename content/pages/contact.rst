@@ -3,17 +3,17 @@ Get in touch with Russell
 
 :slug: contact
 
+IRC:
+ fxhp - freenode.net
+
 Email:
- firstname@ lastname.net
+ firstname @ lastname.net
 
 Phone:
  listed in my resume
 
 Resume:
  `Russell Ballestrini's Resume </uploads/russell.ballestrini.resume.pdf>`_
-
-IRC:
- fxhp - freenode.net
 
 Twitter:
  `@RussellBal <https://twitter.com/RussellBal>`_
