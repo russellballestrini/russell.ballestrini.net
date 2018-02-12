@@ -6,15 +6,30 @@ Migrating MongoDB from Ubuntu to SmartOS
 :slug: migrating-mongodb-from-ubuntu-to-smartos
 :status: published
 
-I installed the mongodb 14.2.0
-(``uuid a5775e36-2a02-11e4-942a-67ae7a242985``) dataset and launched a
-new zone. The zone automatically creates a username and password for
+First, I installed the mongodb 14.2.0
+(``uuid a5775e36-2a02-11e4-942a-67ae7a242985``) dataset:
+
+::
+
+ imgadm avail | grep mongo
+ imgadm import a5775e36-2a02-11e4-942a-67ae7a242985
+ 
+Next, I launched a new zone with this image.
+
+ zlogin 
+Then I grabbed the uuid of the zone (``211b992b-a448-40b4-94c9-00fa82615cec``) and I connected into the zone
+
+::
+
+ zlogin 211b992b-a448-40b4-94c9-00fa82615cec
+
+The zone automatically creates a username and password for
 admin and "quickbackup". You can find these passwords by running the
 following command inside the zone:
 
 ::
 
-    cat /var/svc/log/system-zoneinit\:default.log | grep -i mon
+ cat /var/svc/log/system-zoneinit\:default.log | grep -i mon
 
 First thing I did was disable authentication by modifying
 ``/opt/local/etc/mongod.conf``:
