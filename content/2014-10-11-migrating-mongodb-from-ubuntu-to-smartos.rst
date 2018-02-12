@@ -16,7 +16,6 @@ First, I installed the mongodb 14.2.0
  
 Next, I launched a new zone with this image.
 
- zlogin 
 Then I grabbed the uuid of the zone (``211b992b-a448-40b4-94c9-00fa82615cec``) and I connected into the zone
 
 ::
