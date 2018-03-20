@@ -24,8 +24,8 @@ Each panel has an "optimizer" which communicates to the centralized SolarEdge in
 
 Additionally the optimizers report metrics regarding energy production to the inverter, which in turn sends this data to "the cloud" (aka SolarEdge Monitoring System) and I can watch daily playbacks of the whole system. For example, this was a good "solar day" as my family calls it back on Feburary 28th, 2018.
 
-.. image:: /uploads/2018/solar-playback-2018-02-28.gif
-   :alt: My 11.375kWh Solar Playback of February 28th, 2018
+.. image:: /uploads/2018/solar-playback-2018-03-19.gif
+   :alt: My 11.375kWh Solar Playback of March 19th, 2018
 
 You can see how the sun rises to cover the 8 panels on the front of the house and then later moves to cover the panels on the back of the house.
 
