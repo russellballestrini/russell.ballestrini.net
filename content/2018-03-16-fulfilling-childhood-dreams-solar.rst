@@ -22,12 +22,17 @@ Each panel has an "optimizer" which communicates to the centralized SolarEdge in
 .. image:: /uploads/2018/11kWh-solar-panel-layout.png
    :alt: My 11.375kWh Solar Panel Layout
 
-Additionally the optimizers report metrics regarding energy production to the inverter, which in turn sends this data to "the cloud" where I can watch daily playbacks of the whole system. For example, this was a good "solar day" as my family calls it back on Feburary 28th, 2018.
+Additionally the optimizers report metrics regarding energy production to the inverter, which in turn sends this data to "the cloud" (aka SolarEdge Monitoring System) and I can watch daily playbacks of the whole system. For example, this was a good "solar day" as my family calls it back on Feburary 28th, 2018.
 
 .. image:: /uploads/2018/solar-playback-2018-02-28.gif
    :alt: My 11.375kWh Solar Playback of February 28th, 2018
 
 You can see how the sun rises to cover the 8 panels on the front of the house and then later moves to cover the panels on the back of the house.
+
+The SolarEdge also keeps track of various high level metrics. If you insert the date ranges and electricity prices into SolarEdge dashboard, it will do the math to Calculate the "lifetime revenue" of the system. Having this number makes it really easy to calculate the ROI of the system as a whole!
+
+.. image:: /uploads/2018/2018-03-16-solar-overview.png
+
 
 Most of my key insights into home energy actually come from the other device I had installed called "Curb". How Curb works is a bunch of non-invasive CT clamps are installed on each breaker circut in a homes breaker box. Metrics are gathered about energy usage and sent to "the cloud".
 
