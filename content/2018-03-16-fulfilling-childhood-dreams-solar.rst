@@ -5,7 +5,7 @@ Fulfilling Childhood Dreams: Solar
 :slug: fulfilling-childhood-dreams-solar
 :date: 2018-03-16 08:03
 :tags: Solar, Project
-:status: draft
+:status: published
 
 Ever since I was an 8 year old boy I have wanted solar. I remember reading about the environment and alternative energy sources in a monthly "socal studies" flyer my school subscribed our classroom to. I questioned, even at my young age, why the world wasn't actively switching over to solar, water, and wind!
 
