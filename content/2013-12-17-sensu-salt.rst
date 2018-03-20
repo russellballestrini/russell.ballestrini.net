@@ -8,7 +8,7 @@ sensu-salt
 
 A while back I explained how to `Create your own fleet of servers with
 Digital Ocean and
-salt-cloud <http://russell.ballestrini.net/create-your-own-fleet-of-servers-with-digital-ocean-and-salt-cloud/>`__.
+salt-cloud </create-your-own-fleet-of-servers-with-digital-ocean-and-salt-cloud/>`__.
 Today I will extend that post and show how I deployed a test environment
 for `Sensu, an open source monitoring
 framework <http://sensuapp.org/>`__.
@@ -29,15 +29,12 @@ The state formulas in this post were tested on Ubuntu 12.04.3 x64bit.
 
 **Clone or fork the Salt-State tree**
 
-https://github.com/sensu/sensu-salt
+https://github.com/russellballestrini/sensu-salt
 
 ::
 
-    git clone https://github.com/sensu/sensu-salt.git
+    git clone https://github.com/russellballestrini/sensu-salt.git
 
-.. raw:: html
-
-   </p>
 
 **Declare deployment targets**
 
@@ -57,10 +54,6 @@ Before deployment, we must declare some targets in the top.sls file:
         - sensu.server
         - sensu.client
 
-.. raw:: html
-
-   </p>
-
 **Stand up Sensu test environment**
 
 I used the following ``salt-cloud`` command to create the sensu monitor
@@ -69,10 +62,6 @@ server:
 ::
 
     salt-cloud --profile ubuntu_do sensu-server && salt 'sensu-server' state.highstate
-
-.. raw:: html
-
-   </p>
 
 Once the sensu-server was live, I altered the ``client-config.json`` and
 modified the RabbitMQ host with the new ``sensu-server``'s IP or DNS
@@ -83,10 +72,6 @@ I then spun up 4 sensu-clients using the following command:
 ::
 
     salt-cloud -P --profile ubuntu_do sensu-client1 sensu-client2 sensu-client3 sensu-client4 && salt 'sensu-client*' state.highstate
-
-.. raw:: html
-
-   </p>
 
 This caused 4 cloud servers to be spawned in parallel, and when the
 provisioning finished, they instantly appeared in the
@@ -101,7 +86,3 @@ Later when I was done messing with writing checks, I used the following
 
     salt-cloud --destroy sensu-server
     salt-cloud --destroy sensu-client1 sensu-client2 sensu-client3 sensu-client4
-
-.. raw:: html
-
-   </p>
