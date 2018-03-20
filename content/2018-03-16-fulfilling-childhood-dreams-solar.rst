@@ -9,7 +9,18 @@ Fulfilling Childhood Dreams: Solar
 
 Ever since I was an 8 year old boy I have wanted solar. I remember reading about the environment and alternative energy sources in a monthly "socal studies" flyer my school subscribed our classroom to. I questioned, even at my young age, why the world wasn't actively switching over to solar, water, and wind!
 
-25 years later I have finally fulfilled one of my childhood dreams. I have installed a 11.375kWh solar system on my roof. The system is composed of three arrays ("strings") of 8, 13, and 14 panels for a total of ``35``. The panels are the Panasonic ``VBHN325SA16`` which are ``325 watts``.
+25 years later I have finally fulfilled one of my childhood dreams: I installed a 11.375kWh solar system on my roof.
+
+This post will act as an overview of the stuff I learned about solar, I hope you learn something too!
+
+.. contents::
+
+*Disclosure: This post contains affiliate links.* See `full disclosure page here </disclosures-and-terms/>`_.
+
+Solar Monitoring
+=====================
+
+The system is composed 35 x Panasonic 325 watt panels (VBHN325SA16). The panels are isolated into 3 arrays ("strings") of 8, 13, and 14.
 
 .. code-block:: python
 
@@ -19,31 +30,37 @@ Ever since I was an 8 year old boy I have wanted solar. I remember reading about
 
 Each panel has an "optimizer" which communicates to the centralized SolarEdge inverter installed in my basement near the breaker box. The optimizers allow each array to work efficently even when a panel is shaded or broken.
 
+Here is the layout of the panels on my house:
+
 .. image:: /uploads/2018/11kWh-solar-panel-layout.png
    :alt: My 11.375kWh Solar Panel Layout
 
-Additionally the optimizers report metrics regarding energy production to the inverter, which in turn sends this data to "the cloud" (aka SolarEdge Monitoring System) and I can watch daily playbacks of the whole system. For example, this was a good "solar day" as my family calls it back on Feburary 28th, 2018.
+Additionally the optimizers emit energy production metrics to the inverter, which in turn forwards this data to "the cloud" (aka SolarEdge Monitoring System). From there, I can watch daily playbacks of the whole system.
+
+For example, this playback from March 19th, 2018 was a good "solar day" as my family calls:
 
 .. image:: /uploads/2018/solar-playback-2018-03-19.gif
    :alt: My 11.375kWh Solar Playback of March 19th, 2018
 
 You can see how the sun rises to cover the 8 panels on the front of the house and then later moves to cover the panels on the back of the house.
 
-The SolarEdge also keeps track of various high level metrics. If you insert the date ranges and electricity prices into SolarEdge dashboard, it will do the math to Calculate the "lifetime revenue" of the system. Having this number makes it really easy to calculate the ROI of the system as a whole!
+SolarEdge Monitoring Dashboard also keeps track of various high level metrics. For example, I input my electricity rates with date ranges and the dashboard calculates the "lifetime revenue" of my solar system. I plan to track my ROI on this number!
 
 .. image:: /uploads/2018/2018-03-16-solar-overview.png
 
+Home Energy Monitoring
+=============================
 
-Most of my key insights into home energy actually come from the other device I had installed called "Curb". How Curb works is a bunch of non-invasive CT clamps are installed on each breaker circut in a homes breaker box. Metrics are gathered about energy usage and sent to "the cloud".
+Most of my key insights into home energy actually come from another device I had installed called `Curb Home Energy Monitor <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_. Curb uses a bunch of non-invasive CT clamps on each breaker circut to gather consumption. Metrics are gathered and sent to "the cloud" and power some really cool realtime dashboards.
 
-The tool lets you see charts like this, which is the Solar Production and consumption in dollars for the last 15 days:
+For example, this chart shows solar production versus consumption in dollars for the last 15 days:
 
 .. image:: /uploads/2018/solar-15-day-production-consumption-in-dollars.png
    :alt: 15 day solar production versus household breaker consumption
 
-As you can see from this chart, about **50% of my solar production is being consumed by heating hot water** for a family of 5! This feels absurd, I wish there was a startup working in the hot water heating space.
+As you can see, about **50% of my solar production is being consumed by heating hot water** for a family of 5! This feels absurd, I'm thinking about building myself a "bread box" solar pre-warmer for hot water. A startup should disrupt the hot water heating market, it is ripe for disruption.
 
-Here is a short video showing the Curb user interface.
+Anyways, here is a short video showing the Curb user interface.
 
 .. raw:: html
 
@@ -55,3 +72,38 @@ Here is a short video showing the Curb user interface.
  </video>
  </center>
 
+The `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_ is likely the most accurate home energy monitor on the market. The draw back is cost of parts and labor (I used my solar installer's electrician) for a total cost of $800.
+
+The competition has less accuracy but I could have likely installed a Sense myself and saved on the labor cost.
+
+Here are the two other brands I was looking at, for reference:
+
+* `Sense Home Energy Monitor <https://www.amazon.com/gp/product/B075K6PHJ9/ref=as_li_tl?ie=UTF8&tag=russellball03-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B075K6PHJ9&linkId=cc8e52d403b4b24da1f7b6a27a96ff74>`_
+* `Neurio Home Electricity Monitor <https://www.amazon.com/gp/product/B0149EE5KS/ref=as_li_tl?ie=UTF8&tag=russellball03-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0149EE5KS&linkId=7e3e5d1063e980892649ea98351034bd>`_ 
+
+Solar Financing
+=========================
+
+When talking with Tesla, I fully expected to pay for my solar system in full with cash savings. It wasn't until I reached out to `SunLight Solar <http://sunlightsolar.com>`_ did I change my strategy. SunLight urged me to take advantage of the ".99% CT Green Bank" finance option. I took that loan out and dumped my cash savings into my mortgage as a bulk payment.
+
+Additionally, the CT Green Bank granted me $3,600 toward my project and the US federal government will grant 30% or $8,400 on my tax return.
+
+After all incentives, the parts and labor of my system is $20,000:
+
+.. code-block:: math
+
+ $32,000 - $3,600 - 8,400 = $20,000
+
+Putting solar on my house actually opened up my financial options and diversified my portfolio!
+
+I now have:
+
+* a power plant on my roof with an expected 9-10 year ROI; after 10 years I'll be generating positive wealth and capital "cash flow" in the form of energy
+* paid down my 4.125% house mortgage by $30,000; saving tens of thousands over the life of the loan
+* increased the value of my house by $20-30,000; this is an asset I can sell with or without my house
+* shielded or insulated myself from electricity rate hikes; who knows what electricity will cost in 5 to 10 years
+
+Contact me
+=========================
+
+As always, please feel free to leave comments below. I live in New England so you may also `contact me </contact/>`_ to setup a time to tour my setup and ask questions. I look forward to meeting you!
