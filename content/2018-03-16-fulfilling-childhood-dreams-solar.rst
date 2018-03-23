@@ -17,6 +17,12 @@ This post will act as an overview of the stuff I learned about solar, I hope you
 
 *Disclosure: This post contains affiliate links.* See `full disclosure page here </disclosures-and-terms/>`_.
 
+.. image:: /uploads/2018/panasonic-325watt-panels-front.jpg
+  :alt: 325 watt panasonic solar Panels on front of house
+
+.. image:: /uploads/2018/panasonic-325watt-panels-back.jpg
+  :alt: 325 watt panasonic solar Panels on back of house
+
 Solar Monitoring
 =====================
 
@@ -43,6 +49,9 @@ For example, this playback from March 19th, 2018 was a good "solar day" as my fa
    :alt: My 11.375kWh Solar Playback of March 19th, 2018
 
 You can see how the sun rises to cover the 8 panels on the front of the house and then later moves to cover the panels on the back of the house.
+
+.. image:: /uploads/2018/solaredge-10k-central-inverter.jpg
+  :alt: 325 watt panasonic solar Panels on back of house
 
 SolarEdge Monitoring Dashboard also keeps track of various high level metrics. For example, I input my electricity rates with date ranges and the dashboard calculates the "lifetime revenue" of my solar system. I plan to track my ROI on this number!
 
