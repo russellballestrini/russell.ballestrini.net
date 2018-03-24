@@ -67,7 +67,7 @@ For example, this chart shows solar production versus consumption in dollars for
 .. image:: /uploads/2018/solar-15-day-production-consumption-in-dollars.png
    :alt: 15 day solar production versus household breaker consumption
 
-As you can see, about **50% of my solar production is being consumed by heating hot water** for a family of 5! This feels absurd, I'm thinking about building myself a "bread box" solar pre-warmer for hot water. A startup should disrupt the hot water heating market, it is ripe for disruption.
+As you can see, about **50% of my solar production is being consumed by heating hot water** for a family of 5! This feels absurd, I'm thinking about building myself a "bread box" solar pre-warmer for hot water. A startup should enter the hot water heating market, it is ripe for disruption.
 
 Anyways, here is a short video showing the Curb user interface.
 
