@@ -81,7 +81,7 @@ Anyways, here is a short video showing the Curb user interface.
  </video>
  </center>
 
-The `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_ is likely the most accurate home energy monitor on the market. The draw back is cost of parts and labor (I used my solar installer's electrician) for a total cost of $800.
+The `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_ is likely the most accurate home energy monitor on the market. The draw back is the cost of parts and labor; I used my solar installer's electrician and the total cost was $800.
 
 The competition has less accuracy but I could have likely installed a Sense myself and saved on the labor cost.
 
@@ -93,11 +93,11 @@ Here are the two other brands I was looking at, for reference:
 Solar Financing
 =========================
 
-When talking with Tesla, I fully expected to pay for my solar system in full with cash savings. It wasn't until I reached out to `SunLight Solar <http://sunlightsolar.com>`_ did I change my strategy. SunLight urged me to take advantage of the ".99% CT Green Bank" finance option. I took that loan out and dumped my cash savings into my mortgage as a bulk payment.
+When talking with Tesla, I fully expected to pay for my solar system in full with cash savings. It wasn't until I reached out to `SunLight Solar <http://sunlightsolar.com>`_ did I change my strategy. SunLight urged me to take advantage of the ".99% CT Green Bank" finance option. I took out a loan for the whole project and dumped my cash savings into my home mortgage as a bulk payment to the principle.
 
-Additionally, the CT Green Bank granted me $3,600 toward my project and the US federal government will grant 30% or $8,400 on my tax return.
+Additionally, the CT Green Bank granted me $3,600 toward my project and the US federal government will grant 30% or $8,400 on my next tax return.
 
-After all incentives, the parts and labor of my system is $20,000:
+After all the incentives, the parts and labor of my system came in just under $20,000:
 
 .. code-block:: math
 
@@ -107,8 +107,8 @@ Putting solar on my house actually opened up my financial options and diversifie
 
 I now have:
 
-* a power plant on my roof with an expected 9-10 year ROI; after 10 years I'll be generating positive wealth and capital "cash flow" in the form of energy
-* paid down my 4.125% house mortgage by $30,000; saving tens of thousands over the life of the loan
+* a power plant on my roof with an expected 9-10 year ROI; after 10 years I'll be generating wealth, capital, and positive "cash flow" in the form of energy
+* paid down my 4.125% house mortgage by $35,000; saving tens of thousands over the life of the loan
 * increased the value of my house by $20-30,000; this is an asset I can sell with or without my house
 * shielded or insulated myself from electricity rate hikes; who knows what electricity will cost in 5 to 10 years
 
