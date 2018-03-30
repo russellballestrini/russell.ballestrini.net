@@ -19,13 +19,13 @@ Here is the code:
 
    </p>
 
-Oh and here is a function if you love this!
+Oh, and if you like this, here is a function with additional functionality and protection:
 
 ::
 
     def dict_to_key_value(data, sep='=', pair_sep=', '):
         """turns {'tag1':'value1','tag2':'value2'} into tag1=value1, tag2=value2"""
-        return pair_sep.join([sep.join(key_value) for key_value in data.items()])
+        return pair_sep.join([sep.join((unicode(key), unicode(value))) for key, value in data.items()])
 
 .. raw:: html
 
