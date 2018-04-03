@@ -1,7 +1,7 @@
 russell.ballestrini.net
 #######################
 
-This is the source code for my blog. My blog is a static web site with just HTML!
+This is the source code for `my blog <https://russell.ballestrini.net>`_. My blog is a static web site with just HTML!
 This project uses Pelican (a static site generator) to produce HTML from ``.rst`` or ``.md`` files.
 
 Pelican is written in Python and uses Jinja2 template engine by default.
