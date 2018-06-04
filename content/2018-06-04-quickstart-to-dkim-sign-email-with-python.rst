@@ -54,7 +54,7 @@ The Missing dkimpy Quickstart Guide
 
    You may choose any selector, I happen to like to use YearMonthDay. Additionally you will substitute your public key in place of mine. Put each the line of the public key on a single line in the TXT record.
 
-4. On each of my application servers I store my private portion of my DKIM key in `/etc/dkim/remarkbox.com.20180605.pem`. You may store your key any where on the filesystem that is accessible to the user or group running you application.
+4. On each of my application servers I store my private portion of my DKIM key in ``/etc/dkim/remarkbox.com.20180605.pem``. You may store your key any where on the filesystem that is accessible to the user or group running the application.
 
 5. This is how I used to send Email with Python:
 
