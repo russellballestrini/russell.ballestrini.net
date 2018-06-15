@@ -9,7 +9,7 @@ Pyramid SQLAlchemy bootstrap console script with transaction.manager
 
 So I've struggled for a while with the best way to properly setup a console script for my SQLAlchemy Pyramid apps.
 
-I use the cookie cutter to setup my projects and as such, I do not have a global (and the importable) DBSession object. Instead my database session is attached to the request when it is created.
+I use the `Pyramid Cookiecutter Alchemy <https://github.com/Pylons/pyramid-cookiecutter-alchemy>`_ to setup my projects and as such, I do not have a global and thus importable DBSession object. Instead my database session is attached to the request on creation.
 
 Anyways, here is my recipe:
 
