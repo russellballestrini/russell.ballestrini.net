@@ -40,3 +40,10 @@ Anyways, here is my recipe:
         with bootstrap(args.config) as env, env["request"].tm:
             request = env["request"]
             invalidate_all_node_cache_objects(request.dbsession)
+      
+      
+This pattern should help you solve this error:
+
+.. code-block:: python
+
+ NoTransaction error when using bootstrap in script
