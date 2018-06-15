@@ -27,16 +27,13 @@ Anyways, here is my recipe:
             description="Invalidate all NodeCache objs to force recomputation."
         )
         parser.add_argument("-c", "--config", default="development.ini")
-        parser.add_argument("-d", "--debug", action="store_true", default=False)
         return parser
     
     
     def main():
         parser = get_arg_parser()
         args = parser.parse_args()
-    
-        if args.debug:
-            setup_logging(args.config)
+        setup_logging(args.config)
     
         # use bootstrap context manager to prepare app and request,
         # next use the resulting request's transaction manager!
