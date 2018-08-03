@@ -9,16 +9,15 @@ Hey there, welcome to my little slice of the Internet!
 
 Finding **simple solutions** to difficult problems, gives me a rush. 
 
-I turn ideas into products and often prototype using Python. 
-I admire readable, testable code, and I enjoy the process of refactoring.
+I feel like I'm at my best when I can turn ideas into products. I often prototype using Python and admire readable, testable code. The process of refactoring is like a crossword puzzle to me and brings me joy.
 
 As a strong advocate of opensource, I donate my code and time when I can.
 
-My first successful product launch was `LinkPeek <https://linkpeek.com>`_ which I still operate today. I'm actively bootstrapping `Remarkbox, a hosted comment service <http://www.remarkbox.com>`_.
-
 I currently work for `Remind <https://www.remind.com/>`_ as a software engineer where I write software to manage infrastructure running in AWS.
 
-You should `contact me </contact>`_. I love conversation and always responds in a timely manner!
+My long term goal is to work for myself. My first successfully bootstrapped product launch was `LinkPeek <https://linkpeek.com>`_ which I still operate today. Right now I'm actively bootstrapping `Remarkbox, a hosted comment service <http://www.remarkbox.com>`_.
+
+You should `contact me </contact>`_. I love conversation and often respond in a timely manner!
 
 
 Russell’s projects
