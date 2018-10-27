@@ -12,7 +12,7 @@ Warning / Update!
 
 This post was originally written from a place of jealousy and bitterness.
 
-Turns out I was very wrong about this transaction and for better-or-worse, Facebook 
+Turns out I was wrong about this transaction and for better-or-worse, Facebook 
 (and Mark Zuckerburg) solidified their edge as the king of social for the last 6 years.
 
 Original Post
