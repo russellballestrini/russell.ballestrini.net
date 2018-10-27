@@ -6,6 +6,18 @@ I just purchased Instagram for 1B and all I got was this lousy image filter
 :slug: i-just-purchased-instagram-for-1b-and-all-i-got-was-this-lousy-image-filter
 :status: published
 
+
+Warning / Update!
+======================
+
+This post was originally written from a place of jealousy and bitterness.
+
+Turns out I was very wrong about this transaction and for better-or-worse, Facebook 
+(and Mark Zuckerburg) solidified their edge as the king of social for the last 6 years.
+
+Original Post
+======================
+
 **Facebook purchased Instagram on Monday, April 9th 2012 for
 $1,000,000,000 US.** Instagram, a free to use image sharing iPhone
 application, has absolutely NO REVENUE STREAM. The application is free
