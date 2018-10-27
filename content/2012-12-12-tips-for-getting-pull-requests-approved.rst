@@ -61,7 +61,7 @@ Follow the leader
 ================================================
 
 Try to mimic the maintainers. Follow the coding style and project layout
-even if it seems wrong. This is not your playground yet. Before you
+even if it seems wrong. This is not your playground... yet. Before you
 commit, review the VCS logs to learn how verbose or terse your commit
 messages should be. When in Rome do as the romans do. This silly game of
 follow the leader reduces friction of an outsider committing to the
@@ -76,8 +76,10 @@ Your first pull request should clarify or add to the existing
 documentation. Fix the README, adjust a comment, or write a test. These
 tasks might appear small but they serve to prove that you possess
 comprehension of the source code. They also do not alter the program's
-functionality. Having a few of these pull requests under-your-belt will
-earn you trust which will eventuality translate to more responsibly in
+functionality.
+
+Having a few of these pull requests under-your-belt will
+earn you trust which will eventuality translate to more responsibility in
 the future. You will also differentiate yourself from the rest because
 most people do not enjoy working on documentation.
 
