@@ -32,10 +32,10 @@ We manage a static `.service` file using a package or config management.
  Restart=always
  RestartSec=10
 
- # output stdout and stderr to syslog. (/var/log/messages) 
+ # output stdout and stderr to syslog. (/var/log/[syslog|messages])
  StandardOutput=syslog
  StandardError=syslog
- SyslogIdentifier=taco-api
+ SyslogIdentifier=%N
 
  # define the user and group to own the process.
  #User=node
