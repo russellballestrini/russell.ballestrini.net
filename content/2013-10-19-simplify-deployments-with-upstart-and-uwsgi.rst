@@ -7,7 +7,7 @@ Simplify deployments with Upstart and uWSGI
 :status: published
 
 As you know from my previous post, I recently `deleted
-LinkPeek.com <http://russell.ballestrini.net/honey-i-just-deleted-linkpeek-com/>`__
+LinkPeek.com <https://russell.ballestrini.net/honey-i-just-deleted-linkpeek-com/>`__
 and after struggling to get it back online, I vowed to start utilizing
 configuration management. During this exercise, I noticed that the
 architecture I use in production seems overly complicated.
@@ -28,7 +28,7 @@ ports.*
 This architecture seems difficult to automate because of the numerous
 places errors may sneak in. I started researching an alternative
 architecture and stumbled upon Nicholas Piel's `Benchmark of Python Web
-Servers <http://nichol.as/benchmark-of-python-web-servers>`__. The
+Servers <https://nichol.as/benchmark-of-python-web-servers>`__. The
 graphs Nicholas compiled allowed me to narrow down a list of potential
 replacements.
 

@@ -28,14 +28,14 @@ Pelican-import
 ====================================
 
 A tool to convert WordPress .xml into .rst or .md files (ReStructuredText or MarkDown) is
-`pelican-import <http://docs.getpelican.com/en/latest/importer.html>`_.
+`pelican-import <https://docs.getpelican.com/en/latest/importer.html>`_.
 
 I suggest checking it out, even if you do not plan to use Pelican as your static site generator.
 
 Add date to post filenames
 ====================================
 
-After using `pelican-import <http://docs.getpelican.com/en/latest/importer.html>`_ I had about 150 `.rst` files and I decided to put the date in the filename, so I wrote this short bash script tool to do the renames:
+After using `pelican-import <https://docs.getpelican.com/en/latest/importer.html>`_ I had about 150 `.rst` files and I decided to put the date in the filename, so I wrote this short bash script tool to do the renames:
 
 .. code-block:: bash
 

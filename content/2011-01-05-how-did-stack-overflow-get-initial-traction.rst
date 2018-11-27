@@ -34,5 +34,5 @@ the quickest.
 
 Did I miss any reasons? Feel free to comment below.
 
-You should follow me on twitter `here <http://twitter.com/russellbal>`__
+You should follow me on twitter `here <https://twitter.com/russellbal>`__
 

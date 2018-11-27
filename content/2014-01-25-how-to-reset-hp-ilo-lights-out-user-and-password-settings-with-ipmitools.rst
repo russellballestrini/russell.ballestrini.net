@@ -64,7 +64,7 @@ out $229+ on an Advanced 1 yr single server Licence for HP Lights-Out 100i (LO10
 
 I uploaded a video showing
 `Serial-Over-LAN with IPMItools to an HP Proliant DL160 G6 running
-SmartOS <http://www.youtube.com/watch?v=xAFjbKAzB4s>`__.
+SmartOS <https://www.youtube.com/watch?v=xAFjbKAzB4s>`__.
 
 
 **Update:** 

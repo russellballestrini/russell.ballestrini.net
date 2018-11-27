@@ -10,7 +10,7 @@ Deliberating the Viewers vs. Doers concept
 
 |Viewers vs Doers Lecture|
 
-`Brett & Kate McKay <http://artofmanliness.com/2011/08/28/viewers-vs-doers-the-rise-of-spectatoritis/>`_ from artofmanliness.com recently subscribed to an idea that America has succumbed to
+`Brett & Kate McKay <https://artofmanliness.com/2011/08/28/viewers-vs-doers-the-rise-of-spectatoritis/>`_ from artofmanliness.com recently subscribed to an idea that America has succumbed to
 "spectatoritis, a blanket description to cover all kinds of passive
 amusement, an entering into the handiest activity merely to escape
 boredom." -Jay B. Nash, 1938

@@ -48,7 +48,7 @@ I decided to investigate to uncover more.
 
 Apparently The Barrymores went into hiatus after one of the founding
 members passed away.   The
-Barrymore \ `myspace <http://www.myspace.com/thebarrymores>`__ page
+Barrymore \ `myspace <https://www.myspace.com/thebarrymores>`__ page
 still seems active and continues to hosts a few of the bands tracks.
 
 Sorry about the bummer, but you should still give the music a listen.

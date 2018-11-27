@@ -24,7 +24,7 @@ following line to the bottom:
 I ended up producing a single line chat notification template.
 I uploaded it here to act as an example:
 
-`Custom Rundeck HipChat Notification Template <http://pad.yohdah.com/311/rundeck-hipchat-custom-notification-template>`__
+`Custom Rundeck HipChat Notification Template <https://pad.yohdah.com/311/rundeck-hipchat-custom-notification-template>`__
 
 The template syntax and renderer is called FreeMarker. Rundeck and the
 HipChat plugin pass many different context Map hash objects to
@@ -39,7 +39,7 @@ References:
    <li>
 
 `Rundeck HipChat Notification
-Plugin <http://rundeck.org/plugins/2013/06/24/hipchat-notification.html>`__
+Plugin <https://rundeck.org/plugins/2013/06/24/hipchat-notification.html>`__
 
 .. raw:: html
 

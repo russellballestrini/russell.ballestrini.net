@@ -7,7 +7,7 @@ Google Bot Attempts to Crawl Shortest Urls First
 :status: published
 :summary:
 
-**Recently I built http://school.yohdah.com a Python, Pyramid, and
+**Recently I built https://school.yohdah.com a Python, Pyramid, and
 mongoDB project during the last couple weekends.**
 
 |image0|
@@ -17,7 +17,7 @@ school in the US. We have 61 state pages, approximately 19,000 city
 pages, and over 103,000 school pages.
 
 It seems the Google Bots have noticed
-`school.yohdah.com <http://school.yohdah.com>`__ and started crawling
+`school.yohdah.com <https://school.yohdah.com>`__ and started crawling
 the site. Since the initial crawl I started reviewing a sample of the
 sites apache logs in an attempt to track the bot's activity. After a few
 minutes of viewing the logs, I locked onto a pattern; Google Bot's
@@ -40,7 +40,7 @@ right, as the urls being fetched increase by one character.
 means?**
 
 .. |image0| image:: /uploads/2011/06/us-public-schools1.png
-   :target: http://school.yohdah.com
+   :target: https://school.yohdah.com
    :alt: school.yohdah.com
    :class: wordwrap-left
 

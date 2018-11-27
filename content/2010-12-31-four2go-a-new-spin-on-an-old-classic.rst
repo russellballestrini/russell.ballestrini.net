@@ -17,14 +17,14 @@ Hacker News, lets make November "Launch an App Month".
 The whole project took longer than expected but I was please with my
 progress so I continued development. Today, a month later, I have added
 the finishing touches to the app. It gives me great pleasure to announce
-the official launch of `four2go! <http://four2go.gumyum.com>`__
+the official launch of `four2go! <https://four2go.gumyum.com>`__
 
 **A new spin ...**
 
-`four2go! <http://four2go.gumyum.com>`__ brings a new spin to the
+`four2go! <https://four2go.gumyum.com>`__ brings a new spin to the
 classic "four in a row" genre.
 
-Instead of weighted tokens, `four2go! <http://four2go.gumyum.com>`__
+Instead of weighted tokens, `four2go! <https://four2go.gumyum.com>`__
 uses balloons which float up rather than down. This new game mechanic
 requires players to retrain their brains and can easily throw off a
 novice player.
@@ -73,9 +73,9 @@ ever decide to build another game.
 **Artwork and graphic design**
 
 I was very fortunate to work with my brother `Joey
-Ballestrini <http://joey.ballestrini.net>`__ on some of the concept and
-game art. We designed the `four2go! <http://four2go.gumyum.com>`__ logo,
-the `gumyum <http://gumyum.com>`__ logo, and the balloons. Joey designed
+Ballestrini <https://joey.ballestrini.net>`__ on some of the concept and
+game art. We designed the `four2go! <https://four2go.gumyum.com>`__ logo,
+the `gumyum <https://gumyum.com>`__ logo, and the balloons. Joey designed
 each of the "create" game icons. The clouds, the grass, and the dirt
 were created for another game and I decided they were a good fit so they
 were re-purposed. We both use gimp when creating graphical computer art.
@@ -83,14 +83,14 @@ were re-purposed. We both use gimp when creating graphical computer art.
 **LETS PLAY!**
 
 I have attached a video of the game, but I
-urge you to try `four2go! <http://four2go.gumyum.com>`__ out for
+urge you to try `four2go! <https://four2go.gumyum.com>`__ out for
 yourself!
 
 .. raw:: html
 
    <p>
    <center>
-   <iframe title="YouTube video player" width="480" height="338" src="http://www.youtube.com/embed/wmB9PeKBAlA" frameborder="0">
+   <iframe title="YouTube video player" width="480" height="338" src="https://www.youtube.com/embed/wmB9PeKBAlA" frameborder="0">
    </iframe>
    </center>
    </p>

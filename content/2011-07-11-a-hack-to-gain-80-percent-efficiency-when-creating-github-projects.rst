@@ -45,6 +45,6 @@ I like my method better.
 Awesome, 2 steps versus 10. That hack appears 80% more efficient! Now if
 only my name was shorter... LOL
 
-You should follow me on twitter `here <http://twitter.com/russellbal>`_
+You should follow me on twitter `here <https://twitter.com/russellbal>`_
 
 .. |image0| image:: /uploads/2011/07/80-percent-github-hack.png

@@ -22,7 +22,7 @@ And now, for the polyglot code:
     #!/bin/sh
 
     # reinvoke this script with bpython -i, ipython -i, or python -i
-    # reference: http://unix.stackexchange.com/a/66242
+    # reference: https://unix.stackexchange.com/a/66242
     ''':'
     if type bpython >/dev/null 2>/dev/null; then
       exec bpython -i "$0" "$@"

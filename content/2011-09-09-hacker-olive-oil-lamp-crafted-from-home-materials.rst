@@ -46,7 +46,7 @@ In loom of the recent and persisting hurricane season I present a
 
    <p>
    <center>
-   <iframe width="420" height="345" src="http://www.youtube.com/embed/3I1W2ddJaAs" frameborder="0" allowfullscreen>
+   <iframe width="420" height="345" src="https://www.youtube.com/embed/3I1W2ddJaAs" frameborder="0" allowfullscreen>
    </iframe>
    </center>
    </p>

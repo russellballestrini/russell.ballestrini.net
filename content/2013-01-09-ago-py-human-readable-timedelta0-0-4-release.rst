@@ -9,11 +9,11 @@ ago.py human readable timedelta 0.0.4 release
 | 
 |  **We have released ago.py 0.0.4**
 
-| pypi: http://pypi.python.org/pypi/ago
+| pypi: https://pypi.python.org/pypi/ago
 |  repo: https://bitbucket.org/russellballestrini/ago
 
 Special thanks to David Beitey for supplying `ideas and python
-code <http://davidjb.com/>`__ for this update!
+code <https://davidjb.com/>`__ for this update!
 
 All changes are backward compatible.
 

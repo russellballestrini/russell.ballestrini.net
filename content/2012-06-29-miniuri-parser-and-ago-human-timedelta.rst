@@ -8,8 +8,8 @@ miniuri parser and ago human timedelta
 
 I just packaged and published a couple of python modules to pypi:
 
-* `ago <http://pypi.python.org/pypi/ago>`__
-* `miniuri <http://pypi.python.org/pypi/miniuri>`__
+* `ago <https://pypi.python.org/pypi/ago>`__
+* `miniuri <https://pypi.python.org/pypi/miniuri>`__
 
 To install them, run:
 

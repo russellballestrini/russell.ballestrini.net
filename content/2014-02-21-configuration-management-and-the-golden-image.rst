@@ -21,7 +21,7 @@ the human element caused defects. Then the request came in to stand up
   same, or rather started out the same, but it didn't take long for
   deviations occur.
 |  (Norton Ghost, DD, ISOs)
-|  http://en.wikipedia.org/wiki/Standard\_Operating\_Environment
+|  https://en.wikipedia.org/wiki/Standard\_Operating\_Environment
 
 The golden image by itself was a flawed idea. The task of creating a
 golden image was difficult and required a lot of work. Not only was it

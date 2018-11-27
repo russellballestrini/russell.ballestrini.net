@@ -19,7 +19,7 @@ Pylowiki felt bland in comparison to this wordpress blog.
 
 So, I made up my mind to build themes for Pylowik, and I started by
 porting ChaosTheory. You can view the finished product at
-`http://www.foxhop.net <%20http://www.foxhop.net%20>`__.
+`https://www.foxhop.net <https://www.foxhop.net>`__.
 
 You should also give Pylowiki a try. Pylowiki has futuristic, live
 preview, same page, section edit functionality.

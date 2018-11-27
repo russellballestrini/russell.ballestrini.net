@@ -11,7 +11,7 @@ will not fix the issue.
 
 | The issue is not the openssl package, it is one of the libraries that
   the package relies on (libssl).
-|  http://www.ubuntu.com/usn/usn-2165-1/
+|  https://www.ubuntu.com/usn/usn-2165-1/
 
 The output of ``openssl version -a`` command should have a ``built on``
 date older then ``Mon Apr  7 20:33:29 UTC 2014``. After patching openssl
@@ -71,4 +71,4 @@ nginx on all of my 14 hosts:
    </center>
    </p>
 
-.. |image0| image:: http://imgs.xkcd.com/comics/heartbleed.png
+.. |image0| image:: https://imgs.xkcd.com/comics/heartbleed.png

@@ -29,14 +29,14 @@ unsatisfied.
 
 The next day I decided to give the tablet another try, but instead of
 using Gimp I decided to try my luck with other software called
-`MyPaint <http://mypaint.intilinux.com/>`__. MyPaint's interface feels
+`MyPaint <http://mypaint.org/about/>`__. MyPaint's interface feels
 perfect and it is loaded with brushes, pencils, and inks. MyPaint
 implements brush stroke pressure with unmatched precision!
 
 The art on this page was created with my wacom BAMBOO tablet and
 MyPaint.
 
-You should follow me on twitter `here <http://twitter.com/russellbal>`_.
+You should follow me on twitter `here <https://twitter.com/russellbal>`_.
 
 Thank you so much MyPaint developers for such a stellar piece of
 software!

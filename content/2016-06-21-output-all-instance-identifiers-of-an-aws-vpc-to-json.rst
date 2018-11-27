@@ -9,7 +9,7 @@ Output all instance identifiers of an AWS VPC to JSON
 
 At work today I needed an easy way to collect private IP addresses of every instance in one of our production VPCs.
 
-I ended up adding a tool to http://botoform.com to perform this task.
+I ended up adding a tool to https://botoform.com to perform this task.
 
 .. code-block:: bash
 

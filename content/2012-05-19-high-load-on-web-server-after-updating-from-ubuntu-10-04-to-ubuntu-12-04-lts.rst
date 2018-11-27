@@ -28,12 +28,11 @@ causes incorrect high reported load averages can be reported under
 conditions of light load and high enter/exit idle frequency conditions
 (greater then 25 hertz).**
 
-A nice fellow at
-http://www.smythies.com/~doug/network/load\_average/new.html researched
-the topic between tick and tickless linux kernels and the effect they
-had on load averages. You should check it out.
+A nice fellow named Doug from smythies.com researched
+the topic between `tick and tickless linux kernels and the effect they
+have on load averages <http://www.smythies.com/~doug/network/load_average/new.html>`. You should check it out.
 
 .. |image0| image:: /uploads/2012/05/high-load-after-updating-ubuntu-from-10.04-LTS-to-12.04-LTS.png
-   :target: http://russell.ballestrini.net/high-load-on-web-server-after-updating-from-ubuntu-10-04-to-ubuntu-12-04-lts/high-load-after-updating-ubuntu-from-10-04-lts-to-12-04-lts/
+   :target: https://russell.ballestrini.net/high-load-on-web-server-after-updating-from-ubuntu-10-04-to-ubuntu-12-04-lts/high-load-after-updating-ubuntu-from-10-04-lts-to-12-04-lts/
 .. |image1| image:: /uploads/2012/05/ubuntu.12.04.swap_.year_.png
-   :target: http://russell.ballestrini.net/high-load-on-web-server-after-updating-from-ubuntu-10-04-to-ubuntu-12-04-lts/ubuntu-12-04-swap-year/
+   :target: https://russell.ballestrini.net/high-load-on-web-server-after-updating-from-ubuntu-10-04-to-ubuntu-12-04-lts/ubuntu-12-04-swap-year/

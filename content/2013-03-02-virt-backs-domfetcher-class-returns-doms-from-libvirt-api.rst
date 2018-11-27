@@ -14,7 +14,7 @@ virt-back's Domfetcher class returns doms from libvirt API
 I attended SCaLE 11x, my first technical conference, and had an amazing
 time. My favorite talk was Michael Day's "`Advancements with Open
 Virtualization &
-KVM <http://code.ncultra.org/2013/02/scale-11x-open-virtualization/>`__\ "
+KVM <https://code.ncultra.org/2013/02/scale-11x-open-virtualization/>`__\ "
 (link to slides). Michael's presentation inspired me to continue my work
 on virt-back.
 

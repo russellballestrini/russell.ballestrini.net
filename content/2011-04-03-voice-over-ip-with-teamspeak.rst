@@ -18,7 +18,7 @@ script. Ventrilo also does not have a Linux client although they have
 been promising one for quite some time.
 
 Instead we will cover how to install and configure
-`TeamSpeak <http://www.TeamSpeak.com>`__.
+`TeamSpeak <https://www.teamspeak.com/en/>`__.
 
 **Installing a teamspeak server on your VPS**
 
@@ -63,7 +63,7 @@ Find the proper package for your VPS and download it, in my case I ran:
 
 ::
 
-    wget http://teamspeak.gameserver.gamed.de/ts3/releases/beta-30/teamspeak3-server_linux-amd64-3.0.0-beta30.tar.gz
+    wget https://teamspeak.gameserver.gamed.de/ts3/releases/beta-30/teamspeak3-server_linux-amd64-3.0.0-beta30.tar.gz
 
 *For best results download the latest version of teamspeak.*
 

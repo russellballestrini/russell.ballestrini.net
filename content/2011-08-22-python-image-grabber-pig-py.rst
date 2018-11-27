@@ -27,7 +27,7 @@ https://bitbucket.org/russellballestrini/pig/raw/tip/pig.py
 |
 
 **Example:**
-  ``python pig.py http://www.foxhop.net``
+  ``python pig.py https://www.foxhop.net``
 
 |
 

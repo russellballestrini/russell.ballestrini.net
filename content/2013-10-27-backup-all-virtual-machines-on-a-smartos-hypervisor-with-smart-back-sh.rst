@@ -17,7 +17,7 @@ virtual machine on a SmartOS hypervisor.
 
     # Backup all virtual machines on a SmartOS hypervisor
     # Author:  russell@ballestrini.net
-    # Website: http://russell.ballestrini.net/
+    # Website: https://russell.ballestrini.net/
 
     # Backup directory without trailing slash
     backupdir=/opt/backups

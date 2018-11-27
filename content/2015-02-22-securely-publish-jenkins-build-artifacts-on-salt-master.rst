@@ -20,7 +20,7 @@ We start off with some Salt States to stand up a Jenkins build server
 
 ::
 
-    # http://russell.ballestrini.net/securely-publish-jenkins-build-artifacts-on-salt-master/
+    # https://russell.ballestrini.net/securely-publish-jenkins-build-artifacts-on-salt-master/
     # manage jenkins user, home dir, and Jenkins "master" public SSH key.
     jenkins:
       user.present:

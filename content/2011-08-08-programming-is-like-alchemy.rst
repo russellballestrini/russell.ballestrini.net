@@ -39,7 +39,7 @@ alchemists!
 It is more accurate to group programs with technology then magic, but
 less fun. Programs are leveraged tools born to save people time and energy.
 
-Thanks for reading, you should follow me on twitter `here <http://twitter.com/russellbal>`_
+Thanks for reading, you should follow me on twitter `here <https://twitter.com/russellbal>`_
 
 |time-travelling-wizard-alchemists|
 

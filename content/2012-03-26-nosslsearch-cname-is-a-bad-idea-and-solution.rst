@@ -32,4 +32,4 @@ nosslsearch cname is a bad idea and solution
 
 | 
 |  Reference:
-  http://support.google.com/websearch/bin/answer.py?hl=en&answer=186669
+  https://support.google.com/websearch/bin/answer.py?hl=en&answer=186669

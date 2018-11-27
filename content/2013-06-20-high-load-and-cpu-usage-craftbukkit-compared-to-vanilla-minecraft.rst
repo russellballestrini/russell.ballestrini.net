@@ -7,7 +7,7 @@ High load and CPU usage craftbukkit compared to vanilla minecraft
 :status: published
 
 I started researching the best ways to use `salt to provision minecraft
-servers <http://bobbylikeslinux.net/salt-minecraft-fun.html>`__. I wrote
+servers <https://bobbylikeslinux.net/post/2013/2013-salt-minecraft-fun/>`__. I wrote
 a salt state formula for the vanilla minecraft server deployment. The
 deployment worked out great so I decided to try my luck with plugins.
 

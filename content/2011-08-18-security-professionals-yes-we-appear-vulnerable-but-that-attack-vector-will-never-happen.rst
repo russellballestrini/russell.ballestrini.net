@@ -62,6 +62,6 @@ expunge. People are just not willing to put their neck on the chopping
 block to banish a legacy or silly mandates; So we end up living with
 nonsensical rules and procedures.
 
-|http://xkcd.com/936/|
+|https://xkcd.com/936/|
 
-.. |http://xkcd.com/936/| image:: /uploads/2011/08/password-strength.png
+.. |https://xkcd.com/936/| image:: /uploads/2011/08/password-strength.png

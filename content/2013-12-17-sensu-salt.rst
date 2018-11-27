@@ -11,7 +11,7 @@ Digital Ocean and
 salt-cloud </create-your-own-fleet-of-servers-with-digital-ocean-and-salt-cloud/>`__.
 Today I will extend that post and show how I deployed a test environment
 for `Sensu, an open source monitoring
-framework <http://sensuapp.org/>`__.
+framework <https://sensuapp.org/>`__.
 
 Before I test out new infrastructure software, I always attempt to write
 deployment manifests. I subject myself to this exercise for the

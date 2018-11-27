@@ -8,7 +8,7 @@ Dropbox Encryption with TrueCrypt
 :summary:
   The best security acts like an onion.
 
-`Derek Newton <http://dereknewton.com/2011/04/dropbox-authentication-static-host-ids/>`_
+`Derek Newton <https://dereknewton.com/2011/04/dropbox-authentication-static-host-ids/>`_
 recently invoked discussion about insecurities in Dropbox authentication.
 In his article he describes how an attacker could exploit Dropbox and gain access to unshared files.
 The concerns he raised do appear accurate however we must remember that security is an onion.
@@ -54,6 +54,6 @@ procedures. We cannot trust software for security when we cannot view
 its source code.
 
 You should follow me on twitter
-`here <http://twitter.com/russellbal>`_
+`here <https://twitter.com/russellbal>`_
 
 .. |onion| image:: /uploads/2011/04/onion.png

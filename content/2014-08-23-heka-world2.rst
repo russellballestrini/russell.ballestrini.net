@@ -105,4 +105,4 @@ listening on. I left this configuration in the examples above, simply
 uncomment to reproduce.
 
 Read this for `more fun with
-netcat <http://www.foxhop.net/linux-nc-and-python-sockets>`__.
+netcat <https://www.foxhop.net/linux-nc-and-python-sockets>`__.

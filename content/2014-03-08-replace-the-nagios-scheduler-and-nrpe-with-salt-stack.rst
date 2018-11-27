@@ -88,7 +88,7 @@ This next part is FUN, We run a check on every host concurrently.
        </p>
 
     Review the `Nagios Plugin
-    API <http://nagios.sourceforge.net/docs/3_0/pluginapi.html>`__ for
+    API <https://nagios.sourceforge.net/docs/3_0/pluginapi.html>`__ for
     more information about return codes and STDOUT formats.
 
 Last, we take this JSON data perform further processing or display it in

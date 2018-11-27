@@ -24,11 +24,11 @@ idea of archiving the screen captures and providing a history similar to
 the internet Wayback Machine.
 
 After floundering on my first web application,
-http://four2go.gumyum.com, I'm afraid to spend lots of time and energy
+https://four2go.gumyum.com, I'm afraid to spend lots of time and energy
 on another project if I cannot earn users or customers.
 
 .. linkpeek::
-   uri = http://four2go.gumyum.com
+   uri = https://four2go.gumyum.com
    action = link-image
    size = 280x220
    style = margin-right: 25px; float: left; border-radius: 8px;
@@ -42,7 +42,7 @@ As an MVP I plan to build a free live web capture application to
 basically provide a "Gravatar" for website addresses.
 
 .. linkpeek::
-   uri = http://linkpeek.com
+   uri = https://linkpeek.com
    action = link-image
    size = 280x220
    style = margin-left: 25px; float: right; border-radius: 8px;

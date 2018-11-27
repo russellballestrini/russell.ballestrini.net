@@ -33,4 +33,4 @@ issues and bought myself some time, for the moment.
 |image0|
 
 .. |image0| image:: /uploads/2012/06/vertical-scale-marked.png
-   :target: http://russell.ballestrini.net/always-attempt-to-scale-vertically-first/vertical-scale-marked/
+   :target: https://russell.ballestrini.net/always-attempt-to-scale-vertically-first/vertical-scale-marked/

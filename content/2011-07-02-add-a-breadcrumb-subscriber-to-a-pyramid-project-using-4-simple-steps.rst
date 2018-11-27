@@ -13,7 +13,7 @@ I discuss a new way in my `Pyramid add_request_method </register-super-powers-wi
 This article will explain how to add a breadcrumb subscriber to a
 Pyramid project using 4 simple steps.
 
-While programming http://school.yohdah.com/ I needed the ability to easily create
+While programming https://school.yohdah.com/ I needed the ability to easily create
 breadcrumb links from the current url. You may view the `bread.py source
 code
 here <https://bitbucket.org/russellballestrini/bread/src/tip/bread.py>`__.

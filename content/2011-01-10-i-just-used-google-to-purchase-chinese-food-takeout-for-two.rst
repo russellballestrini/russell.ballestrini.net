@@ -15,7 +15,7 @@ Google Maps for the closest local Chinese restaurant. The small town
 venue doesn't have a website or menu posted online.
 
 So I used Google Web to search for the restaurant name. I found
-http://www.takeouttonight.com which had the entire menu and VALID prices
+takeouttonight.com (no longer works) which had the entire menu and VALID prices
 for the restaurant hosted online! I choose 'Sweet and Sour chicken', my
 wife selected Chicken and Broccoli.
 
@@ -41,6 +41,6 @@ services to order Chinese food without leaving the desk?
 I know it's possible now, I've seen me do it.
 
 You should follow me on twitter
-`here <http://twitter.com/russellbal>`__.
+`here <https://twitter.com/russellbal>`__.
 
 .. |china-food| image:: /uploads/2011/01/food1.jpg

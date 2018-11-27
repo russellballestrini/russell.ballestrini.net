@@ -29,7 +29,7 @@ a diagram that shows how great tornado is:
 
 This type of polling can support thousands of concurrent users, all
 connected and waiting for a callback event to occur. I used tornado to
-build `four2go <http://four2go.gumyum.com>`__, a real-time and
+build `four2go <https://four2go.gumyum.com>`__, a real-time and
 multi-player browser-based-game.
 
 .. |2013-03-22-tornado-callback-long-polling-event-loop-scaled| image:: /uploads/2013/03/2013-03-22-tornado-callback-long-polling-event-loop-scaled.png

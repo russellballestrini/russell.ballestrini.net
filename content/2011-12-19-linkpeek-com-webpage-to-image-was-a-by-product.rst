@@ -13,7 +13,7 @@ project's slag!
 Last year I built yoursitemakesmebarf.com, a novelty web application
 which allowed anonymous link submission. The software would
 automatically take
-`screenshots <http://russell.ballestrini.net/linkpeek-com-web-address-thumbnail-api-alpha-release/>`_
+`screenshots <https://russell.ballestrini.net/linkpeek-com-web-address-thumbnail-api-alpha-release/>`_
 of submitted links and curate a blog. I enjoyed building the site and
 the project served as my first Pyramid application.
 
@@ -42,7 +42,7 @@ generator application helped reinforce the simplicity of the underlying
 LinkPeek API. It didn't require any downloading, installation, or
 waiting.
 
-About a week later on a whim I posted the generator to hacker news with an honest title (`Convert Any Webpage to an Image <http://linkpeek.com/website-thumbnail-generator>`__) and in about 30 minutes it reached the number 1 spot.
+About a week later on a whim I posted the generator to hacker news with an honest title (`Convert Any Webpage to an Image <https://linkpeek.com/website-thumbnail-generator>`__) and in about 30 minutes it reached the number 1 spot.
 
 **Remember, when faced with pivoting or killing a project, take a good
 look at all possible by-products. Don't miss the hidden gem in a

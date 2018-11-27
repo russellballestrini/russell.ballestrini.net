@@ -57,7 +57,7 @@ You use it like a dictionary, for example:
   # delete a key / value from cookie. for me this will log out the user.
   request.session['authenticated_user_id'] = None
 
-Reference: `SignedCookieSessionFactory <http://docs.pylonsproject.org/projects/pyramid/en/latest/api/session.html#pyramid.session.SignedCookieSessionFactory>`_
+Reference: `SignedCookieSessionFactory <https://docs.pylonsproject.org/projects/pyramid/en/latest/api/session.html#pyramid.session.SignedCookieSessionFactory>`_
 
 
 
@@ -102,7 +102,7 @@ For testing purposes, create a global ``serializer`` object:
 
 .. code-block:: python
 
- # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
+ # https://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
  serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
 
 Adjust the ``get`` method in the ``MainHandler`` to look like this:
@@ -130,7 +130,7 @@ The complete program follows:
  from pyramid.session import PickleSerializer
  from pyramid.compat import bytes_
  
- # http://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
+ # https://docs.webob.org/en/stable/api/cookies.html#webob.cookies.SignedSerializer
  serializer = SignedSerializer(secret='test-secret', salt='pyramid.session.', serializer=PickleSerializer())
 
  class MainHandler(tornado.web.RequestHandler):

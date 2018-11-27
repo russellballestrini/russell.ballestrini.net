@@ -18,7 +18,7 @@ crumbs (parts) or url links (list of hrefs to each crumb).
 steps </add-a-breadcrumb-subscriber-to-a-pyramid-project-using-4-simple-steps/>`__.
 
 
-**Demo:** http://school.yohdah.com/
+**Demo:** https://school.yohdah.com/
 
 
-You should follow me on twitter `here <http://twitter.com/russellbal>`_
+You should follow me on twitter `here <https://twitter.com/russellbal>`_

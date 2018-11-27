@@ -17,7 +17,7 @@ I find humor in Microsoft's list of reasons to keep Xbox live:
 **6 out of 8 services above are FREE Internet services!**
 
 If I want to use those free Internet services on my TV,
-I'd rather use my tiny media center PC (`nT330i <http://www.foxhop.net/nT330i>`__)
+I'd rather use my tiny media center PC (`nT330i <https://www.foxhop.net/nT330i>`__)
 which is amazing and near silent.
 
 Microsoft prevents subscribers from cancelling their service over the

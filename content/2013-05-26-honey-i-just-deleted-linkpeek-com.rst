@@ -10,7 +10,7 @@ During the day I am an ops sys-admin. During the night I am a husband,
 father of two, and a CEO of a bootstrapped start-up. After launch, my
 first project was to schedule regular backups of user data and archive
 off-site. My goal was to `create backups but never need
-them <http://russell.ballestrini.net/virt-back-restoring-from-backups/>`__.
+them <https://russell.ballestrini.net/virt-back-restoring-from-backups/>`__.
 Boy was I lucky ...
 
 Yes, leave it to me to inadvertently delete the VPS root disk. One of

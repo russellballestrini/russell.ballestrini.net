@@ -48,7 +48,7 @@ should look similar.
              _gaq.push(['_trackPageview']);</p>
    <p>(function() {<br />
              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;<br />
-             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';<br />
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';<br />
              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);<br />
              })();</p>
    <p></script>

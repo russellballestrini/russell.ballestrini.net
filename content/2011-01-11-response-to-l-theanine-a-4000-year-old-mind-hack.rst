@@ -9,7 +9,7 @@ Response to L-Theanine: a 4000 Year Old Mind-Hack
 :summary:
   Solve problems and write code in your sleep.
 
-**RE: http://worldoftea.org/caffeine-and-l-theanine**
+**RE: https://worldoftea.org/caffeine-and-l-theanine**
 
 |dream-solving|
 
@@ -32,11 +32,11 @@ but when I wake and after my first cup of tea, I'm able to solve my
 problem with a optimal and beautiful solution.
 
 PBS NOVA published an episode about this phenomenon: `What are
-dreams? <http://www.pbs.org/wgbh/nova/dreams/>`__
+dreams? <https://www.pbs.org/wgbh/nova/dreams/>`__
 
 Does this happen to you? Have you experienced this?
 
-You should follow me on twitter `here <http://twitter.com/russellbal>`__.
+You should follow me on twitter `here <https://twitter.com/russellbal>`__.
 
 .. |dream-solving| image:: /uploads/2011/01/dream.jpg
    :target: /uploads/2011/01/dream.jpg

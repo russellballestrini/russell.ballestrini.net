@@ -8,7 +8,7 @@ Today I lost a customer
 
 Today I lost a customer.
 
-I added some new code to `LinkPeek <http://linkpeek.com/website-thumbnail-generator>`__ to accept coupons and I didn't think of an edge case.
+I added some new code to `LinkPeek <https://linkpeek.com/website-thumbnail-generator>`__ to accept coupons and I didn't think of an edge case.
 This ended up creating an uncaught exception in my server side code which ultimatly served the newly subscribing customer an HTTP 500 error page.
 
 The damage was done.

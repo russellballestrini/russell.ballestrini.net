@@ -9,7 +9,7 @@ Hackathon 2013 Virtualization
 As a warning before we dive into things, this post is less of a formal
 publication and more of a stream of conscience.
 
-My employer `newcars.com <http://newcars.com/jobs/>`__ has allowed the
+My employer `newcars.com <https://newcars.com/jobs/>`__ has allowed the
 technical staff to host hackathon! Over the past couple weeks I have had
 quite a few ideas tumbling around in my head:
 
@@ -203,7 +203,7 @@ Internet:
 
 ::
 
-    --location=http://archive.ubuntu.com/ubuntu/dists/raring/main/installer-amd64/ \
+    --location=https://archive.ubuntu.com/ubuntu/dists/raring/main/installer-amd64/ \
     --extra-args="auto=true priority=critical keymap=us locale=en_US hostname=$HOSTNAME domain=$DOMAIN url=http://192.168.1.22/my-debconf-preseed.txt"
 
 .. raw:: html

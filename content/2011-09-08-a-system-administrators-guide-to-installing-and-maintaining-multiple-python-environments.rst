@@ -43,7 +43,7 @@ Compile from source
 
 #. Download and untar the python sourcecode::
 
-    wget http://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz
+    wget https://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz
     tar -xzvf Python-2.7.8.tgz
     cd Python-2.7.8
 
