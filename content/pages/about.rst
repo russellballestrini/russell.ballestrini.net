@@ -43,7 +43,7 @@ Remarkbox
 An embedable comment service and fully functional question and answer forum.
 
 .. linkpeek::
-   uri = http://www.remarkbox.com
+   uri = https://www.remarkbox.com
    action = link-image
    size = 600x400
 
@@ -55,19 +55,7 @@ foxhop.net
 A demo of the wiki software I wrote called Pylowiki, loaded with great articles.
 
 .. linkpeek::
-   uri = http://www.foxhop.net
-   action = link-image
-   size = 600x400
-
-|
-
-four2go.gumyum.com
-------------------
-
-Live, real time, four-in-a-row game developed with python and tornado.
-
-.. linkpeek::
-   uri = http://four2go.gumyum.com
+   uri = https://www.foxhop.net
    action = link-image
    size = 600x400
 
@@ -79,7 +67,7 @@ words.gumyum.com
 A Scrabble Solver, give us letters and we return the best scoring words!
 
 .. linkpeek::
-   uri = http://words.gumyum.com
+   uri = https://words.gumyum.com
    action = link-image
    size = 600x400
 
@@ -91,7 +79,7 @@ school.yohdah.com
 A public school directory I wrote using Pyramid and mongodb.
 
 .. linkpeek::
-   uri = http://school.yohdah.com
+   uri = https://school.yohdah.com
    action = link-image
    size = 600x400
 
@@ -103,7 +91,7 @@ pad.yohdah.com
 A pastebin and code pad site I wrote using Pyramid.
 
 .. linkpeek::
-   uri = http://pad.yohdah.com/408/about-pad-yohdah-com
+   uri = https://pad.yohdah.com/408/about-pad-yohdah-com
    action = link-image
    size = 600x400
 
