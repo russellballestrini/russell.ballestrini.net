@@ -43,15 +43,15 @@ We start off with some Salt States to stand up a Jenkins build server
 
     # Manage a script to push artifacts to Salt Master.
     # Note: jenkins user should _not_ have ability to change this file.
-    /home/jenkins/salt-call-put-artifacts-onto-salt-master.sh:
+    /opt/salt-call-put-artifacts-onto-salt-master.sh:
       file.managed:
         - user: root
-        - group: root
+        - group: jenkins
         - mode: 755
         - contents: |
-            echo salt-call cp.push_dir "$PWD" glob='*.tar.gz'
+            #!/bin/bash
+            set -x
             salt-call cp.push_dir "$PWD" glob='*.tar.gz'
-            echo salt-call cp.push "$PWD/commit-hash.txt"
             salt-call cp.push "$PWD/commit-hash.txt"
         - require:
           - file: jenkins
@@ -61,7 +61,7 @@ We start off with some Salt States to stand up a Jenkins build server
       file.append:
         - name: /etc/sudoers
         - text:
-          - "jenkins    ALL = NOPASSWD: /home/jenkins/salt-call-put-artifacts-onto-salt-master.sh"
+          - "jenkins    ALL = NOPASSWD: /opt/salt-call-put-artifacts-onto-salt-master.sh"
 
 .. raw:: html
 
@@ -119,3 +119,7 @@ changes. Pushing code triggers a build which tests my code base and
 securely publishes to my Salt Master. When the time comes to perform a
 release, all I have to do is run highstate, because the pipeline did all
 the other work for me!
+
+**Update**
+
+Special thanks to an `anonymous commentor <https://russell.ballestrini.net/securely-publish-jenkins-build-artifacts-on-salt-master/#efbc6dc7-02e3-11e9-b440-040140774501>`_ regarding how to increase security. I have updated the scripts accordingly.
