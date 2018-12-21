@@ -122,4 +122,4 @@ the other work for me!
 
 **Update**
 
-Special thanks to an `anonymous commentor <https://russell.ballestrini.net/securely-publish-jenkins-build-artifacts-on-salt-master/#efbc6dc7-02e3-11e9-b440-040140774501>`_ regarding how to increase security. I have updated the scripts accordingly.
+Special thanks to an `anonymous commentor <#efbc6dc7-02e3-11e9-b440-040140774501>`_ regarding how to increase security. I have updated the scripts accordingly.
