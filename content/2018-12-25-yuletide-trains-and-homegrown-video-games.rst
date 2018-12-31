@@ -7,101 +7,131 @@ Yuletide Trains and Homegrown Video Games
 :tags: Code, Games
 :status: published
 
-.. contents::
+.. image:: /uploads/2018/pixel-art-gift.png
+    :align: right
 
-.. image:: /uploads/2018/pixel-art-bomb.gif
-   :align: right
+Each holiday season I find myself drawn to a side passion of mine.
 
-Each holiday season I find myself drawn to a side passion of mine. While some build model trains and others create Christmas light shows with synchronized music you'll find me on my sofa where I build, explore, and tinker on my own video game engine.
+While some build model trains and others create Christmas light shows with synchronized music you'll find me on my sofa where I build, explore, and tinker on my own video game engine.
 
 Maybe the sound of wrapping paper tearing acts as a trigger, but I only prioritize time on my game engine during the holiday season.
 
-Looking at my commit history, the first iteration of my current game engine was saved on Jan 01, 2014 (there were other engines before it). I had a few commits until Jan 19, 2014, at which point nothing until Dec 25, 2014 (Christmas itself). My sprint lasted until Jan 10, 2015.
+Do you have a specific hobby that you do during the holiday season but not during other parts of the year?
 
-The next year, I must have hacked on something else, with no changes until Oct 09, 2016 where I had two commits.
-
-Like clockwork on Dec 25, 2016 (Christmas) I tried to fix a regression in the engine's collision and intersection code, and left myself some breadcrumb comments to help me debug in the future...
-
-Nothing in 2017.
-
-Today is Christmas 2018 and finally I have a `work around for the regression`_ I was looking into from Christmas 2016!
+    Why am I working on Christmas every year - Am I a work-a-holic?
 
 
-    Why am I working on Christmas every year, am I a work-a-holic?
+Work or Play.
+=============================================
 
-Why do I and so many others absorb ourselves into seasonal hobbies? Are we escaping? Are we simply making use of the flexible time we normally don't have to work on things we wish we could during the rest of the year?
+.. image:: /uploads/2018/pixel-art-santa-hat.png
+    :align: right
+
+Why do I absorb myself into this seasonal hobby? Am I escaping? Or am I making use of down time to work on a project that I am too occupied to even think about during the rest of the year?
 
 For me, building my game on Christmas is fun, not *work*. Similar to how fishing while camping is fun, not *work*. 
-
-What is fun for one person might be work for another. It is relative and depends on context.
 
     What is the last activity a commercial fisherman would do "for fun" on Christmas?
     Fishing.
 
-Accounts of a tipping point when an activity switches from fun to work has long been documented.
+What is fun for one person might be work for another. It is relative and depends on context.
 
-For an average person, I think this moment occurs when the answer to the following question changes:
+I suspect that most people experience a tipping point, when an activity switches from fun to work.
+
+I think, for an average person, this moment occurs when the answer to the following question changes:
 
 * Do you rely on the activity for the majority of your income?
 
-  * if yes, the activity will often feel like work
-  * if no, the activity will often going to feel like fun
+  * if yes, the activity often feels like work
+  * if no, the activity often feels like fun
 
-Now that's not to say you cannot have fun while at work, and vice versa. In fact, finding the perfect mix, the right balance for each individual task might be the secret to having a happy life.
 
-My situation seems a bit more complex. I use the computer "professionally" for 7-10 hours each work day. If I was in the games industry, I doubt I would find fun in building a video game on Christmas. But I'm not in the games industry and I have more fun building games than playing games. That is to say, building a game is fun, while playing a game is work.
+Work and Play?
+=============================================
 
-Crazy right?
+.. image:: /uploads/2018/pixel-art-bomb.gif
+   :align: right
 
-Even though there are huge overlaps between the activities of my "day job" and the activities involved with building my game, there are enough differences which make one feel like work while the other feel like fun.
+Now that's not to say you cannot find fun while at work, and vice versa. Personally, I aim to land a perfect balance between the two with anything I do. 
 
-I'm not making an excuse for working during Christmas; I honestly have a blast coding and tinkering on my game. I love getting stumped and learning. I love showing the games to my boys and seeing their eyes light up. I love to see how fast I can implement a small suggestion one of them have. I love how there are no rules, only my own skills and understanding can block me. While the family is occupied with their new holiday gifts, I use my free time to explore creative ideas on a non-stressful personal project where the stakes are low and the pleasure is high.
+In my situation, I use the computer "professionally" each work day, for 7-10 hours.
 
-This year, I modified my game engine to: 
+If I was in the games industry, I doubt I would find much fun in building a video game on Christmas. But I'm not in the games industry and I have more fun building games than playing games.
 
-* save the game state to a `json` file
-* load the game state from a `json` file
+That is to say, for me building a game feels fun while playing a game feels like work. Crazy right?
+
+Even though the activities of my "day job" overlap with the activities involved with building my game, there are enough differences. These differences make one feel like work while the other feel like fun.
+
+I'm not making an excuse for working during Christmas; I honestly have a blast coding and tinkering on my game.
+
+I love getting stumped and learning. I love showing different ideas to my boys and seeing their eyes light up. I love to see how fast I can implement a small suggestion one of them have. I love how there are no rules and only my own skills and understanding can block me.
+
+While my family is occupied with their new holiday gifts, I use my free time to explore creative ideas on a non-stressful personal project. A project where the stakes are low and the pleasure is high.
+
+
+
+
+Show me the game already!
+==============================
+
+This years game engine modifications: 
+
+* ability to save the game state to a `json` file
+* ability to load the game state from a `json` file
 * added a few algorithms for auto-generating maps
 * refactored some common code (so I'm not reapeating myself)
 * implemented an action charge / recharge system
 
-Here is a short video of the current state of the engine. Let me know what you think in the comments on this page.
+Here is a short video of the current state of the engine. Let me know what you think in the comments.
 
-(video here)
+.. raw:: html
 
-I also took the time to learn how to make pixel art using `GIMP`, something that could be useful for making game assets.
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/qeMPV6aXKzk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Check those out here:
-
-.. image:: /uploads/2018/mario-hat-big.png
-    :width: 200px
-
-.. image:: /uploads/2018/pixel-art-bomb.png
+I also took the time to learn how to make pixel art using `GIMP`, a useful skill for making game assets.
 
 
+Who else makes games during Christmas?
+==========================================
 
-Research for this post
-===========================
+I reached out to a number of indie game developers while formulating this blog post and I had a solid conversation with `Maverick Peppers <https://github.com/TheMaverickProgrammer>`_ a developer who runs a `software company called ProtoComplete <https://protocomplete.com/>`_ 
 
-While doing some research for this post, I reached out to a number of indie game developers. I had a solid conversation with `Maverick Peppers <https://github.com/TheMaverickProgrammer>`_ a developer who runs a `software company called ProtoComplete <https://protocomplete.com/>`_ 
+He was working during Christmas on his game while making pudding and drinking white russians (`recipe in the foot notes </yuletide-trains-and-homegrown-video-games/#white-russian-recipe>`_). He arrived at the conclusion that I was working from a passion-oriented mindset while he was from a goal-oriented mindset.
 
-He was working during Christmas on his income generating game (while making pudding and drinking white russians [recipe in the foot notes]). We quickly arrived at the conclusion that I was working from a passion-oriented mindset while he was from a goal-oriented mindset. For him, building games is a goal-oriented process because he relies on the income. For me, building games is a passion-oreiented process, I use it to unwind and I don't rely on the income.
+Maverick doesn't rely on the income from his games, so I asked "why are you 'working' on Christmas?" He explained that because he often has a `type-a` or "goal mindset" and because of this, he has trouble relaxing until he finishes whatever he is working on. In a sense, he was working Christmas *so that he could* relax.
+
+As for myself, building games is a passion-oreiented process, I don't rely on the income and I use it to unwind.
 
 We talked about how people can approach activities with either:
 
-* type-a (goal-oriented mindset)
-* type-b (passion-oriented mindset)
+* `type-a` (goal-oriented mindset)
+* `type-b` (passion-oriented mindset)
 
-The fun part is most people are both, depending on the activity or project.
+The fun part is people are often both, depending on the activity or project. For example Maverick has a passion mindset when making music and DJing, but always takes a goal mindset when it comes to business.
 
-Let me know in the comments, do you have a specific hobby that you do most holiday seasons?
 
+
+Footnotes
+====================
+
+
+Unwrapping My Christmas Commit History
+------------------------------------------
+
+
+Looking at my commit history, the first iteration of my current game engine was saved on Jan 01, 2014 with a few commits until Jan 19, 2014, at which point nothing until Dec 25, 2014 (Christmas itself) when I sprinted until Jan 10, 2015.
+
+The next year, I must have hacked on something else, with no changes until Oct 09, 2016 where I had two commits.
+
+Like clockwork on Dec 25, 2016 (Christmas) I tried to fix a regression in the engine's collision and intersection code. I left myself some breadcrumb comments to help me debug in the future... Nothing in 2017.
+
+Today is Christmas 2018 and finally I have a work around for the regression I was looking into from Christmas 2016!
 
 
 Porting SFML Rect from C++ to Python
-========================================
+------------------------------------------
 
-This work around ports the `Rect` intersection logic from `SFML` from C++ to pure Python and avoids the following error message:
+This work around ports the `Rect` intersection logic of `SFML` from C++ to pure Python and avoids the following error message:
 
    `terminated by signal SIGSEGV (Address boundary error)`
 
@@ -140,16 +170,20 @@ This work around ports the `Rect` intersection logic from `SFML` from C++ to pur
          return sfml.graphics.Rect((i_left, i_top), (i_right - i_left, i_bottom - i_top))
  
 
-
 White Russian Recipe
-==============================
+----------------------------
 
 * 1/4 cup distilled водка
 * 1/4 cup Kahlua coffee rum
 * 1/2 cup cream
 
-Hard Apple Cider Recipe
-==============================
 
-* No recipe, but I made a video of one of my hard cider brews here: https://www.youtube.com/watch?v=0hnfhlurS90
+Older versions of the game engine
+-----------------------------------
+
+Some `videos of older versions <https://russell.ballestrini.net/test-game-engine-with-python-and-sfml/>`_ of this game engine.
+
+.. contents:: index
+
+
 
