@@ -101,7 +101,7 @@ I reached out to a number of indie game developers while formulating this blog p
 
 He was working during Christmas on his game while making pudding and drinking white russians (`recipe in the foot notes </yuletide-trains-and-homegrown-video-games/#white-russian-recipe>`_). He arrived at the conclusion that I was working from a passion-oriented mindset while he was from a goal-oriented mindset.
 
-Maverick doesn't rely on the income from his games, so I asked "why are you 'working' on Christmas?" He explained that because he often has a `type-a` or "goal mindset" and because of this, he has trouble relaxing until he finishes whatever he is working on. In a sense, he was working Christmas *so that he could* relax.
+Maverick doesn't rely on the income from his games, so I asked "why are you 'working' on Christmas?" He explained that because he often has a `type-a` or "goal mindset", he has trouble relaxing until he finishes whatever he is working on. In a sense, he was working Christmas *so that he could* relax.
 
 As for myself, building games is a passion-oreiented process, I don't rely on the income and I use it to unwind.
 
