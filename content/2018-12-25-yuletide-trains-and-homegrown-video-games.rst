@@ -112,6 +112,7 @@ We talked about how people can approach activities with either:
 
 The fun part is people are often both, depending on the activity or project. For example Maverick has a passion mindset when making music and DJing, but always takes a goal mindset when it comes to business.
 
+Do you have a specific hobby that you do during the holiday season but not during other parts of the year?
 
 
 Footnotes
