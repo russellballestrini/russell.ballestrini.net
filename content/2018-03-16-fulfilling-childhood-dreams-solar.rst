@@ -60,7 +60,7 @@ SolarEdge Monitoring Dashboard also keeps track of various high level metrics. F
 Home Energy Monitoring
 =============================
 
-Most of my key insights into home energy actually come from another device I had installed called `Curb Home Energy Monitor <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_. Curb uses a bunch of non-invasive CT clamps on each breaker circut to gather consumption. Metrics are gathered and sent to "the cloud" and power some really cool realtime dashboards.
+Most of my key insights into home energy actually come from another device I had installed called `Curb Home Energy Monitor <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20&linkId=727da547a2b0a22fa53016191c2cf313>`_. Curb uses a bunch of non-invasive CT clamps on each breaker circut to gather consumption. Metrics are gathered and sent to "the cloud" and power some really cool realtime dashboards.
 
 For example, this chart shows solar production versus consumption in dollars for the last 15 days:
 
@@ -81,14 +81,14 @@ Anyways, here is a short video showing the Curb user interface.
  </video>
  </center>
 
-The `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball03-20&linkId=727da547a2b0a22fa53016191c2cf313>`_ is likely the most accurate home energy monitor on the market. The draw back is the cost of parts and labor; I used my solar installer's electrician and the total cost was $800.
+The `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20 &linkId=727da547a2b0a22fa53016191c2cf313>`_ is likely the most accurate home energy monitor on the market. The draw back is the cost of parts and labor; I used my solar installer's electrician and the total cost was $800.
 
 The competition has less accuracy but I could have likely installed a Sense myself and saved on the labor cost.
 
 Here are the two other brands I was looking at, for reference:
 
-* `Sense Home Energy Monitor <https://www.amazon.com/gp/product/B075K6PHJ9/ref=as_li_tl?ie=UTF8&tag=russellball03-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B075K6PHJ9&linkId=cc8e52d403b4b24da1f7b6a27a96ff74>`_
-* `Neurio Home Electricity Monitor <https://www.amazon.com/gp/product/B0149EE5KS/ref=as_li_tl?ie=UTF8&tag=russellball03-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0149EE5KS&linkId=7e3e5d1063e980892649ea98351034bd>`_ 
+* `Sense Home Energy Monitor <https://www.amazon.com/gp/product/B075K6PHJ9/ref=as_li_tl?ie=UTF8&tag=russellball0b-20 &camp=1789&creative=9325&linkCode=as2&creativeASIN=B075K6PHJ9&linkId=cc8e52d403b4b24da1f7b6a27a96ff74>`_
+* `Neurio Home Electricity Monitor <https://www.amazon.com/gp/product/B0149EE5KS/ref=as_li_tl?ie=UTF8&tag=russellball0b-20 &camp=1789&creative=9325&linkCode=as2&creativeASIN=B0149EE5KS&linkId=7e3e5d1063e980892649ea98351034bd>`_ 
 
 Solar Financing
 =========================
