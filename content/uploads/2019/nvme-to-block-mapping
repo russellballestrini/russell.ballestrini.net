@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# for details:
+# https://russell.ballestrini.net/aws-nvme-to-block-mapping/
+
+# this will create a symlinks like:
+#
+#     /dev/nvme1n1 -> /dev/xvdh
+#
+# these ebs block device paths are set by stacker and assumed by ansible.
+#
+# if the device is non ebs, it will use the following mapping:
+non_ebs_mapping=("/dev/sdb1" "/dev/sdc1" "/dev/sdd1" "/dev/sde1" "/dev/sdf1" "/dev/sdg1")
+
+# nvme0n1 uses ${non_ebs_mapping[0]} (the 0 index item in the array)
+#
+#     /dev/nvme0n1 -> /dev/sdb1
+#
+# nvme3n1 uses ${non_ebs_mapping[3]} (the 3 index item in the array)
+#
+#     /dev/nvme3n1 -> /dev/sde1
+#
+
+# why we only iterate from 0 to 26:
+# https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/device_naming.html
+for i in `seq 0 26`; do
+    nvme_block_device="/dev/nvme${i}n1"
+
+    # skip any nvme paths which don't exist.
+    if [ -e  $nvme_block_device ]; then
+
+        # get ebs block mapping device path set by stacker (or base AMI).
+        mapping_device=$(/usr/sbin/ebsnvme-id ${nvme_block_device} --block-dev)
+
+        # if the mapping_device is empty, it isn't an EBS device so
+        # we will use the non_ebs_mapping to translate the device.
+        if [[ -z "$mapping_device" ]]; then
+            mapping_device="${non_ebs_mapping[$i]}"
+        fi
+
+        # if block mapping device path does not start with /dev/ fix it.
+        if [[ "$mapping_device" != /dev/* ]]; then
+            mapping_device="/dev/${mapping_device}"
+        fi
+
+        # if the block mapping device path already exists, skip it.
+        if [ -e $mapping_device ]; then
+            echo "path exists: ${mapping_device}"
+
+        # otherwise, create a symlink from nvme block device to mapping device.
+        else
+            echo "symlink created: ${nvme_block_device} to ${mapping_device}"
+            ln -s $nvme_block_device $mapping_device
+        fi
+    fi
+done
