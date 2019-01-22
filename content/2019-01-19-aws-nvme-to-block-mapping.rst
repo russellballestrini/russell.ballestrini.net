@@ -7,9 +7,11 @@ AWS nvme to block mapping
 :tags: Code, DevOps
 :status: published
 
-Recently at work I transitioned our fleet from Ubuntu 14.04 LTS to Ubuntu 18.04 LTS. During the process I noticed an issue with our newer generation AWS EC2 instance types (specifically the ``c5.2xlarge``).  AWS was assigned the ``root`` block device to ``/dev/nvme1n1`` while my ``data`` device presented as ``/dev/nvme0n1``. For obvious reasons, this seemingly random and out-of-order assignment breaks my provisioning scripts.
+Recently at work I transitioned our fleet from Ubuntu 14.04 LTS to Ubuntu 18.04 LTS. During the process I noticed an issue with our newer generation AWS EC2 "nitro" based instance types (specifically ``c5.2xlarge``).
 
-After much research and deep thought, I came up with a solid work solution.
+AWS was presenting my ``root`` block device as ``/dev/nvme1n1`` and my ``data`` device as ``/dev/nvme0n1``. For obvious reasons, this seemingly random and out-of-order assignment breaks my provisioning scripts.
+
+After much research and deep thought, I came up with a solid solution.
 
 I found a barely documented tool called ``ebsnvme-id`` on the official Amazon Linux AMI and wrote a wrapper (``nvme-to-block-mapping``) to iterate over all possible combinations of ``/dev/nvme[0-26]n1`` to create a symlink to the block mapping selected when we launch the EC2 instance.
 
@@ -19,7 +21,7 @@ To save you time, I have added these scripts to this blog post!
 
 **Please consider** `donating here <https://www.paypal.me/russellbal/5>`_ **if my work has helped you!**
 
-Place the following two scripts into your AMI under ``/usr/sbin/`` and trigger the wrapper just once prior to using the devices.
+Place the following two scripts into your AMI under ``/usr/sbin/`` and trigger the wrapper just once prior to using the devices (don't worry the wrapper script is idempotent, running it more than once won't break anything).
 
 .. raw:: html
 
@@ -268,4 +270,4 @@ Place the following two scripts into your AMI under ``/usr/sbin/`` and trigger t
      if get_all or args.block_dev or args.udev:
          print dev.get_block_device(args.udev)
 
-
+.. contents::
