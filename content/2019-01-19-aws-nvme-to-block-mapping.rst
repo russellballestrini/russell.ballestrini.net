@@ -27,6 +27,10 @@ Place the following two scripts into your AMI under ``/usr/sbin/`` and trigger t
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/_OYInsj7SYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+nvme-to-block-mapping
+=========================
+
 `/usr/sbin/nvme-to-block-mapping </uploads/2019/nvme-to-block-mapping>`_ (click for file):
 
 .. code-block:: bash
@@ -87,6 +91,10 @@ Place the following two scripts into your AMI under ``/usr/sbin/`` and trigger t
          fi
      fi
  done
+
+
+ebsnvme-id
+=================
 
 
 `/usr/sbin/ebsnvme-id </uploads/2019/ebsnvme-id>`_ (click for file):
