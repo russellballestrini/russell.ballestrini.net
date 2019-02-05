@@ -8,13 +8,19 @@ Hybrid Hot Water Heater Saves 69 Percent On Energy Consumption
 :status: published
 
 
-After having solar for a year, and religiously tracking my energy consumption using a "`Kill A Watt <https://www.amazon.com/gp/product/B00009MDBU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009MDBU&linkCode=as2&tag=russellball0b-20&linkId=b3410667dcccb96e343e7cda77ff46ff>`_ and a `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20 &linkId=727da547a2b0a22fa53016191c2cf313>`_, I have found that my largest energy consumer and likely yours too. 
+Exactly one year ago `I fufilled a childhood dream </fulfilling-childhood-dreams-solar/>`_ by investing in roof top solar`.
+
+Over the past 12 months, I have religiously tracked my families energy consumption using both a "`Kill A Watt <https://www.amazon.com/gp/product/B00009MDBU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009MDBU&linkCode=as2&tag=russellball0b-20&linkId=b3410667dcccb96e343e7cda77ff46ff>`_" and a `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20 &linkId=727da547a2b0a22fa53016191c2cf313>`_.
+
+Along the way, I have found my largest energy consumer (abuser).
 
 Heating water.
 
-My traditional electric hot water heater had a monthly operating cost of $85 per month. During some winter months, 100% of my solar production was soaked up by heating water!
+My traditional electric hot water heater had a monthly operating cost of $85. Worst yet, during some winter months, 100% of my solar production was soaked up by heating water!
 
-There has to be a better way, and there is!
+I demanded a better way!
+
+... and I found one ...
 
 
 Hybrid Electric Hot Water Heat Pump
@@ -23,8 +29,9 @@ Hybrid Electric Hot Water Heat Pump
 .. image:: /uploads/2019/ao-smith-hybrid-hot-water-heater.jpg
    :alt: AO Smith Hybrid Hot Water Heater
    :align: right
+   :width: 350
 
-My `new unit <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_), transfers heat from the ambient air to heat water. The technology is relatively old, basically an air conditioner or refrigerator run in reverse. Instead of dumping the cold into the tank, it dumps hot and as a by-product is produces cold air. Yes that's right, this unit will suppliment your summer cooling because it will dump cold air while it produces hot water. It also serves as a dehumidifier, so I no longer need to run one of those!
+My `new unit <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_ transfers ambient heat from the air into water. The technology is relatively old, basically an air conditioner or refrigerator run in reverse. Instead of dumping the cold into the tank, it dumps hot and as a by-product is produces cold air. Yes that's right, this unit will suppliment your summer cooling because it will dump cold air while it produces hot water. It also serves as a dehumidifier, so I no longer need to run one of those!
 
 The install was mostly identical to a normal hot water heater, however there are a couple extra requirements:
 
@@ -34,6 +41,7 @@ The install was mostly identical to a normal hot water heater, however there are
 Additionally the heat pump fan produces a bit of sound, not terrible, sounds quiet to me.
 
 If you have a traditional electric hot water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid hot water heater.
+
 
 
 
@@ -55,7 +63,7 @@ The units run between $1200 - $1500 but I'll break down the complete finances of
  +   $614 
 
 
-I replace the unit myself, with the help from my father-in-law. I don't own a truck, so I decided to have it delivered for $65. I bought $100 worth of pipe and fittings (mostly because I don't want to learn how to sweat copper, so I use sharkbite fittings which cost more but are so simple and fast to use [amazon affiliant link])
+I replace the unit myself, with the help from my father-in-law. I don't own a truck, so I decided to have it delivered for $65. I bought $100 worth of pipe and fittings (mostly because I don't want to learn how to sweat copper, so I use `sharkbite fittings <https://www.amazon.com/gp/product/B01AS48PBS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=russellball0b-20&creative=9325&linkCode=as2&creativeASIN=B01AS48PBS&linkId=81ade3de2fc030c163112c53c7049885>`_ which cost more but are fast and simple to use.
 
 My state offers an instant $300 in store rebate, plus a $200 mail in rebate.
 
@@ -116,4 +124,3 @@ The decrease in consumption means a huge savings of 69%!!!
  (3375 - 1050) / 3375 # == 69% !!!
 
 So what are you waiting for? Honestly, if you are thinking about going solar, you should tackle this project first, right now!
-
