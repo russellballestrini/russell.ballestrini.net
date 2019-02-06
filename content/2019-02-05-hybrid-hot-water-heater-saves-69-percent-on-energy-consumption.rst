@@ -8,7 +8,7 @@ Hybrid Hot Water Heater Saves 69 Percent On Energy Consumption
 :status: published
 
 
-Exactly one year ago `I fufilled a childhood dream </fulfilling-childhood-dreams-solar/>`_ by investing in roof top solar.
+Exactly one year ago I fufilled a `longtime childhood dream </fulfilling-childhood-dreams-solar/>`_ when I invested in roof top solar on my house in Eastern Connecticut (Zone 6b).
 
 Over the past 12 months, I have religiously tracked my families energy consumption using both a "`Kill A Watt <https://www.amazon.com/gp/product/B00009MDBU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009MDBU&linkCode=as2&tag=russellball0b-20&linkId=b3410667dcccb96e343e7cda77ff46ff>`_" and a `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20 &linkId=727da547a2b0a22fa53016191c2cf313>`_.
 
@@ -31,7 +31,9 @@ Hybrid Electric Hot Water Heat Pump
    :align: right
    :width: 300
 
-My `new unit <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_ transfers ambient heat from the air into water. The technology is relatively old, basically an air conditioner or refrigerator run in reverse.
+My new unit (`A.O. Smith 50 Gallon Voltex Hybrid Electric Heat Pump <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_) transfers ambient heat from the air into water.
+
+The technology is relatively old, basically an air conditioner or refrigerator run in reverse.
 Instead of dumping the cold into the tank, it dumps hot and as a by-product produces cold air.
 
 Yes that's right, this unit will suppliment my summer cooling because it will dump cold air while it produces hot water. The heat pump also serves as a dehumidifier, so I no longer run one of those!
