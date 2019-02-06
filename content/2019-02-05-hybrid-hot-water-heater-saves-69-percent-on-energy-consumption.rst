@@ -7,6 +7,7 @@ Hybrid Hot Water Heater Saves 69 Percent On Energy Consumption
 :tags: solar, project
 :status: published
 
+*Disclosure: This post contains affiliate links.* See `full disclosure page here </disclosures-and-terms/>`_.
 
 Exactly one year ago I fufilled a `longtime childhood dream </fulfilling-childhood-dreams-solar/>`_ when I invested in roof top solar on my house in Eastern Connecticut (Zone 6b).
 
