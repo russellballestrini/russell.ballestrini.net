@@ -38,18 +38,15 @@ The install was mostly identical to a normal hot water heater, however there are
 * The unit needs to have 400 square feet to pull ambient air from
 * The unit will produce condensate, similar to a dehumidifier or air conditioner, so you will need to drain this water somewhere.
 
-Additionally the heat pump fan produces a bit of sound, not terrible, sounds quiet to me.
+Additionally the heat pump fan produces a bit of sound, not terrible, seems pretty quiet to me.
 
 If you have a traditional electric hot water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid hot water heater.
-
-
-
 
 
 Finances
 ==============
 
-The units run between $1200 - $1500 but I'll break down the complete finances of my project.
+These units currently run between $1200 - $1500 but I'll break down the complete finances of my project.
 
 .. code-block:: text
 
@@ -124,3 +121,4 @@ The decrease in consumption means a huge savings of 69%!!!
  (3375 - 1050) / 3375 # == 69% !!!
 
 So what are you waiting for? Honestly, if you are thinking about going solar, you should tackle this project first, right now!
+
