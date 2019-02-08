@@ -17,7 +17,7 @@ Along the way, I have found my largest energy consumer (abuser).
 
 Heating water.
 
-My traditional electric hot water heater had a monthly operating cost of $85. Worst yet, during some winter months, 100% of my solar production was soaked up by heating water!
+My traditional electric water heater had a monthly operating cost of $85. Worst yet, during some winter months, 100% of my solar production was soaked up by heating water!
 
 I demanded a better way!
 
@@ -39,14 +39,14 @@ Instead of dumping the cold into the tank, it dumps hot and as a by-product prod
 
 Yes that's right, this unit will suppliment my summer cooling because it will dump cold air while it produces hot water. The heat pump also serves as a dehumidifier, so I no longer run one of those!
 
-The install was mostly identical to a normal hot water heater, however there are a couple extra requirements:
+The install was mostly identical to a normal water heater, however there are a couple extra requirements:
 
 * The unit needs at least 400 square feet to pull ambient air
 * The unit produces condensate, similar to a dehumidifier or air conditioner, which needs to drain somewhere.
 
 Additionally the heat pump fan produces a bit of sound, not terrible, and seems quiet to me.
 
-If you have a traditional electric hot water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid hot water heater.
+If you have a traditional electric water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid water heater.
 
 
 Finances
