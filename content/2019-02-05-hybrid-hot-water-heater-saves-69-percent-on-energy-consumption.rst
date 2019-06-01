@@ -7,8 +7,9 @@ Hybrid Hot Water Heater Saves 69 Percent On Energy Consumption
 :tags: solar, project
 :status: published
 
+*Disclosure: This post contains affiliate links.* See `full disclosure page here </disclosures-and-terms/>`_.
 
-Exactly one year ago `I fufilled a childhood dream </fulfilling-childhood-dreams-solar/>`_ by investing in roof top solar.
+Exactly one year ago I fufilled a `longtime childhood dream </fulfilling-childhood-dreams-solar/>`_ when I invested in roof top solar on my house in Eastern Connecticut (Zone 6b).
 
 Over the past 12 months, I have religiously tracked my families energy consumption using both a "`Kill A Watt <https://www.amazon.com/gp/product/B00009MDBU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009MDBU&linkCode=as2&tag=russellball0b-20&linkId=b3410667dcccb96e343e7cda77ff46ff>`_" and a `Curb <https://www.amazon.com/gp/product/B015IY0Z3E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B015IY0Z3E&linkCode=as2&tag=russellball0b-20 &linkId=727da547a2b0a22fa53016191c2cf313>`_.
 
@@ -16,7 +17,7 @@ Along the way, I have found my largest energy consumer (abuser).
 
 Heating water.
 
-My traditional electric hot water heater had a monthly operating cost of $85. Worst yet, during some winter months, 100% of my solar production was soaked up by heating water!
+My traditional electric water heater had a monthly operating cost of $85. Worst yet, during some winter months, 100% of my solar production was soaked up by heating water!
 
 I demanded a better way!
 
@@ -31,19 +32,21 @@ Hybrid Electric Hot Water Heat Pump
    :align: right
    :width: 300
 
-My `new unit <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_ transfers ambient heat from the air into water. The technology is relatively old, basically an air conditioner or refrigerator run in reverse.
+My new unit (`A.O. Smith 50 Gallon Voltex Hybrid Electric Heat Pump <https://www.amazon.com/gp/product/B079RCGK12/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B079RCGK12&linkCode=as2&tag=russellball0b-20&linkId=7590d68023bc0d6b244587826aea587e>`_) transfers ambient heat from the air into water.
+
+The technology is relatively old, basically an air conditioner or refrigerator run in reverse.
 Instead of dumping the cold into the tank, it dumps hot and as a by-product produces cold air.
 
 Yes that's right, this unit will suppliment my summer cooling because it will dump cold air while it produces hot water. The heat pump also serves as a dehumidifier, so I no longer run one of those!
 
-The install was mostly identical to a normal hot water heater, however there are a couple extra requirements:
+The install was mostly identical to a normal water heater, however there are a couple extra requirements:
 
 * The unit needs at least 400 square feet to pull ambient air
 * The unit produces condensate, similar to a dehumidifier or air conditioner, which needs to drain somewhere.
 
 Additionally the heat pump fan produces a bit of sound, not terrible, and seems quiet to me.
 
-If you have a traditional electric hot water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid hot water heater.
+If you have a traditional electric water heater, you meet the extra requirements, and you consider yourself an environmentalist, you need to get a hybrid water heater.
 
 
 Finances
