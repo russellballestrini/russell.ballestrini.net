@@ -49,15 +49,15 @@ The result will be a URL that you may redirect a user to. For testing you should
  # Initialize an S3 session/client to talk to DigitalOcean Spaces.
  session = boto3.session.Session()
  client = session.client(
-     's3',
+     "s3",
      # configure the region you created the space in.
-     region_name='nyc3',
+     region_name="nyc3",
      # configure the region you created the space in.
-     endpoint_url='https://nyc3.digitaloceanspaces.com',
+     endpoint_url="https://nyc3.digitaloceanspaces.com",
      # configure your access key (generate this on the dashboard).
-     aws_access_key_id='DOXXXXXXXXXXXXXXXXXX',
+     aws_access_key_id="DOXXXXXXXXXXXXXXXXXX",
      # configure your secret key (generate this on the dashboard).
-     aws_secret_access_key='DOO/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+     aws_secret_access_key="DOO/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
  )
  
  signed_get_object_url = client.generate_presigned_url(
@@ -96,20 +96,20 @@ The file never hits your server and is uploaded directly to the private Space.
  # Initialize an S3 session/client to talk to DigitalOcean Spaces.
  session = boto3.session.Session()
  client = session.client(
-     's3',
+     "s3",
      # configure the region you created the space in.
-     region_name='nyc3',
+     region_name="nyc3",
      # configure the region you created the space in.
-     endpoint_url='https://nyc3.digitaloceanspaces.com',
+     endpoint_url="https://nyc3.digitaloceanspaces.com",
      # configure your access key (generate this on the dashboard).
-     aws_access_key_id='DOXXXXXXXXXXXXXXXXXX',
+     aws_access_key_id="DOXXXXXXXXXXXXXXXXXX",
      # configure your secret key (generate this on the dashboard).
-     aws_secret_access_key='DOO/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+     aws_secret_access_key="DOO/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
  )
 
  signed_post = client.generate_presigned_post(
-     Bucket="plan-period-files",
-     Key="production-namespaces.txt",
+     Bucket="example-bucket",
+     Key="my-object2.zip",
      ExpiresIn=60,
  )
  
