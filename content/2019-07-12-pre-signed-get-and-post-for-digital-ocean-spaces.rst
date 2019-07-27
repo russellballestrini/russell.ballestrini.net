@@ -117,5 +117,5 @@ The file never hits your server and is uploaded directly to the private Space.
  for key, value in signed_post["fields"].items():
      params.append('--form "{}={}"'.format(key, value))
  
- print("curl " + " ".join(params) + ' --form "file=@production-namespaces.txt;filename=production-namespaces.txt" ' + signed_post["url"])
+ print("curl " + " ".join(params) + ' --form "file=@my-object2.zip;filename=my-object2.zip" ' + signed_post["url"])
  
