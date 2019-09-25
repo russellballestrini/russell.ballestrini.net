@@ -71,7 +71,7 @@ As you can see, about **50% of my solar production is being consumed by heating 
 
 This feels absurd... 
 
-**Update:** I switched to a `Hybrid Water Heater </hybrid-hot-water-heater-saves-69-percent-on-energy-consumption/>`_ and wrote a post to explain how I started using 69% less electricity when heating water!
+**Update:** I switched to a `Hybrid Water Heater </hybrid-hot-water-heater-saves-69-percent-on-energy-consumption/>`_ and wrote a post to show how I now use 69% less electricity when heating water!
 
 Anyways, here is a short video showing the Curb user interface.
 
