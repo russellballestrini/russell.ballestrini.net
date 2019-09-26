@@ -19,10 +19,10 @@ Adopting Unity, at least for our first couple games, will lower the barrier of e
 
 **Installing Unity On Linux**
 
-To get started first we will create a Unity Account and install the `Unity Hub`.
+To get started first we will create a Unity Account and install the ``Unity Hub``.
 You need both in order to aquire a free licence for personal use.
 
-The `Unity Hub` software will help you download various Unity versions, manage your licence, and manage game projects.
+The ``Unity Hub`` software will help you download various Unity versions, manage your licence, and manage game projects.
 
 You should go to the Unity website and created an account.
 
@@ -38,10 +38,12 @@ Next I opened a terminal and made the file executable, and executed it.
 
 From there I needed to sign in and then request a licence. I chose the free option since this is a $0 hobby project at this point.
 
-On the `Installs` tab in `Unity Hub` you may download various stable and LTS version of Unity. I definately suggest using stable. I accidentally grabbed a non-stable one and all I had was pink screens inside of Unity!
+On the ``Installs`` tab in ``Unity Hub`` you may download various stable and LTS version of Unity. I definately suggest using stable. I accidentally grabbed a non-stable one and all I had was pink screens inside of Unity!
 
-Anyways, now you may start a Unity project. `Unity Hub` seems to store files locally and also allows you to sync to the cloud. This enables easy collaboration on the same project.
+Anyways, now you may start a Unity project. ``Unity Hub`` seems to store files locally and also allows you to sync to the cloud. This enables easy collaboration on the same project.
 
 Thats all for now, please check back for more posts about gumyum!
+
+.. image:: /uploads/2019/09/unity-hub-gumyum.png
 
 .. |gumyum logo| image:: /uploads/2010/12/gumyumgameslogo.png
