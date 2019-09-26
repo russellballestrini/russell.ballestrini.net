@@ -13,7 +13,7 @@ Russell, why are you installing Unity? I thought you were an open source develop
 
 The TL;DR we are starting `a video game co-operative called gumyum <https://gumyum.com>`_. The basic idea is to build a large video game company owned completely by members. There will be no employees and most revenue after paying taxes, operational expenses, and marketing, will be divided among members.
 
-We are actively looking for members, specifically engineers who want to build games. We already have a distributed team of 4 artists and 2 engineers meeting on Slack while we build our first two games.
+We are actively looking for members, specifically engineers who want to build games. We already have a distributed team of 4 artists and 2 engineers who meet on Slack as we progress toward delivering our first two games.
 
 Adopting Unity, at least for our first couple games, will lower the barrier of entry for other engineers when joining the co-operative.
 
