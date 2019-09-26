@@ -26,7 +26,7 @@ The ``Unity Hub`` software will help you download various Unity versions, manage
 
 You should go to the Unity website and created an account.
 
-I found the Linux `Unity Hub` installer in `this thread <https://forum.unity.com/threads/unity-hub-v-1-0-0-is-now-available.555547/>`_ and downloaded it to my `~/Downloads` directory.
+I found the Linux ``Unity Hub`` installer in `this thread <https://forum.unity.com/threads/unity-hub-v-1-0-0-is-now-available.555547/>`_ and downloaded it to my ``~/Downloads`` directory.
 
 Next I opened a terminal and made the file executable, and executed it.
 
@@ -36,14 +36,14 @@ Next I opened a terminal and made the file executable, and executed it.
  chmod 755 UnityHub.AppImage
  ./UnityHub.AppImage
 
-From there I needed to sign in and then request a licence. I chose the free option since this is a $0 hobby project at this point.
+From there I needed to sign in and request a licence. I chose the free option since at this point we have a $0 revenue project.
 
-On the ``Installs`` tab in ``Unity Hub`` you may download various stable and LTS version of Unity. I definately suggest using stable. I accidentally grabbed a non-stable one and all I had was pink screens inside of Unity!
+On the ``Installs`` tab in ``Unity Hub`` you may download various stable and LTS (long-time-supported) versions of Unity. I suggest using one of these stable versions, I accidentally grabbed a non-stable one and all I had was pink screens inside of Unity!
 
 Anyways, now you may start a Unity project. ``Unity Hub`` seems to store files locally and also allows you to sync to the cloud. This enables easy collaboration on the same project.
 
 Thats all for now, please check back for more posts about gumyum!
 
-.. image:: /uploads/2019/09/unity-hub-gumyum.png
+.. image:: /uploads/2019/unity-hub-gumyum.png
 
 .. |gumyum logo| image:: /uploads/2010/12/gumyumgameslogo.png
