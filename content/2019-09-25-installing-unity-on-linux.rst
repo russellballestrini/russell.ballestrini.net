@@ -7,9 +7,15 @@ Installing Unity on Linux
 :tags: Code, Games, gumyum
 :status: published
 
-Russell, why are you installing Unity?!
+Russell, why are you installing Unity? I thought you were an open source developer and `homegrown video game engine builder </yuletide-trains-and-homegrown-video-games/>`_?!
 
-The TL;DR is that I'm starting `a video game co-operative called gumyum <https://gumyum.com>`_. The basic idea is to build a large Video Game company owned completely by members. There will be no employees and most revenue after paying taxes, operational expenses, and marketing, will be divided among members. We are actively looking for members, specifically engineers who want to build games. We already have a distributed team of 4 artists and 2 engineers meeting on Slack and working on two games.
+|gumyum logo|
+
+The TL;DR is I'm starting `a video game co-operative called gumyum <https://gumyum.com>`_. The basic idea is to build a large Video Game company owned completely by members. There will be no employees and most revenue after paying taxes, operational expenses, and marketing, will be divided among members.
+
+We are actively looking for members, specifically engineers who want to build games. We already have a distributed team of 4 artists and 2 engineers meeting on Slack and working on two games.
+
+Adopting Unity, at least for our first couple games, will lower the barrier of entry for other engineers when joining the team.
 
 **Installing Unity On Linux**
 
@@ -37,3 +43,5 @@ On the `Installs` tab in `Unity Hub` you may download various stable and LTS ver
 Anyways, now you may start a Unity project. `Unity Hub` seems to store files locally and also allows you to sync to the cloud. This enables easy collaboration on the same project.
 
 Thats all for now, please check back for more posts about gumyum!
+
+.. |gumyum logo| image:: /uploads/2010/12/gumyumgameslogo.png
