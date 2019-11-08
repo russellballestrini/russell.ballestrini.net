@@ -17,6 +17,13 @@ Clone this repo, then in the ``pelican-themes`` directory clone this repo:
  git clone git@github.com:russellballestrini/pelican-svbhack.git
  cd ..
 
+To install this theme:
+
+.. code-block:: bash
+
+ pelican-themes -i pelican-themes/pelican-svbhack/
+
+
 Next clone the `pelican-plugins` repo (I use ``random_article``)
 
 .. code-block:: bash

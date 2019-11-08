@@ -68,3 +68,6 @@ pelican-themes/
 pelican-plugins/
 
 build.sh
+
+vars.fish
+
