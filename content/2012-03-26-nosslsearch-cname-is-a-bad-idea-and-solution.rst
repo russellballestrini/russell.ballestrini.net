@@ -14,8 +14,7 @@ nosslsearch cname is a bad idea and solution
     entry for www.google.com to be a CNAME for nosslsearch.google.com.
 
 | 
-|  **
-   Here are the reasons why this is a bad idea and solution:**
+|  **Here are the reasons why this is a bad idea and solution:**
 
 -  In order to create a CNAME record for www.google.com we need to
    become an authoritative master of that zone.
