@@ -1,13 +1,19 @@
-Ideas for unlimited home computer storage capacity
-################################################################
+Dreaming of unlimited home computer storage capacity
+#####################################################
 
 :author: Russell Ballestrini
-:slug: ideas-for-unlimited-home-computer-storage-capacity
+:slug: dreaming-of-unlimited-home-computer-storage-capacity
 :date: 2019-12-15 09:52
 :tags: Idea
 :status: published
 
-What would be possible if we could potentially store close to infinite data at your house in a normal sized desktop computer?
+Unlimited computer storage capacity is a common science fiction trope and fun thought experiment.
+
+What would be possible if we could potentially store near infinite data at your house in a normal sized desktop computer?
+
+Even better using today's tech, what ideas could we dream up?
+
+This post will explore ideas as we surf the bleeding edge of home computing.
 
 Idea 1
 ==========
@@ -82,14 +88,28 @@ or $1,200 for 12 x 6TB drives.
 
 12 drives should easily fit in a mid-range home NAS. That said, a mid-range home NAS holding 12 drives is a clunky machine for most home owners.
 
-It might be possible, but likely not practical without a support plan, in home repairs, and other maintenance and support.
+It might be possible, but likely not practical without a support plan, in home repairs, and on-going maintenance.
 
-It would likely require having home NAS specialist in every region to offer up white gloved support for anyone who would be willing to pay for it.
+It would likely require having a home NAS specialist in every region to offer up white gloved support for anyone who would be willing to pay for it.
 
-How could we make this even easier with today's tech? Well we could lower the quality again.
+How could we make this even easier with today's tech?
+
+We could lower the quality even more...
 
 Streaming 720P at 30fps you would need 36T per year or about 6 x 6TB drives for about $600 plus a NAS.
 
-So at this time, it seems we can only do 720P at 30fps in an economic fashion (regarding upfront capital and ongoing support and maintenance).
+So at this time, if seems practical and economical to stream 720P at 30fps every minute of the year.
+
+What would we need to build to make all this data useful?
+
+Well we would need a way to index all this footage, and likely edit out useless footage.
+
+We would need at least two headcams with wifi sync, so that we could have one charging while we use the other.
+
+We would need software to sync the footage to the NAS, like ``syncthing``.
+
+Besides that, all we need is some software to host the videos, edit, and index them to be searchable.
+
+
 
 
