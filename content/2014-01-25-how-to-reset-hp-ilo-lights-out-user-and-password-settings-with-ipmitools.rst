@@ -151,4 +151,4 @@ with chassis power for more extreme measures.
 
 I run FreeNAS on an HP DL180 G6 and just replaced my p410 controller with an LSI SAS9220-8i (IBM M1015) flashed to IT mode. The stock cables are long enough. I did not have issues with fans running at high RPM.
 
-(I did the same replacement on an [HP DL160 G6 running SmartOS](/how-i-added-two-seagate-240g-ssds-as-smartos-l2arc/) and it didn't have a high fan RPM issues either) 
+(I did the same replacement on an `HP DL160 G6 running SmartOS </how-i-added-two-seagate-240g-ssds-as-smartos-l2arc/>`_ and it didn't have a high fan RPM issues either) 
