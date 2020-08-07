@@ -19,15 +19,29 @@ Experience
 
 **Remind** - *Remote, 06/2017 - Present* - System Engineer
 
-Writing code to wrangle AWS Infrastructure.
-Solving problems that teachers have communicating with parents and students.
+ Solving problems that teachers have communicating with parents and students.
 
+ Writing code to wrangle AWS Infrastructure. Responsibilities include managing cloud costs and security, developer throughput, release pipeline, and codifying business processes with automation.
+
+ https://www.remind.com
+
+|
+|
+
+**Remarkbox** - *Remote, 02/2016 - Present* - Founder
+
+ Founded and bootstrapped Remarkbox_, Hosted comment service without ads or tracking.
+
+ https://www.remarkbox.com
+ 
+|
 |
 
 **Mobiquity** - *Remote, 06/2016 - 06/2017* - Senior System Engineer
 
  Builds products, scales AWS infrastructure, practices DevOps. 
 
+|
 |
 
 **FireEye** - *Remote, 07/2014 - 05/2016* - DevOps Engineer
@@ -37,19 +51,26 @@ Solving problems that teachers have communicating with parents and students.
 * Botoform_: Architect infrastructure on AWS using YAML.
 * s3p_: Use AWS S3 as a release pipeline.
 
+|
+
 **Cars.com** - *Remote, 10/2012 - 06/2014* - System Engineer
 
  Practiced DevOps (Development and Release Automation) with team in Santa Monica, CA.
 
 |
+|
 
 **LinkPeek** - *Remote, 01/2012 - Present* - Founder
 
- Founded LinkPeek_, web page screenshot service, as a bootstrap startup.
- 
-* ago_: human readable timedeltas.
-* filevault_: A class for managing a hash directory tree of files on a filesystem.
-* miniuri_: A universal URI parser class written in 128 lines.
+ Founded and bootstrapped LinkPeek_, web page screenshot service.
+
+ Open sourced: 
+
+ * ago_: human readable timedeltas.
+ * filevault_: A class for managing a hash directory tree of files on a filesystem.
+ * miniuri_: A universal URI parser class written in 150 lines.
+
+ https://linkpeek.com
 
 |
 
@@ -59,7 +80,6 @@ Solving problems that teachers have communicating with parents and students.
 * built tools to help the company move faster and automate reporting
 * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
 
-|
 
 **Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
 
@@ -70,6 +90,8 @@ Solving problems that teachers have communicating with parents and students.
 **Pfizer** - *Groton CT, 02/2006 - 08/2006* - Desktop Support Contractor
 
  Exceeded Customer SLA expectations.
+
+|
 
 Education
 =========
@@ -84,31 +106,24 @@ Skills
 Programming
 ------------
 
-* Admires readable and testable code.
-* Thoroughly enjoys the process of refactoring.
-* Python, Bash, PHP, Perl, C++, and Java (would prefer Scala)
+Admires readable and testable code. Thoroughly enjoys the process of refactoring. Python, Bash, PHP, Perl, Ruby, Go, Java, and likely others.
 
-Opinionated Ideal Architecture
-------------------------------
+Systems
+-------
 
- SmartOS with a mixture of zones and KVM (likely Ubuntu guests), 
- SaltStack (or Ansible), Jenkins, FPM, Vim,
- Nginx, uWSGI, Pyramid, Python, HG (or Git),
- PostgreSQL or MongoDB, Bind9, Postfix, Sphinx.
-
-|
+Ask me about: SaltStack, Ansible, Packer, FPM, DNS (Bind9), Postfix, stacker, AWS, Boto3, SmartOS, Linux (Redhat/Debian), Docker, k8s, uWSGI, or your choice!
 
 Interests
 =========
 
-* Building products.  Looking forward to launching http://remarkbox.com
-* Technical Blog: http://russell.ballestrini.net/about
-* Gardening: http://unturf2.tumblr.com/
-
-
+* Building products: Looking forward to launching https://www.makepostsell.com
+* Technical Blog: https://russell.ballestrini.net/about
+* Gardening and YouTube: https://www.youtube.com/c/RussellBallestrini
 
 .. _FireEye: https://www.fireeye.com
 .. _LinkPeek: https://linkpeek.com
+.. _Remarkbox: https://www.remarkbox.com
+.. _MakePostSell: https://www.makepostsell.com
 
 .. _botoform: https://github.com/russellballestrini/botoform
 .. _s3p:  https://github.com/russellballestrini/s3p
