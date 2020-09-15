@@ -9,21 +9,25 @@ WeeChat on-boot in a tmux session
 
 Chronicles of a washed up systems administrator.
 
-In the basement, M. Bison (``mbision.foxhop.net.``), a T430 with a cracked screen runs queitly with his lid closed, acting as a SmartOS hypervisor to 3 Solaris derived zones and 4 KVM ubuntu guests.
+In the basement, M. Bison (``mbision.foxhop.net.``), a T430 with a cracked screen runs quietly with his lid closed, acting as a SmartOS hypervisor to 3 Solaris derived zones and 4 KVM ubuntu guests.
 
 One of these guests is the oldest of the bunch and his name is Akuma (``akuma.foxhop.net.``).
 
-Akuma and I go way back, over 13 years now. At one point Akuma was a physical machine, who ran ubuntu and had it's own guest operating systems.
+Akuma and I go way back, over 13 years now. At one point Akuma was a physical machine, who ran FreeBSD and then later Ubuntu 6.04 with it's own guest kernel virtual machines.
 
-Akuma has been "home base" for as long as I remember. A place a "jump box" where shit got done. A place to perform operations. It make sense that Akuma would evolve into the private internal DNS Nameserver for ``foxhop.net.`` and other domains, and also take on Salt Master resposibilities.
+Akuma has been "home base" for as long as I remember. A place where shit got done. A place to perform operations. A place to "jump" from with SSH.
+
+It makes sense that Akuma would evolve and gain many roles over the years.
+
+Akuma performs DNS caching and forwarding for my LAN, it acts as the internal authoritative Nameserver for ``foxhop.net.``, and is the Salt Master my LAN and extended networks in the "cloud".
 
 Akuma uses ``tmux`` with default settings to enable "remote shell" vibe.
 
 This lets me connect to my session running on Akuma from anywhere in the world.
 
-Only problem is, Akuma reboots weekly when M. Bison `triggers a complete backup of all guests </backup-all-virtual-machines-on-a-smartos-hypervisor-with-smart-back-sh/>`_ (snapshots are stored in-the-raw [uncompressed] on Guile, the FreeNAS server).
+Only problem is, Akuma reboots weekly when M. Bison `triggers a complete backup of all guests </backup-all-virtual-machines-on-a-smartos-hypervisor-with-smart-back-sh/>`_ snapshots are stored on Guile, the FreeNAS server, uncompressed since disk space is cheap and this process allows for downtime but I try to limit it.
 
-Since Akuma reboots so frequently, to continue to function as my "home base" I needed a way to create a tmux sessions on boot, and I did so using SaltStack:
+Since Akuma reboots each week, in order for it to continue to serve as my "home base" I needed a way to create tmux sessions on boot, and I did so using SaltStack:
 
 .. code-block:: yaml
 
