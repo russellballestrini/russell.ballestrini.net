@@ -42,7 +42,8 @@ virtual machine on a SmartOS hypervisor.
         # echo "Starting $VM"
         vmadm start $uuid
 
-        pbzip2 $tmpdir/$alias
+        # disk space is cheap, uncomment if you disagree.
+        #pbzip2 $tmpdir/$alias
 
       done 
       
