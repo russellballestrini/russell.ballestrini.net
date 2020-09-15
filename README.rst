@@ -6,6 +6,16 @@ This project uses Pelican (a static site generator) to produce HTML from ``.rst`
 
 Pelican is written in Python and uses Jinja2 template engine by default.
 
+Need a new blog post entry?
+===============================
+
+Try running:
+
+.. code-block:: bash
+
+ ./new_entry
+
+
 development
 ===============================
 
@@ -37,6 +47,8 @@ In development I use a ``make`` file to hold common build and test commands::
 I also manage my resume using ``.rst`` and I use the ``rst2pdf`` tool to turn it into a ``.pdf``::
 
   make clean && make html && make resume
+
+
 
 production release process
 ===============================
