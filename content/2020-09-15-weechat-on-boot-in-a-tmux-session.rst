@@ -19,15 +19,15 @@ Akuma has been "home base" for as long as I remember. A place where shit got don
 
 It makes sense that Akuma would evolve and gain many roles over the years.
 
-Akuma performs DNS caching and forwarding for my LAN, it acts as the internal authoritative Nameserver for ``foxhop.net.``, and is the Salt Master my LAN and extended networks in the "cloud".
+Akuma performs DNS caching and forwarding for my LAN, it acts as the internal authoritative Nameserver for ``foxhop.net.``, and is the Salt Master for all my hosts both internally (hosted at my house) and externally in the "cloud".
 
-Akuma uses ``tmux`` with default settings to enable "remote shell" vibe.
+Akuma uses ``tmux`` with default settings to allow for a "remote shell" vibe.
 
-This lets me connect to my session running on Akuma from anywhere in the world.
+This allows me attach to my session running on Akuma from anywhere in the world.
 
-Only problem is, Akuma reboots weekly when M. Bison `triggers a complete backup of all guests </backup-all-virtual-machines-on-a-smartos-hypervisor-with-smart-back-sh/>`_ snapshots are stored on Guile, the FreeNAS server, uncompressed since disk space is cheap and this process allows for downtime but I try to limit it.
+Only problem is, Akuma reboots weekly when M. Bison `triggers a complete backup of all guests </backup-all-virtual-machines-on-a-smartos-hypervisor-with-smart-back-sh/>`_.  Backups are stored on Guile, the FreeNAS server, uncompressed since disk space is cheap and this process allows for downtime, however I try to limit it.
 
-Since Akuma reboots each week, in order for it to continue to serve as my "home base" I needed a way to create tmux sessions on boot, and I did so using SaltStack:
+Since Akuma reboots each week, I needed a way to create tmux sessions on boot if I wanted to continue to use it as my "home base", and I did so using SaltStack:
 
 .. code-block:: yaml
 
@@ -64,5 +64,7 @@ And of course I what tutorial wouldn't be complete without a script! (``/home/fo
   tmux a -t "remote-shell"
 
 Thanks for joining me on this escape into the world of computers.
+
+This website is hosted on Ryu (``ryu.foxhop.net``) another Ubuntu guest running on M. Bison, humming away downstairs on that T430 with a cracked screen, but thats a story for another time.
 
 Please feel free to comment below if you have suggestions for this post.
