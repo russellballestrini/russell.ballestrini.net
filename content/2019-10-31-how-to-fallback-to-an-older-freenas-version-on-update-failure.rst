@@ -1,4 +1,4 @@
-How to fallback to an older freenas version on update failure
+How to fallback to an older FreeNAS version on update failure
 ################################################################
 
 :author: Russell Ballestrini
@@ -11,9 +11,9 @@ try to log in as root locally, I needed to press ``ctrl-alt-f7`` to get to a log
 
 Once logged in as root, I used the ``beadm`` command.
 
-Try ``beadm list`` and activate ``beadm activate <old-version>``.
+For example, ``beadm list`` and ``beadm activate <old-version>``.
 
-Finally reboot.
+Finally ``reboot``.
 
 I followed this process and then got my FreeNAS server to boot again.
 
