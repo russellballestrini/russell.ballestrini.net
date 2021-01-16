@@ -33,7 +33,7 @@ LINKPEEK_APIKEY = get_environ_or_default('LINKPEEK_APIKEY')
 LINKPEEK_SECRET = get_environ_or_default('LINKPEEK_SECRET')
 
 # Theme specific
-USER_LOGO_URL = 'https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s125-c/photo.jpg'
+USER_LOGO_URL = 'https://russell.ballestrini.net/uploads/profile/russell-ballestrini-2020.jpg'
 TAGLINE = '<a href="/about" class="tagline">Builds Products</a>'
 
 PATH = 'content'
