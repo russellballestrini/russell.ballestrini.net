@@ -7,7 +7,8 @@ IRC:
  fxhp - freenode.net
 
 Email:
- firstname @ lastname.net
+ * firstname@lastname.net
+ * firstname.lastname@gmail.com
 
 Phone:
  listed in my resume
