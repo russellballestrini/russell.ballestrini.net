@@ -116,6 +116,20 @@ The Missing dkimpy Quickstart Guide
         dkim_private_key_path="",
         dkim_selector="",
     ):
+    
+        # in Python 3:
+        # * the `email` library assumes it is working with string objects.
+        # * the `dkim` library assumes it is working with byte objects. 
+        # this function performs the acrobatics to make both happy.
+    
+        if isinstance(message_text, bytes):
+            # needed for Python 3.
+            message_text = message_text.decode()
+    
+        if isinstance(message_html, bytes):
+            # needed for Python 3.
+            message_html = message_html.decode()
+    
         sender_domain = sender_email.split("@")[-1]
         msg = MIMEMultipart("alternative")
         msg.attach(MIMEText(message_text, "plain"))
@@ -125,17 +139,22 @@ The Missing dkimpy Quickstart Guide
         msg["Subject"] = subject
     
         if dkim_private_key_path and dkim_selector:
+            # the dkim library uses regex on byte strings so everything
+            # needs to be encoded from strings to bytes. 
             with open(dkim_private_key_path) as fh:
                 dkim_private_key = fh.read()
-            headers = ["To", "From", "Subject"]
+            headers = [b"To", b"From", b"Subject"]
             sig = dkim.sign(
-                message=msg.as_string(),
-                selector=str(dkim_selector),
-                domain=sender_domain,
-                privkey=dkim_private_key,
+                message=msg.as_bytes(),
+                selector=str(dkim_selector).encode(),
+                domain=sender_domain.encode(),
+                privkey=dkim_private_key.encode(),
                 include_headers=headers,
             )
-            msg["DKIM-Signature"] = sig.lstrip("DKIM-Signature: ")
+            # add the dkim signature to the email message headers.
+            # decode the signature back to string_type because later on
+            # the call to msg.as_string() performs it's own bytes encoding... 
+            msg["DKIM-Signature"] = sig[len("DKIM-Signature: "):].decode()
     
         # TODO: react if connecting to postfix is a socket error.
         s = smtplib.SMTP(relay)
