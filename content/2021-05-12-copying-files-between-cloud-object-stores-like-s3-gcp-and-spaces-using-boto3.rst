@@ -9,7 +9,7 @@ Copying files between cloud object stores like S3 GCP and Spaces using Boto3
 
 tl;dr if you just want something like ``aws s3 cp`` cli, try ``gsutil rsync``. 
 
-At work one key item team's sprint is properly utilizing and securing Google Cloud Platform (GCP).
+At work one key item of team's sprint is properly utilizing and securing Google Cloud Platform (GCP).
 
 For one of my projects, I'm learning GCP's Object Store called Google Cloud Storage (GCS).
 
