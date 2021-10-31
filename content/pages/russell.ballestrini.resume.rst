@@ -17,13 +17,24 @@ Experience
 
 |
 
-**Remind** - *Remote, 06/2017 - Present* - System Engineer
+**Cofense** - *Remote, 07/2020 - Present* Senior Security Engineer
+
+ Terraform Base AWS Account Controls and User Access Management Automation.
+ Governance, SOC2, FedRAMP environments. Reports to Director of Cloud Security.
+ Works with scrum teams to ensure product ships with high security integrity.
+ Gitlab Enterprise. Okta.
+
+|
+|
+
+**Remind** - *Remote, 06/2017 - 07/2020* - System Engineer
 
  Solving problems that teachers have communicating with parents and students.
 
- Writing code to wrangle AWS Infrastructure. Responsibilities include managing cloud costs and security, developer throughput, release pipeline, and codifying business processes with automation.
+ Writing code to wrangle AWS Infrastructure. Responsibilities include managing cloud costs and security, developer throughput, release pipeline, and codifying business processes with automation. Stacker codebase. Cloudformation.
 
- https://www.remind.com
+ * https://engineering.remind.com/migrate-the-empire-to-c5/
+ * https://engineering.remind.com/ops-infrastructure-status-2/
 
 |
 |
@@ -32,7 +43,7 @@ Experience
 
  Founded and bootstrapped Remarkbox_, Hosted comment service without ads or tracking.
 
- https://www.remarkbox.com
+ * https://www.remarkbox.com
  
 |
 |

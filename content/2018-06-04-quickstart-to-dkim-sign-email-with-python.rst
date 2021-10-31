@@ -95,14 +95,12 @@ The Missing dkimpy Quickstart Guide
 
    .. code-block:: python
 
+    # ref: https://github.com/russellballestrini/miscutils/blob/master/miscutils/mail.py
+
     import dkim
-
     import smtplib
-
     from email.mime.multipart import MIMEMultipart
-
     from email.mime.text import MIMEText
-
     # catch socket errors when postfix isn't running...
     from socket import error as socket_error
 
@@ -176,6 +174,5 @@ The Missing dkimpy Quickstart Guide
         s.quit()
         return msg
 
-  Reference: https://github.com/russellballestrini/miscutils/blob/master/miscutils/mail.py
 
-**Like always, if you have any questions feel free to leave a comment or contact me.**
+**As always, leave a comment or contact me for questions or help.**
