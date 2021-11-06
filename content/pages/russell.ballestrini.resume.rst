@@ -21,7 +21,7 @@ Experience
 
  Terraform Base AWS Account Controls and User Access Management Automation.
  Governance, SOC2, FedRAMP environments. Reports to Director of Cloud Security.
- Works with scrum teams to ensure product ships with high security integrity.
+ Works with scrum teams to ship product with high security integrity.
  Gitlab Enterprise. Okta.
 
 |
@@ -37,7 +37,6 @@ Experience
  * https://engineering.remind.com/ops-infrastructure-status-2/
 
 |
-|
 
 **Remarkbox** - *Remote, 02/2016 - Present* - Founder
 
@@ -45,7 +44,6 @@ Experience
 
  * https://www.remarkbox.com
  
-|
 |
 
 **Mobiquity** - *Remote, 06/2016 - 06/2017* - Senior System Engineer
