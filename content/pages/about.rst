@@ -1,5 +1,5 @@
-Russell Builds Products
-########################
+Russell Grows Products & Services
+#################################
 
 :slug: about
 
@@ -25,6 +25,33 @@ Russell’s projects
 
 .. contents::
 
+
+Remarkbox
+---------
+
+Communicate with your readers. User Remarkbox to host your web page comments without ads or tracking!
+
+.. linkpeek::
+   uri = https://www.remarkbox.com
+   action = link-image
+   size = 600x400
+
+|
+
+Make Post Sell
+----------------
+
+Sell the digital things you make — commission free!
+
+A platform for real people to operate digital sales online for as cheap as possible. 
+
+.. linkpeek::
+   uri = https://WWW.makepostsell.com
+   action = link-image
+   size = 600x400
+
+|
+
 LinkPeek
 --------
 
@@ -32,18 +59,6 @@ Website screenshot service.
 
 .. linkpeek::
    uri = https://linkpeek.com
-   action = link-image
-   size = 600x400
-
-|
-
-Remarkbox
----------
-
-An embedable comment service and fully functional question and answer forum.
-
-.. linkpeek::
-   uri = https://www.remarkbox.com
    action = link-image
    size = 600x400
 

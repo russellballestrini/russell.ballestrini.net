@@ -3,13 +3,13 @@ Russell Ballestrini
 
 .. class:: center
 
- **Builds Products - 860-333-3047**
+ **Grows Product & Services - 860-333-3047**
 
 
 Summary
 =======
 
- Executes on ideas. Unites teams through communication and compromise. Builds tools to automate and accelerate product pipelines. Engineers open source software. Bootstrapper.  Founder.
+ Executes on ideas. Unites teams through communication and compromise. Grows sysytems and tools to automate and accelerate product pipelines. Engineers open source software. Bootstrapper.  Founder.
 
 
 Experience
@@ -27,14 +27,15 @@ Experience
 |
 |
 
-**Remind** - *Remote, 06/2017 - 07/2020* - System Engineer
+**Remind** - *Remote, 06/2017 - 07/2020* - Lead Software Engineer
 
- Solving problems that teachers have communicating with parents and students.
-
- Writing code to wrangle AWS Infrastructure. Responsibilities include managing cloud costs and security, developer throughput, release pipeline, and codifying business processes with automation. Stacker codebase. Cloudformation.
+ Writing code to wrangle AWS Infrastructure (Python and stacker). Responsibilities include managing cloud costs and security, developer throughput, release pipeline, and codifying business processes with automation. Stacker codebase. Cloudformation.
 
  * https://engineering.remind.com/migrate-the-empire-to-c5/
  * https://engineering.remind.com/ops-infrastructure-status-2/
+
+ Remind is a communication and education platform aiming to help every student succeed.
+ My team ensured our critical services scaled and stayed up during distance learning during lock downs.
 
 |
 
@@ -92,11 +93,11 @@ Experience
 
 **Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
 
- Engineered and operated a real estate search engine well before Zillow existed.
+ Engineered and operated a real estate search engine well before Zillow took marketshare.
 
 |
 
-**Pfizer** - *Groton CT, 02/2006 - 08/2006* - Desktop Support Contractor
+Destop Support Contractor - *Groton CT, 02/2006 - 08/2006*
 
  Exceeded Customer SLA expectations.
 
