@@ -7,17 +7,16 @@ Hey there, welcome to my little slice of the Internet!
 
 *You may view a list of my active projects below the text.*
 
-Finding **simple solutions** to difficult problems, gives me a rush. 
+**Finding simple solutions to difficult problems, gives me a rush.**
 
-I feel like I'm at my best when I can turn ideas into products. I often prototype using Python and admire readable, testable code. The process of refactoring is like a crossword puzzle to me and brings me joy.
+I feel at my best when I turn ideas into products or services. I often prototype using Python and admire readable, testable code. For me, the process of refactoring brings me joy. As a strong advocate of opensource, I donate code and time when I can.
 
-As a strong advocate of opensource, I donate my code and time when I can.
+I currently work as a Software Engineer, writing software to manage infrastructure running in "the cloud", but I also have a basement full of real computers and servers.
 
-I currently work for `Remind <https://www.remind.com/>`_ as a software engineer where I write software to manage infrastructure running in AWS.
+I value Truth, Freedom, and Love. I want to find financial independence to retire myself from unvoluntary work. Once accomplished, I want to help others reach freedom from unvolntary work. As a result, right now I'm actively bootstrapping `Make Post Sell, a platform for people to sell digital downloads online for as cheap as possible. I do this by keeping a careful eye on capacity engineering and optimzing key operating costs. 
+<http://www.remarkbox.com>`_.
 
-My long term goal is to work for myself. My first successfully bootstrapped product launch was `LinkPeek <https://linkpeek.com>`_ which I still operate today. Right now I'm actively bootstrapping `Remarkbox, a hosted comment service <http://www.remarkbox.com>`_.
-
-You should `contact me </contact>`_. I love conversation and often respond in a timely manner!
+You should `contact me </contact>`_, I love conversation and often respond in a timely manner!
 
 
 Russell’s projects
@@ -29,7 +28,7 @@ Russell’s projects
 Remarkbox
 ---------
 
-Communicate with your readers. User Remarkbox to host your web page comments without ads or tracking!
+Communicate with your readers. We host your web page comments without ads or tracking! (pay-what-you-can)
 
 .. linkpeek::
    uri = https://www.remarkbox.com
@@ -43,7 +42,7 @@ Make Post Sell
 
 Sell the digital things you make — commission free!
 
-A platform for real people to operate digital sales online for as cheap as possible. 
+A platform for people to sell digital downloads online for as cheap as possible.
 
 .. linkpeek::
    uri = https://WWW.makepostsell.com
