@@ -3,9 +3,7 @@ Russell Grows Products & Services
 
 :slug: about
 
-Hey there, welcome to my little slice of the Internet!
-
-*You may view a list of my active projects below the text.*
+Hey there! 
 
 **Finding simple solutions to difficult problems, gives me a rush.**
 
@@ -13,8 +11,7 @@ I feel at my best when I turn ideas into products or services. I often prototype
 
 I currently work as a Software Engineer, writing software to manage infrastructure running in "the cloud", but I also have a basement full of real computers and servers.
 
-I value Truth, Freedom, and Love. I want to find financial independence to retire myself from unvoluntary work. Once accomplished, I want to help others reach freedom from unvolntary work. As a result, right now I'm actively bootstrapping `Make Post Sell, a platform for people to sell digital downloads online for as cheap as possible. I do this by keeping a careful eye on capacity engineering and optimzing key operating costs. 
-<http://www.remarkbox.com>`_.
+I value Truth, Freedom, and Love. I want to find financial independence to retire myself from unvoluntary work. Once accomplished, I want to help others reach freedom from unvolntary work. As a result, right now I'm actively bootstrapping `Make Post Sell, a platform for people to sell digital downloads online <https://www.makepostsell.com>`_ for as cheap as possible by using capacity engineering and optimzing for reduction in key operating costs. 
 
 You should `contact me </contact>`_, I love conversation and often respond in a timely manner!
 
