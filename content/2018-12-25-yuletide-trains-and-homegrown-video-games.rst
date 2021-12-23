@@ -8,6 +8,7 @@ Yuletide Trains and Homegrown Video Games
 :status: published
 
 .. image:: /uploads/2018/pixel-art-gift.png
+    :alt: pixel art style seasonal wrapped gift
     :align: right
 
 Each holiday season I find myself drawn to a side passion of mine.
@@ -25,6 +26,7 @@ Work or Play.
 =============================================
 
 .. image:: /uploads/2018/pixel-art-yuletide-tree.gif
+    :alt: green pixel art style Christmas tree with animated blinking lights
     :align: right
 
 Why do I absorb myself into this seasonal hobby? Am I escaping? Or am I making use of down time to work on a project that I am too occupied to even think about during the rest of the year?
@@ -50,7 +52,8 @@ Work and Play?
 =============================================
 
 .. image:: /uploads/2018/pixel-art-santa-hat.png
-    :align: right
+   :alt: red pixel art style santa hat
+   :align: right
 
 Now that's not to say you cannot find fun while at work, and vice versa. Personally, I aim to land a perfect balance between the two with anything I do. 
 
@@ -61,6 +64,7 @@ If I was in the games industry, I doubt I would find much fun in building a vide
 That is to say, for me building a game feels fun while playing a game feels like work. Crazy right?
 
 .. image:: /uploads/2018/pixel-art-bomb.gif
+   :alt: animated gif of a pixel art style circular bomb with fuse burning down
    :align: right
 
 Even though the activities of my "day job" overlap with the activities involved with building my game, there are enough differences. These differences make one feel like work while the other feel like fun.
