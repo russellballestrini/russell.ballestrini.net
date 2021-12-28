@@ -116,3 +116,5 @@ I speak words in favor of Truth, Freedom, and Love.
 I AM now free to Grow, Explore, Document, and Multiply!
 
 Have a great day fellow reader!
+
+I love you!
