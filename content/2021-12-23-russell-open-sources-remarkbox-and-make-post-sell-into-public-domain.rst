@@ -7,8 +7,8 @@ Russell Open Sources Remarkbox & MakePostSell into Public Domain!
 :tags: unturf.
 :status: published
 
-.. image:: /uploads/2018/pixel-art-santa-hat.png
-   :alt: pixel art style santa hat
+.. image:: /uploads/2018/pixel-art-yuletide-tree.gif
+   :alt: green pixel art style Christmas tree with animated blinking lights
    :align: right
 
 Merry Christmas & Happy Holidays, Everyone!
@@ -29,13 +29,15 @@ For the holiday season, I AM gifting to the public domain my most essential code
 
     **"in 2022, dream & do!"**
 
-For each project I have linked to the guide on how to find the source code:
+---
+
+Each project has a link to guide on how to access the source code.
 
 |
 
 .. image:: https://www.remarkbox.com/remarkbox-minified.png
    :alt: Remarkbox Logo Trademark
-   :width: 480
+   :width: 400
 
 * https://www.remarkbox.com/open-source/
 
@@ -44,16 +46,24 @@ For each project I have linked to the guide on how to find the source code:
 
 .. image:: https://www.makepostsell.com/static/mps.png
    :alt: MakePostSell Logo Trademark
-   :width: 480
+   :width: 400
 
 * https://www.makepostsell.com/open-source/
 
 |
 
-I will continue to operate the SaaS under Remarkbox and MakePostSell trademarks & operations will fall under unturf.
+In 2021, I imagined many possible paths, yet all seemed to lead to one word:
 
-I hope to facilitate the growth of a team of volunteers to maintain the code in the commons.
+**OPEN**
 
+I will continue to operate the SaaS under Remarkbox and MakePostSell trademarks & operations will fall under ``unturf.``
+
+I will take an additional role of ``BDFL`` in regards to:
+
+* onboarding volunteers to maintain our ``common code`` in perpetuity
+* tie breaking
+
+It feels vulnerable to share code without team support. Think from end & this feeling will pass.
 
 .. image:: /uploads/2018/pixel-art-bomb.gif
    :alt: animated gif of a pixel art style circular bomb with fuse burning down
@@ -61,60 +71,61 @@ I hope to facilitate the growth of a team of volunteers to maintain the code in 
 .. image:: /uploads/2019/glider.png
    :alt: steal this image glider.png 1337 h4x0r h4ndb00k
 
-Sharing code without a team is a vulnerable position.
-
-I've imagined some paths & potentialities and found myself wanting to **"open"** up. 
 
 **Risk:**
+
 Alice may finally read the code & find vulnerabilities, 
-burning a hole between us so we cannot seem to reach an
-end crippling our communication & taking down the whole system.
+burning a hole between us crippling our communication, taking down the system.
 
 **Solution:**
-More eyes on problems, more environments in wild, more solutions communicated.
+
+More environments in wild, more eyes on problems, more options communicated.
 
 **Risk:**
+
 The masses may fork & divide the perfect circle.
 
 **Solution:**
-We volunteer to grow & multiply our systems, not worry about forks.
-We avoid focus on those who ignorantly mutilate or divide, instead
-we focus on helping project ideas sprout, multiply, & thrive!
 
-At a high level this ``unturf`` stack consists of the following:
+We volunteer to grow & multiply our systems, not worry about forks.
+We avoid focus on those who ignorantly mutilate or divide, 
+instead focus on projects and forks which sprout, multiply, & thrive!
+
+---
+
+At a high level the ``unturf.`` stack currently consists of the following:
 
 * HTML
 * CSS
-* Python
-* SqlAlchemy
-* Sqlite3
-* Pyramid
-* uwsgi
-* Nginx
-* Postfix
-* letsencrypt
-* Object Store (boto3)
+* `Python <https://www.python.org/>`_
+* `SQLAlchemy <https://www.sqlalchemy.org/>`_
+* `Sqlite3 <https://sqlite.org/index.html>`_
+* `Pyramid <https://docs.pylonsproject.org/projects/pyramid/en/latest/index.html>`_
+* `uWSGI <https://uwsgi-docs.readthedocs.io/en/latest/>`_
+* `Nginx <https://nginx.org/en/>`_
+* `Postfix <http://www.postfix.org/documentation.html>`_
+* `Let's Encrypt <https://letsencrypt.org/>`_
+* `Object Store (Boto3/S3 Compatible) <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html>`_ 
 
 And of course we dogfood:
 
-* MakePostSell
-* Remarkbox
+* `Remarkbox <https://www.remarkbox.com>`_
+* `MakePostSell <https://www.makepostsell.com>`_
 
-For analytics we host our own:
+For analytics we self host our own:
 
-* Plausible
+* `Plausible <https://plausible.io>`_
 
-.. image:: /uploads/2018/pixel-art-yuletide-tree.gif
-   :alt: green pixel art style Christmas tree with animated blinking lights
-   :align: right
+If the documentation works, people should be able to use the services without understanding the fundementals of each keyword listed above.
 
-If the documentation is doing it's job, people should be able to use the services without understanding the fundementals of each of the keywords listed above.
+---
 
 The writing of this essay has unfolded liberation in me and so, 
 I speak words in favor of Truth, Freedom, and Love.
 
 I AM now free to Grow, Explore, Document, and Multiply!
 
-Have a great day fellow reader!
+I love you, have a great day reader!
 
-I love you!
+.. image:: /uploads/2018/pixel-art-santa-hat.png
+   :alt: pixel art style santa hat

@@ -3,7 +3,7 @@ Get in touch with Russell
 
 :slug: contact
 
-I'm excited to meet you or reconnect! Try to reach me over a text base communication first and save voice and video for really important things! That said, I don't mind jumping on a video call, I'm on YouTube after all. : )
+I'm excited to meet or reconnect! Try to reach over a text base communication first and save voice/video for really important things! That said, I don't mind jumping on a video call, I'm on YouTube after all. : )
 
 |
 
