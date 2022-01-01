@@ -11,6 +11,7 @@ DEFAULTS = {
   #'THEME'    : 'pelican-themes/svbhack',
   'THEME'     : 'pelican-themes/pelican-svbhack',
   'GOOGLE_ANALYTICS' : '',
+  'PLAUSIBLE_ANALYTICS' : '',
   'REMARKBOX' : None,
   'LINKPEEK_APIKEY' : None,
   'LINKPEEK_SECRET' : None,
@@ -26,6 +27,7 @@ SITEURL  = get_environ_or_default('SITEURL')
 THEME    = get_environ_or_default('THEME')
 
 GOOGLE_ANALYTICS = get_environ_or_default('GOOGLE_ANALYTICS')
+PLAUSIBLE_ANALYTICS = get_environ_or_default('PLAUSIBLE_ANALYTICS')
 
 REMARKBOX = get_environ_or_default('REMARKBOX')
 
