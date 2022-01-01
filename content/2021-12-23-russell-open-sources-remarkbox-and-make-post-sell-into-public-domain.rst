@@ -39,7 +39,7 @@ Each project has a link to guide on how to access the source code.
    :alt: Remarkbox Logo Trademark
    :width: 400
 
-* https://www.remarkbox.com/open-source/
+* https://git.unturf.com/engineering/remarkbox/remarkbox
 
 |
 |
@@ -48,7 +48,7 @@ Each project has a link to guide on how to access the source code.
    :alt: MakePostSell Logo Trademark
    :width: 400
 
-* https://www.makepostsell.com/open-source/
+* https://git.unturf.com/engineering/make-post-sell/make_post_sell
 
 |
 
@@ -117,6 +117,8 @@ For analytics we self host our own:
 * `Plausible <https://plausible.io>`_
 
 If the documentation works, people should be able to use the services without understanding the fundementals of each keyword listed above.
+
+Pull requests welcome.
 
 ---
 
