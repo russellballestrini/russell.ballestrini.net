@@ -22,7 +22,8 @@ Experience
  Terraform Base AWS Account Controls and User Access Management Automation.
  Governance, SOC2, FedRAMP environments. Reports to Director of Cloud Security.
  Works with scrum teams to ship product with high security integrity.
- Gitlab Enterprise. Okta.
+ Gitlab Enterprise. Okta. Python. Gitlab. DefectDojo, CloudMapper,
+ SSM agents & documents.
 
 |
 |
@@ -37,13 +38,24 @@ Experience
  Remind is a communication and education platform aiming to help every student succeed.
  My team ensured our critical services scaled and stayed up during distance learning during lock downs.
 
+ Linux, ECS, EC2, SQS, RDS, API, DynamoDB, Load Balancing, Guided Scale Up Environment during sars-cov-2 outbreak & distance learning, Messaging Backend Services, SRE, Incident Response, Cloud Security.
+
+ Grew a platform for the engineering teams & streams to quickly expand & scale up to go to market
+ for our breakthrough & essential Remind Coaching & Tutoring, Emergency messaging, & more.
+
 |
 
 **Remarkbox** - *Remote, 02/2016 - Present* - Founder
 
  Founded and bootstrapped Remarkbox_, Hosted comment service without ads or tracking.
 
- * https://www.remarkbox.com
+ * https://www.remarkbox.com SaaS
+
+ I have open sourced  SaaS & place it into the public domain:
+
+ * https://russell.ballestrini.net/russell-open-sources-remarkbox-and-make-post-sell-into-public-domain/
+
+ The codebase is Linux, Python, Pyramid, SQLAlchemy, nginx 
  
 |
 
@@ -52,7 +64,11 @@ Experience
  Builds products, scales AWS infrastructure, practices DevOps. 
 
 |
-|
+
+Linux, AWS, RDS, MongoDB, EC2, CloudFormation, I was loaned out to help build out DevOps solutions for several of our most high profile customers.
+
+I was the full package, I would work with a single PM & speak & integrate directly with the customer engineering teams to accelerate project momentum.
+
 
 **FireEye** - *Remote, 07/2014 - 05/2016* - DevOps Engineer
 
@@ -61,14 +77,18 @@ Experience
 * Botoform_: Architect infrastructure on AWS using YAML.
 * s3p_: Use AWS S3 as a release pipeline.
 
+Linux, AWS, RDS, EC2, NodeJS, Load Balancing, DNS, nginx, TLS, loaned out to various high inititive teams to build out DevOps solutions for several of our most high profile customers internally & externally.
+
 |
+
 
 **Cars.com** - *Remote, 10/2012 - 06/2014* - System Engineer
 
  Practiced DevOps (Development and Release Automation) with team in Santa Monica, CA.
 
 |
-|
+
+ Linux, Python, Pyramid, PHP, SaltStack, DevOps, Jenkins, Bash, Chicago Equinix, Cisco Blade, SAN, & NAS, BigIP Load Balancing, Apache2, nginx
 
 **LinkPeek** - *Remote, 01/2012 - Present* - Founder
 
@@ -89,11 +109,12 @@ Experience
 * pushed software updates to a fleet of 10,000+ computer assets
 * built tools to help the company move faster and automate reporting
 * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
+* Partnered with my peer Tara to establish a 3x data center, multi million dollar Hitachi SAN & NAS solution with disaster recovery & multi region replication, RAID & WORM
 
 
 **Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
 
- Engineered and operated a real estate search engine well before Zillow took marketshare.
+ Engineered and operated a real estate search engine well before Zillow took marketshare. PHP, MySQL, Apache2, FreeBSD
 
 |
 
