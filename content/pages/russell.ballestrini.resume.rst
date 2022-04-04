@@ -17,7 +17,7 @@ Experience
 
 |
 
-**Cofense** - *Remote, 07/2020 - Present* Senior Security Engineer
+**Cofense** - *Remote, 07/2020 - 03/2022* Senior Security Engineer
 
  Terraform Base AWS Account Controls and User Access Management Automation.
  Governance, SOC2, FedRAMP environments. Reports to Director of Cloud Security.
@@ -65,19 +65,19 @@ Experience
 
 |
 
-Linux, AWS, RDS, MongoDB, EC2, CloudFormation, I was loaned out to help build out DevOps solutions for several of our most high profile customers.
+ Linux, AWS, RDS, MongoDB, EC2, CloudFormation, I was loaned out to help build out DevOps solutions for several of our most high profile customers.
 
-I was the full package, I would work with a single PM & speak & integrate directly with the customer engineering teams to accelerate project momentum.
+ The full package, would work with a single PM & speak & integrate directly with the customer engineering teams to accelerate project momentum.
 
 
 **FireEye** - *Remote, 07/2014 - 05/2016* - DevOps Engineer
 
  Launched FireEye's SaaS offerings running on AWS. (TAP, FIC, and CTI projects)
  
-* Botoform_: Architect infrastructure on AWS using YAML.
-* s3p_: Use AWS S3 as a release pipeline.
+ * Botoform_: Architect infrastructure on AWS using YAML.
+ * s3p_: Use AWS S3 as a release pipeline.
 
-Linux, AWS, RDS, EC2, NodeJS, Load Balancing, DNS, nginx, TLS, loaned out to various high inititive teams to build out DevOps solutions for several of our most high profile customers internally & externally.
+ Linux, AWS, RDS, EC2, NodeJS, Load Balancing, DNS, nginx, TLS, loaned out to various high inititive teams to build out DevOps solutions for several of our most high profile customers internally & externally.
 
 |
 
@@ -106,10 +106,10 @@ Linux, AWS, RDS, EC2, NodeJS, Load Balancing, DNS, nginx, TLS, loaned out to var
 
 **CSC** - *Groton CT, 08/2006 - 10/2012* - Unix System Administrator
 
-* pushed software updates to a fleet of 10,000+ computer assets
-* built tools to help the company move faster and automate reporting
-* championed Kernel Virtual Machine (KVM) hypervisors to lower costs
-* Partnered with my peer Tara to establish a 3x data center, multi million dollar Hitachi SAN & NAS solution with disaster recovery & multi region replication, RAID & WORM
+ * pushed software updates to a fleet of 10,000+ computer assets
+ * built tools to help the company move faster and automate reporting
+ * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
+ * Partnered with my peer Tara to establish a 3x data center, multi million dollar Hitachi SAN & NAS solution with disaster recovery & multi region replication, RAID & WORM
 
 
 **Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
