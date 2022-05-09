@@ -7,7 +7,7 @@ Uncle Drops off server with note asking u to cl0ne ubuntu22 kvm
 :tags: Code, DevOps
 :status: published
 
-Imagine your uncle just dropped off a TrueNAS Core server with root credentials, & a preconfigured IP Address in the netspace of 192.168.0.1/24.
+Imagine your uncle just dropped off a TrueNAS Core server with root credentials, & a preconfigured IP Address in the subnet space of 192.168.1.1/24.
 
 The note also highly suggests you to create your desired arch with
 KVM by making a cl0ne of ubuntu22, into separate VMs for different purposes.
@@ -44,8 +44,10 @@ You'll need to configure:
        ethernets:
          enp0s4:
            addresses:
-           - 192.168.1.64/24
-           gateway4: 192.168.1.1
+             - 192.168.1.64/24
+           routes:
+             - to: default
+               via: 192.168.1.1
            nameservers:
              addresses:
                ### CloudFlare.
@@ -60,7 +62,7 @@ You'll need to configure:
                ### Quad9.
                - 9.9.9.9
              search:
-             - foxhop.net
+               - foxhop.net
        version: 2
 
 .. code-block:: bash 
