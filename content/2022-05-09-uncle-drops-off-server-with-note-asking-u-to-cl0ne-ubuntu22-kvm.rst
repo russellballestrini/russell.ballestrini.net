@@ -27,11 +27,47 @@ You clone a KVM guest from ubuntu22 & name it  ______________________________.
 Now you will need to configure the new cloned guest via VNC in order to change the following list of configurations. The ubuntu22 base image is the vanilla defaults of Ubuntu 22.04 LTS server without any Snap (uncle likes flatpak if anything) so this means the server is "headless" there isn't a graphical user interface.
 
 You'll need to configure:
- * hostname
- * network
- * dns
 
-& you remembered you would promise to try to document the steps needed so that the next time you clone the image you will have a checklist to follow so no steps get missed!
+ * hostname ``vim /etc/hostname``:
+
+   .. code-block:: bash 
+
+      cammy.foxhop.net
+
+ * network  & dns ``vim /etc/netplan/00-installer-config.yaml``:
+
+   .. code-block:: yaml
+
+     # run this command after making changes!
+     # sudo netplan --debug apply
+     network:
+       ethernets:
+         enp0s4:
+           addresses:
+           - 192.168.1.64/24
+           gateway4: 192.168.1.1
+           nameservers:
+             addresses:
+               ### CloudFlare.
+               #- 1.1.1.1
+               ### Google DNS.
+               #- 8.8.8.8
+               #- 8.8.4.4
+               ### OpenDNS.
+               #- 208.67.220.220
+               #- 208.67.222.222
+               - 208.67.222.220
+               ### Quad9.
+               - 9.9.9.9
+             search:
+             - foxhop.net
+       version: 2
+
+.. code-block:: bash 
 
 
+You remembered to try to document steps needed for next time a person needs to clone the image we will have a checklist to follow so no steps get missed!
 
+What is that checklist for you?
+
+Do you bootstrap configuration management next? Or maybe some in house remote execution? Do you outsource your admin hacker tooling?
