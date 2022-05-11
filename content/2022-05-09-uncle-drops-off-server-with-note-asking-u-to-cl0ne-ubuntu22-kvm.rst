@@ -96,7 +96,7 @@ you remembered uncle documented a similar snag in a `github comment <https://git
 
 By now you are watching the growing list of hosts using ubuntu22's SSH host key...
 
-https://blog.g3rt.nl/regenerate-ssh-host-keys.html
+* [ ] https://blog.g3rt.nl/regenerate-ssh-host-keys.html
 
 You do this to fix salt host & start to consider ways to deal with this in the future, should likely be one of the first steps or maybe we could run this on ubuntu22? You decide to write this down as a (rabbit)(hole) for another day.
 
@@ -108,7 +108,8 @@ Did you know grub 2 OS Prober was recently disabled by default?
 
 If plan to dual boot with windows or any other OS, try these settings:
 
-* https://www.solaris-cookbook.eu/linux/linux-ubuntu/ubuntu-22-04-fix-grub-dual-boot-with-windows/
+* [x] https://www.solaris-cookbook.eu/linux/linux-ubuntu/ubuntu-22-04-fix-grub-dual-boot-with-windows/
+
 
 .. code-block:: bash
 
@@ -117,4 +118,61 @@ If plan to dual boot with windows or any other OS, try these settings:
  GRUB_CMDLINE_LINUX=""
  GRUB_DISABLE_OS_PROBER=false
 
+applied but it didn't seem to work...
+
 ---
+
+While doing this work you remember you needed to back up your gpg keys (and verify the restore process!):
+
+* [] https://www.jwillikers.com/backup-and-restore-a-gpg-key
+
+& also make sure you can access pass from multiple machines, using git!
+
+* [] https://www.passwordstore.org/
+
+and get multiple machines pushing & pulling from the same remote origin this way it is safer to loose a node on the "cluster",
+
+for full transparency, this is what I did to look around & export / import
+
+.. code-block:: bash
+
+ [fox@blanka ~]$ gpg --list-secret-keys --keyid-format LONG
+
+ /home/fox/.gnupg/pubring.gpg
+ ----------------------------
+ sec   rsa2048/23CDA6102BFB3D7D 2014-06-23 [SC]
+       4ABE744F1FDAF12C78E2E5D923CDA6102BFB3D7D
+ uid                 [ultimate] Russell Ballestrini (Personal) <russell@ballestrini.net>
+ ssb   rsa2048/1E6F09A2613E8133 2014-06-23 [E]
+ 
+ [fox@blanka ~]$ gpg -o russell-at-ballestrini-dot-net.gpg --export-options backup --export-secret-keys russell@ballestrini.net
+
+ [fox@blanka ~]$ ll russell-at-ballestrini-dot-net.gpg 
+ -rw-------. 1 fox fox 2645 May 11 18:59 russell-at-ballestrini-dot-net.gpg
+
+ [fox@blanka ~]$ file russell-at-ballestrini-dot-net.gpg
+ russell-at-ballestrini-dot-net.gpg: OpenPGP Secret Key Version 4, Created Mon Jun 23 01:44:34 2014, RSA (Encrypt or Sign, 2048 bits)
+
+ [fox@blanka ~]$ scp russell-at-ballestrini-dot-net.gpg fox@akuma.foxhop.net:/home/fox/russell-at-ballestrini-dot-net.gpg
+ russell-at-ballestrini-dot-net.gpg    
+
+
+you think this will allow you to copy the private key file around to various computers via SSH and import the key using this:
+
+.. code-block:: bash
+ 
+ gpg --import-options restore --import russell-at-ballestrini-dot-net.gpg
+
+you admit whenever working with pgp or gpg makes you feel squeemish, but a key is a key right? ...
+
+should not treat any differently than a private SSH key.
+
+You will however want to trust this key completely with your whole heart & soul & sole so you modify the newly imported key to trust it completely and ultimately which just so happens to be a 5 in this tool's universe!
+
+so you follow these prompts:
+
+gpg --edit-key  russell@ballestrini.net
+
+gpg> trust
+
+and choose 5!
