@@ -74,7 +74,12 @@ What is that checklist for you?
 
 Do you bootstrap configuration management next? Or maybe some in house remote execution? Do you outsource your admin hacker tooling?
 
+
+
 ---------------------------------------------
+
+
+
 
 Ok, so the next day you wake up & decide to try out SaltStack configuration management, so that means 
 you will want to clone ubuntu22 kvm into a guest named ``master`` (short for salt-master, ``salt`` consistently crashes [me shrugs]).
@@ -100,7 +105,11 @@ By now you are watching the growing list of hosts using ubuntu22's SSH host key.
 
 You do this to fix salt host & start to consider ways to deal with this in the future, should likely be one of the first steps or maybe we could run this on ubuntu22? You decide to write this down as a (rabbit)(hole) for another day.
 
----
+
+
+------------
+
+
 
 Dual booting Ubuntu 22.04 LTS?
 
@@ -120,7 +129,11 @@ If plan to dual boot with windows or any other OS, try these settings:
 
 applied but it didn't seem to work...
 
----
+
+
+---------
+
+
 
 While doing this work you remember you needed to back up your gpg keys (and verify the restore process!):
 
@@ -178,3 +191,29 @@ gpg> trust
 and choose 5!
 
 gpg> quit
+
+
+Then finally you restored your repo to a fresh new computer by using:
+
+.. code-block:: bash
+
+   fox@play:~$ git clone ssh://fox@akuma.foxhop.net:/home/fox/git/pass.git .password-store
+
+
+with the private gpg key in place & the repo following the shared remote, we now have our password store sharded across workstation nodes!
+
+
+
+------
+
+
+on ubuntu desktop network manager hijacks /etc/netplan but also makes it impossible to configure the search DNS settings from the GUI, you track down a blog post which helps you!
+
+
+.. code-block:: bash
+
+ sudo nmcli con mod 'Wired connection 1' ipv4.dns-search "foxhop.net"
+
+your only hope is this setting persists across reboots. 
+
+------
