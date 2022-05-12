@@ -176,3 +176,5 @@ gpg --edit-key  russell@ballestrini.net
 gpg> trust
 
 and choose 5!
+
+gpg> quit
