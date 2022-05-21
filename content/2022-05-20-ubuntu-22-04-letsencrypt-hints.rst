@@ -1,8 +1,8 @@
-Ubuntu 22.04 Letsencrypt Hints
+Ubuntu 22.04 Letsencrypt Docker Hints
 ################################################################
 
 :author: Russell Ballestrini
-:slug: ubuntu-22-04-letsencrypt-hints
+:slug: ubuntu-22-04-letsencrypt-docker-hints
 :date: 2022-05-20 20:10
 :tags: Code, DevOps
 :status: published
@@ -60,3 +60,27 @@ So the key is the ``-v`` mounts, I needed one for my ``webroot`` of ``/www`` & o
 This is different or not assumed in the official guide notes.
 
 
+Additionally on Ubuntu 22.04 LTS in Linode, I was not any to use the ``-v`` mounts until I ran these commands:
+  
+.. code-block:: bash
+
+  sudo su - root
+
+  mkdir /sys/fs/cgroup/systemd
+  mount -t cgroup -o none,name=systemd cgroup /sys/fs/cgroup/systemd
+
+The mount command never persists across reboots so you will want the following ``/etc/fstab`` entry:
+
+Brian Amedro ended up modifying grub to avoid loading the certain systemd subsystem which were found to cause us the trouble:
+
+https://github.com/docker/for-linux/issues/219#issuecomment-817318014
+
+For now i will place the ``mkdir`` & ``mount`` commands into the renew script since the fstab solution doesn't work
+
+because the directory doesn't exist, gets deleted on each reboot so it isn't present during boot mount time.
+
+/etc/fstab
+
+.. code-block:: bash
+
+  cgroup    /sys/fs/cgroup/systemd    cgroup    defaults
