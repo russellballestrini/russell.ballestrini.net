@@ -43,17 +43,27 @@ Experience
  Grew a platform for the engineering teams & streams to quickly expand & scale up to go to market
  for our breakthrough & essential Remind Coaching & Tutoring, Emergency messaging, & more.
 
+**Make Post Sell** - *Remote, 01/2019 - Present* - Founder
+
+ Founded and bootstrapped MakePostSell_, provides an environment for multi tenant e-commerce shops.
+
+ Allows shop owners to sell the digital things they make—commission free 
+
+  * https://www.makepostsell.com
+
+ I have open sourced SaaS & place it into the public domain:
+
+ The codebase is Linux, Python, Pyramid, SQLAlchemy, caddy 
+
 |
 
 **Remarkbox** - *Remote, 02/2016 - Present* - Founder
 
  Founded and bootstrapped Remarkbox_, Hosted comment service without ads or tracking.
 
- * https://www.remarkbox.com SaaS
+  * https://www.remarkbox.com
 
  I have open sourced  SaaS & place it into the public domain:
-
- * https://russell.ballestrini.net/russell-open-sources-remarkbox-and-make-post-sell-into-public-domain/
 
  The codebase is Linux, Python, Pyramid, SQLAlchemy, nginx 
  
@@ -90,7 +100,7 @@ Experience
 
  Linux, Python, Pyramid, PHP, SaltStack, DevOps, Jenkins, Bash, Chicago Equinix, Cisco Blade, SAN, & NAS, BigIP Load Balancing, Apache2, nginx
 
-**LinkPeek** - *Remote, 01/2012 - Present* - Founder
+**LinkPeek** - *Remote, 01/2012 - 01/2022* - Founder
 
  Founded and bootstrapped LinkPeek_, web page screenshot service.
 
@@ -152,7 +162,6 @@ Interests
 * Gardening and YouTube: https://www.youtube.com/c/RussellBallestrini
 
 .. _FireEye: https://www.fireeye.com
-.. _LinkPeek: https://linkpeek.com
 .. _Remarkbox: https://www.remarkbox.com
 .. _MakePostSell: https://www.makepostsell.com
 
