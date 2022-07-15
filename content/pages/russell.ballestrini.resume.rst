@@ -26,7 +26,6 @@ Experience
  SSM agents & documents.
 
 |
-|
 
 **Remind** - *Remote, 06/2017 - 07/2020* - Lead Software Engineer
 
@@ -44,7 +43,6 @@ Experience
  for our breakthrough & essential Remind Coaching & Tutoring, Emergency messaging, & more.
 
 |
-|
 
 **Make Post Sell** - *Remote, 01/2019 - Present* - Founder
 
@@ -59,7 +57,6 @@ Experience
  The codebase is Linux, Python, Pyramid, SQLAlchemy, caddy 
 
 |
-|
 
 **Remarkbox** - *Remote, 02/2016 - Present* - Founder
 
@@ -72,7 +69,6 @@ Experience
  The codebase is Linux, Python, Pyramid, SQLAlchemy, nginx 
  
 |
-|
 
 **Mobiquity** - *Remote, 06/2016 - 06/2017* - Senior System Engineer
 
@@ -84,7 +80,6 @@ Experience
  The full package, would work with a single PM & speak & integrate directly with the customer engineering teams to accelerate project momentum.
 
 |
-|
 
 **Mandiant** - *Remote, 07/2014 - 05/2016* - DevOps Engineer
 
@@ -92,7 +87,6 @@ Experience
 
  Linux, AWS, RDS, EC2, NodeJS, Load Balancing, DNS, nginx, TLS, loaned out to various high inititive teams to build out DevOps solutions for several of our most high profile customers internally & externally.
 
-|
 |
 
 
@@ -102,7 +96,6 @@ Experience
 
  Linux, Python, Pyramid, PHP, SaltStack, DevOps, Jenkins, Bash, Chicago Equinix, Cisco Blade, SAN, & NAS, BigIP Load Balancing, Apache2, nginx
 
-|
 |
 
 **LinkPeek** - *Remote, 01/2012 - 01/2022* - Founder
@@ -115,7 +108,6 @@ Experience
  * miniuri_: A universal URI parser class written in 150 lines.
 
 |
-|
 
 **CSC** - *Groton CT, 08/2006 - 10/2012* - Unix System Administrator
 
@@ -124,18 +116,6 @@ Experience
  * championed Kernel Virtual Machine (KVM) hypervisors to lower costs
  * Partnered with my peer Tara to establish a 3x data center, multi million dollar Hitachi SAN & NAS solution with disaster recovery & multi region replication, RAID & WORM
 
-
-**Hillyer Realty** - *Remote, 04/2004 - 09/2007* - Technology Consultant
-
- Engineered and operated a real estate search engine well before Zillow took marketshare. PHP, MySQL, Apache2, FreeBSD
-
-|
-
-Destop Support Contractor - *Groton CT, 02/2006 - 08/2006*
-
- Exceeded Customer SLA expectations.
-
-|
 
 Education
 =========
@@ -157,7 +137,7 @@ Systems
 Ask me about: SaltStack, Ansible, Packer, FPM, DNS (Bind9), Postfix, stacker, AWS, Boto3, SmartOS, Linux (Redhat/Debian), Docker, k8s, uWSGI, or your choice!
 
 Interests
-=========
+----------
 
 * Actively Growing product: https://www.makepostsell.com
 * Technical Blog: https://russell.ballestrini.net/about
