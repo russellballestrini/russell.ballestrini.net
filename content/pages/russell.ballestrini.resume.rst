@@ -77,7 +77,7 @@ Experience
 
  Linux, AWS, RDS, MongoDB, EC2, CloudFormation, I was loaned out to help build out DevOps solutions for several of our most high profile customers.
 
- The full package, would work with a single PM & speak & integrate directly with the customer engineering teams to accelerate project momentum.
+Intedtegrate directly with the customer engineering teams to accelerate project momentum.
 
 |
 
