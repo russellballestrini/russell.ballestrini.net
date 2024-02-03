@@ -68,7 +68,13 @@ Compile the Dry library with debug symbols:
 Building Park with Debugging Enabled
 ------------------------------------
 
-In the 'Park' project, modify the ``Park.pro`` file to add the ``-g -O0`` flags for debugging. Then set the ``DRY_HOME`` environment variable to the path of your compiled Dry library:
+In the 'Park' project, modify the ``Park.pro`` file to add the ``-g -O0`` flags for debugging, for example:
+
+.. code-block:: bash
+
+    QMAKE_CXXFLAGS += -std=c++17 -g -O0
+
+Then set the ``DRY_HOME`` environment variable to the path of your compiled Dry library:
 
 .. code-block:: bash
 
