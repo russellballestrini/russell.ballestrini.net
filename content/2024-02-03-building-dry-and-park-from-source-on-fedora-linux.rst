@@ -30,7 +30,7 @@ Install these on Fedora with:
 .. code-block:: bash
 
     sudo dnf groupinstall "Development Tools"
-    sudo dnf install cmake git gcc-c++ libX11-devel libXcursor-devel libXinerama-devel libXi-devel libXrandr-devel libXrender-devel libXScrnSaver-devel libXxf86vm-devel pulseaudio-libs-devel nas-libs-devel
+    sudo dnf install cmake git gcc-c++ libX11-devel libXcursor-devel libXinerama-devel libXi-devel libXrandr-devel libXrender-devel libXScrnSaver-devel libXxf86vm-devel pulseaudio-libs-devel nas-libs-devel qt5-qtbase-devel
 
 Cloning the Repositories
 ------------------------
