@@ -68,7 +68,7 @@ Compile the Dry library with debug symbols:
 Building Park with Debugging Enabled
 ------------------------------------
 
-In the 'Park' project, modify the `Park.pro` file to add the `-g -O0` flags for debugging. Then set the `DRY_HOME` environment variable to the path of your compiled Dry library:
+In the 'Park' project, modify the ``Park.pro`` file to add the ``-g -O0`` flags for debugging. Then set the ``DRY_HOME`` environment variable to the path of your compiled Dry library:
 
 .. code-block:: bash
 
@@ -82,15 +82,16 @@ Navigate to the 'park' directory and compile the game:
     mkdir build && cd build
     qmake ../Park.pro
     make
+    cp -r ../Resources .
 
 Running Park
 ------------
 
-After a successful build, run the Park executable located in the `bin` directory:
+After a successful build, run the Park executable located in the ``build`` directory:
 
 .. code-block:: bash
 
-    ./bin/park
+    ./park
 
 Analyzing Core Dumps on Fedora
 ------------------------------
@@ -103,7 +104,7 @@ List recent core dumps with:
 
     coredumpctl list
 
-To analyze a specific core dump, use `gdb`:
+To analyze a specific core dump, use ``gdb``:
 
 .. code-block:: bash
 
@@ -115,7 +116,7 @@ For example:
 
     gdb /home/fox/git/park/Park/park core.291993
 
-Once in `gdb`, use the `bt` command to print a backtrace:
+Once in ``gdb``, use the ``bt`` command to print a backtrace:
 
 .. code-block:: gdb
 
