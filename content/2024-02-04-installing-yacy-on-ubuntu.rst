@@ -55,11 +55,54 @@ Open a terminal on your local machine and run the following command:
 
 Replace `user` with your username on the remote host. Now, when you access `localhost:8090` on your local machine, it will be tunneled to the remote host.
 
+Securing YaCy Portal and admin access with SSL/TLS
+---------------------------------------------------
+
+In the early days of YaCy, encryption was not as prevalent as it is today. However, securing your YaCy instance with SSL/TLS is essential for modern web safety standards. Here's how to enable SSL/TLS encryption for your YaCy server:
+
+1. Generate a keystore using the ``keytool`` command:
+
+   .. code-block:: bash
+
+       keytool -keystore mySrvKeystore -genkey -keyalg RSA -alias yacy.foxhop.net
+
+   This command creates a keystore file named ``mySrvKeystore``.
+
+2. Move the ``mySrvKeystore`` file to the ``DATA/SETTINGS/`` directory in your YaCy installation:
+
+   .. code-block:: bash
+
+       mv mySrvKeystore /path/to/YaCy/DATA/SETTINGS/
+
+3. Edit the ``yacy.conf`` file to configure YaCy to use the new keystore:
+
+   .. code-block:: bash
+
+       vim /path/to/YaCy/DATA/SETTINGS/yacy.conf
+
+   Add or modify the following lines:
+
+   .. code-block:: none
+
+       keyStore=DATA/SETTINGS/mySrvKeystore
+       keyStorePassword=YourKeystorePassword
+
+   Replace ``YourKeystorePassword`` with the password you chose when you created the keystore with the ``keytool`` command.
+
+4. Restart YaCy to apply the SSL/TLS settings:
+
+   .. code-block:: bash
+
+       /path/to/YaCy/stopYACY.sh
+       /path/to/YaCy/startYACY.sh
+
+Now, you can access the YaCy admin interface securely via ``https://localhost:8443``. By default, YaCy listens on port ``8443`` for HTTPS, but this can be changed in the admin console, as was done in this case to use port ``8091`` so that ``https://localhost:8091`` works instead. Ensure that HTTP remains on port ``8090`` for DHT network access by peers.
+
 What's next?
-----------------
+------------
 
-you can kick off a local crawl and depending on your peer mode status you can share the results the to network, I'm still working on figuring out how to find my peer mode status, but my guess is I'll need to open port ``8090`` in my NAT on the router and forward it to the new host.  That said I'd rather be able to see my state before and after and also the reason for wanting to share the crawl index with the nextwork is the scrape can be done once and then shared with any computer using YaCy, instead of the query only working for local host.
+With SSL/TLS enabled, it's time to start a local crawl and consider sharing the results with the YaCy network. To do this, you may need to open port ``8090`` on your router and forward it to your YaCy host. Before making changes to your network configuration, verify your peer mode status in the YaCy admin interface to understand your node's role in the network.
 
-At least that's the theory behind DHT.
+Sharing your crawl index with the network allows for a distributed scraping effort, meaning that the data you collect can benefit all users of YaCy, not just your local instance. This is the essence of the Distributed Hash Table (DHT) that underpins YaCy's decentralized architecture.
 
-I'll keep tinkering and hopefully keep this section updated with my findings.
+Continue to explore the capabilities of your YaCy server, and remember to update your documentation to assist others in their journey toward a more open and collaborative internet.`
