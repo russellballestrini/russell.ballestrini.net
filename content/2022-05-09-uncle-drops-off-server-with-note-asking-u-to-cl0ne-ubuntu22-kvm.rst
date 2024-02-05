@@ -65,8 +65,6 @@ You'll need to configure:
                - foxhop.net
        version: 2
 
-.. code-block:: bash 
-
 
 You remembered to try to document steps needed for next time a person needs to clone the image we will have a checklist to follow so no steps get missed!
 
