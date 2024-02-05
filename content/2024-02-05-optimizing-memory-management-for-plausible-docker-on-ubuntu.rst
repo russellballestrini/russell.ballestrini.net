@@ -78,7 +78,7 @@ Save the script as ``setup_swap.sh`` and execute it on your server:
 This script will create a 1 GB swap file, configure the system to use it, and adjust kernel parameters to optimize memory usage.
 
 Understanding Swappiness and Cache Pressure
-------------------------------------------
+---------------------------------------------
 
 The ``swappiness`` parameter influences how often the system uses swap space. A value of 10 encourages the system to keep processes in RAM, resorting to swap only when necessary.
 
