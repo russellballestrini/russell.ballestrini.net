@@ -58,6 +58,8 @@ Follow these steps to integrate OpenAI with the Sample Chat game:
 
 2. **Update the CMake Configuration**
 
+   Note: update ``PROJECT_SOURCE_DIR`` with your file path.
+
    Apply the following diff to `CMakeLists.txt` to include the OpenAI C++ client as well as cURL in your dry project:
 
    .. code-block:: diff
@@ -75,6 +77,9 @@ Follow these steps to integrate OpenAI with the Sample Chat game:
        +
        +# Globally link cURL to all targets
        +link_libraries(${CURL_LIBRARIES})
+       +
+       +# Assuming this is set to your project's root directory
+       +set(PROJECT_SOURCE_DIR /home/fox/git/dry)
        +
        +# Create a symbolic link for openai
        +execute_process(COMMAND ${CMAKE_COMMAND} -E create_symlink
