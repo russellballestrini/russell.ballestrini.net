@@ -1,4 +1,7 @@
-Russell Ballestrini
+
+Coursemojo logo
+Full Stack EngineerFull Stack Engineer
+Coursemojo · Full-timeCoursemojo · Full-time Oct 2022 - Present · 1 yr 9 mosRussell Ballestrini
 ###################
 
 .. class:: center
@@ -14,6 +17,51 @@ Summary
 
 Experience
 ==========
+
+|
+
+**Coursemojo** - *Remote, 10/2022 - Present* Full Stack Engineer 
+
+Responsibilities:
+
+    Deployment Pipelines & CI/CD:
+
+        Designed and implemented deployment pipelines and CI/CD processes for two monolithic applications and several microservices.
+        Utilized AWS CloudFormation and AWS Serverless Application Model (SAM) for infrastructure as code.
+        Employed GitHub Actions for continuous integration and continuous deployment.
+        Managed container images with AWS Elastic Container Registry (ECR).
+
+    Infrastructure Management:
+
+        Deployed applications using Application Load Balancers (ALB) and Amazon ECS Docker containers.
+        Configured containers to run Nginx and uWSGI with Gevent workers for WebSocket support.
+        Developed and maintained Flask and Python-based monolithic applications.
+
+    Application Scaling:
+
+        Scaled an AI assistant teacher application designed for public schools.
+        Implemented features to classify student answers to curriculum-aligned open-ended questions using advanced language models such as GPT-4, Claude-3, and Mistral.
+        Provided specific feedback to students based on their answers.
+
+    Teacher Tools:
+
+        Developed a teacher activity tracker tool to monitor student progress.
+        Integrated features to provide teachers with an overview of student performance and access to complete chat transcripts for review.
+
+Technologies Used:
+
+    AWS CloudFormation, AWS SAM, AWS ECR, AWS ECS, ALB
+    GitHub Actions
+    Docker, Nginx, uWSGI, Gevent
+    Flask, Python
+    Advanced language models (GPT-4, Claude-3, Mistral)
+
+Impact:
+
+    Enhanced the scalability and reliability of the AI assistant teacher application.
+    Improved the educational experience for students by providing tailored feedback.
+    Enabled teachers to effectively track and support student progress through comprehensive tools and insights.
+
 
 |
 
