@@ -1,7 +1,4 @@
-
-Coursemojo logo
-Full Stack EngineerFull Stack Engineer
-Coursemojo · Full-timeCoursemojo · Full-time Oct 2022 - Present · 1 yr 9 mosRussell Ballestrini
+Russell Ballestrini
 ###################
 
 .. class:: center
