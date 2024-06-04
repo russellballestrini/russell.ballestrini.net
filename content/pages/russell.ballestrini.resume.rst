@@ -182,7 +182,7 @@ Admires readable and testable code. Python, Bash, PHP, Perl, Ruby, Go, Java, and
 Systems
 -------
 
-Ask me about: SaltStack, Ansible, Packer, FPM, DNS (Bind9), Postfix, stacker, AWS, Boto3, SmartOS, Linux (Redhat/Debian), Docker, k8s, uWSGI, or your choice!
+Ask me about: SaltStack, Ansible, Packer, DNS (Bind9), Postfix, stacker, AWS, Boto3, SmartOS, Linux (Redhat/Debian), Docker, k8s, uWSGI, or your choice!
 
 Interests
 ----------
