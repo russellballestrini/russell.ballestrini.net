@@ -19,6 +19,8 @@ Experience
 
 **Coursemojo** - *Remote, 10/2022 - Present* Full Stack Engineer 
 
+At CourseMojo, we are scaling an AI assistant teacher for public schools. 
+
 Responsibilities:
 
     Deployment Pipelines & CI/CD:
